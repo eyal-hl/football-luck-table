@@ -77,6 +77,22 @@ export function calculateFormTable(
 }
 
 /**
+ * Return the highest GW number strictly before `beforeGw` that has at least
+ * one played match. This ensures the form window is always anchored to real
+ * results and never shrinks when future (unplayed) gameweeks fall inside the
+ * naive [gw - X, gw - 1] range.
+ */
+function lastPlayedGwBefore(data: LeagueData, beforeGw: number): number {
+  let last = 0;
+  for (const gw of data.gameweeks) {
+    if (gw.gw < beforeGw && gw.matches.some((m) => m.played)) {
+      last = gw.gw;
+    }
+  }
+  return last;
+}
+
+/**
  * Get rank from a form table by team id.
  * Returns N+1 (worst possible) if team not found.
  */
@@ -107,14 +123,11 @@ function getOpponent(
  *
  * For each team:
  *   1. Look at their fixtures in the schedule window [scheduleStartGw, scheduleEndGw].
- *   2. For each fixture, find the opponent's form rank computed from the last X games
- *      BEFORE that gameweek.
+ *   2. For each fixture, find the opponent's form rank computed from the last X
+ *      *played* games before that gameweek. "Before" is anchored to the last GW
+ *      with real results, so future fixtures always use a full X-game window.
  *   3. Average the opponent form ranks → luck score.
  *      Higher average rank = easier opponents = LUCKIER.
- *
- * @param formWindowX - number of past games to use for form calculation
- * @param scheduleStartGw - first gameweek of the schedule window
- * @param scheduleEndGw - last gameweek of the schedule window
  */
 export function calculateLuckTable(
   data: LeagueData,
@@ -131,8 +144,10 @@ export function calculateLuckTable(
       const opponent = getOpponent(data, team.id, gw);
       if (!opponent) continue;
 
-      // Form is computed from the X games before this GW
-      const formEnd = gw - 1;
+      // Anchor formEnd to the last GW with real results before this fixture.
+      // This prevents the window from shrinking when gw falls in the future
+      // (where gw-1, gw-2, … are unplayed and would silently eat into the window).
+      const formEnd   = lastPlayedGwBefore(data, gw);
       const formStart = Math.max(1, formEnd - formWindowX + 1);
       const formTable = calculateFormTable(data, formStart, formEnd);
       const opponentRank = getRank(formTable, opponent.opponentId);
@@ -166,7 +181,8 @@ export function calculateLuckTable(
  * Phase 2: Calculate cumulative luck over a gameweek range [gwA, gwB].
  *
  * For each gameweek G in [A, B]:
- *   - Compute opponent's form rank using results from [G - X, G - 1].
+ *   - Compute opponent's form rank using the last X played games before G
+ *     (anchored to actual results, handles postponed matches correctly).
  * Sum all ranks per team → totalPoints. Higher = luckier.
  */
 export function calculateCumulativeLuck(
@@ -184,7 +200,7 @@ export function calculateCumulativeLuck(
       const opponent = getOpponent(data, team.id, gw);
       if (!opponent) continue;
 
-      const formEnd = gw - 1;
+      const formEnd   = lastPlayedGwBefore(data, gw);
       const formStart = Math.max(1, formEnd - formWindowX + 1);
       const formTable = calculateFormTable(data, formStart, formEnd);
       const opponentRank = getRank(formTable, opponent.opponentId);
@@ -210,23 +226,13 @@ export function calculateCumulativeLuck(
 }
 
 /**
- * Clamp a value to [min, max].
- */
-export function clamp(value: number, min: number, max: number): number {
-  return Math.max(min, Math.min(max, value));
-}
-
-/**
  * Map a luck rank (1 = luckiest, N = unluckiest) to a CSS hsl color
  * from green (lucky) to red (unlucky).
  */
 export function luckRankToColor(rank: number, total: number): string {
   if (total <= 1) return 'hsl(120, 60%, 45%)';
-  // 0 = luckiest (green), 1 = unluckiest (red)
   const t = (rank - 1) / (total - 1);
-  // Green hue = 120, Red hue = 0
   const hue = Math.round(120 * (1 - t));
-  const saturation = 65;
-  const lightness = 42 + t * 8; // slightly lighter towards red
-  return `hsl(${hue}, ${saturation}%, ${lightness}%)`;
+  const lightness = 42 + t * 8;
+  return `hsl(${hue}, 65%, ${lightness}%)`;
 }
