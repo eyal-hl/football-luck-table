@@ -1,0 +1,2981 @@
+{
+  "leagueId": "serie-a",
+  "leagueName": "Serie A",
+  "season": "2024-25",
+  "currentGameweek": 38,
+  "totalGameweeks": 38,
+  "teams": [
+    {
+      "id": "ac-milan",
+      "name": "AC Milan",
+      "shortName": "Milan",
+      "logoUrl": "https://crests.football-data.org/98.png"
+    },
+    {
+      "id": "acf-fiorentina",
+      "name": "ACF Fiorentina",
+      "shortName": "Fiorentina",
+      "logoUrl": "https://crests.football-data.org/99.png"
+    },
+    {
+      "id": "as-roma",
+      "name": "AS Roma",
+      "shortName": "Roma",
+      "logoUrl": "https://crests.football-data.org/100.png"
+    },
+    {
+      "id": "atalanta-bc",
+      "name": "Atalanta BC",
+      "shortName": "Atalanta",
+      "logoUrl": "https://crests.football-data.org/102.png"
+    },
+    {
+      "id": "bologna-fc-1909",
+      "name": "Bologna FC 1909",
+      "shortName": "Bologna",
+      "logoUrl": "https://crests.football-data.org/103.png"
+    },
+    {
+      "id": "cagliari-calcio",
+      "name": "Cagliari Calcio",
+      "shortName": "Cagliari",
+      "logoUrl": "https://crests.football-data.org/104.png"
+    },
+    {
+      "id": "genoa-cfc",
+      "name": "Genoa CFC",
+      "shortName": "Genoa",
+      "logoUrl": "https://crests.football-data.org/107.png"
+    },
+    {
+      "id": "fc-internazionale-milano",
+      "name": "FC Internazionale Milano",
+      "shortName": "Inter",
+      "logoUrl": "https://crests.football-data.org/108.png"
+    },
+    {
+      "id": "juventus-fc",
+      "name": "Juventus FC",
+      "shortName": "Juventus",
+      "logoUrl": "https://crests.football-data.org/109.png"
+    },
+    {
+      "id": "ss-lazio",
+      "name": "SS Lazio",
+      "shortName": "Lazio",
+      "logoUrl": "https://crests.football-data.org/110.png"
+    },
+    {
+      "id": "parma-calcio-1913",
+      "name": "Parma Calcio 1913",
+      "shortName": "Parma",
+      "logoUrl": "https://crests.football-data.org/112.png"
+    },
+    {
+      "id": "ssc-napoli",
+      "name": "SSC Napoli",
+      "shortName": "Napoli",
+      "logoUrl": "https://crests.football-data.org/113.png"
+    },
+    {
+      "id": "udinese-calcio",
+      "name": "Udinese Calcio",
+      "shortName": "Udinese",
+      "logoUrl": "https://crests.football-data.org/115.png"
+    },
+    {
+      "id": "empoli-fc",
+      "name": "Empoli FC",
+      "shortName": "Empoli",
+      "logoUrl": "https://crests.football-data.org/445.png"
+    },
+    {
+      "id": "hellas-verona-fc",
+      "name": "Hellas Verona FC",
+      "shortName": "Verona",
+      "logoUrl": "https://crests.football-data.org/450.png"
+    },
+    {
+      "id": "venezia-fc",
+      "name": "Venezia FC",
+      "shortName": "Venezia FC",
+      "logoUrl": "https://crests.football-data.org/454.png"
+    },
+    {
+      "id": "torino-fc",
+      "name": "Torino FC",
+      "shortName": "Torino",
+      "logoUrl": "https://crests.football-data.org/586.png"
+    },
+    {
+      "id": "us-lecce",
+      "name": "US Lecce",
+      "shortName": "Lecce",
+      "logoUrl": "https://crests.football-data.org/5890.png"
+    },
+    {
+      "id": "ac-monza",
+      "name": "AC Monza",
+      "shortName": "Monza",
+      "logoUrl": "https://crests.football-data.org/5911.png"
+    },
+    {
+      "id": "como-1907",
+      "name": "Como 1907",
+      "shortName": "Como 1907",
+      "logoUrl": "https://crests.football-data.org/7397.png"
+    }
+  ],
+  "gameweeks": [
+    {
+      "gw": 1,
+      "matches": [
+        {
+          "home": "genoa-cfc",
+          "away": "fc-internazionale-milano",
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "parma-calcio-1913",
+          "away": "acf-fiorentina",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "empoli-fc",
+          "away": "ac-monza",
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "ac-milan",
+          "away": "torino-fc",
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "bologna-fc-1909",
+          "away": "udinese-calcio",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "hellas-verona-fc",
+          "away": "ssc-napoli",
+          "homeGoals": 3,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "cagliari-calcio",
+          "away": "as-roma",
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "ss-lazio",
+          "away": "venezia-fc",
+          "homeGoals": 3,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "us-lecce",
+          "away": "atalanta-bc",
+          "homeGoals": 0,
+          "awayGoals": 4,
+          "played": true
+        },
+        {
+          "home": "juventus-fc",
+          "away": "como-1907",
+          "homeGoals": 3,
+          "awayGoals": 0,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 2,
+      "matches": [
+        {
+          "home": "parma-calcio-1913",
+          "away": "ac-milan",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "udinese-calcio",
+          "away": "ss-lazio",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "fc-internazionale-milano",
+          "away": "us-lecce",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "ac-monza",
+          "away": "genoa-cfc",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "acf-fiorentina",
+          "away": "venezia-fc",
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "torino-fc",
+          "away": "atalanta-bc",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "ssc-napoli",
+          "away": "bologna-fc-1909",
+          "homeGoals": 3,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "as-roma",
+          "away": "empoli-fc",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "cagliari-calcio",
+          "away": "como-1907",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "hellas-verona-fc",
+          "away": "juventus-fc",
+          "homeGoals": 0,
+          "awayGoals": 3,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 3,
+      "matches": [
+        {
+          "home": "venezia-fc",
+          "away": "torino-fc",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "fc-internazionale-milano",
+          "away": "atalanta-bc",
+          "homeGoals": 4,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "bologna-fc-1909",
+          "away": "empoli-fc",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "us-lecce",
+          "away": "cagliari-calcio",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "ss-lazio",
+          "away": "ac-milan",
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "ssc-napoli",
+          "away": "parma-calcio-1913",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "acf-fiorentina",
+          "away": "ac-monza",
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "genoa-cfc",
+          "away": "hellas-verona-fc",
+          "homeGoals": 0,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "juventus-fc",
+          "away": "as-roma",
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "udinese-calcio",
+          "away": "como-1907",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 4,
+      "matches": [
+        {
+          "home": "como-1907",
+          "away": "bologna-fc-1909",
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "empoli-fc",
+          "away": "juventus-fc",
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "ac-milan",
+          "away": "venezia-fc",
+          "homeGoals": 4,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "genoa-cfc",
+          "away": "as-roma",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "atalanta-bc",
+          "away": "acf-fiorentina",
+          "homeGoals": 3,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "torino-fc",
+          "away": "us-lecce",
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "cagliari-calcio",
+          "away": "ssc-napoli",
+          "homeGoals": 0,
+          "awayGoals": 4,
+          "played": true
+        },
+        {
+          "home": "ac-monza",
+          "away": "fc-internazionale-milano",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "parma-calcio-1913",
+          "away": "udinese-calcio",
+          "homeGoals": 2,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "ss-lazio",
+          "away": "hellas-verona-fc",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 5,
+      "matches": [
+        {
+          "home": "cagliari-calcio",
+          "away": "empoli-fc",
+          "homeGoals": 0,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "hellas-verona-fc",
+          "away": "torino-fc",
+          "homeGoals": 2,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "venezia-fc",
+          "away": "genoa-cfc",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "juventus-fc",
+          "away": "ssc-napoli",
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "us-lecce",
+          "away": "parma-calcio-1913",
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "acf-fiorentina",
+          "away": "ss-lazio",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "ac-monza",
+          "away": "bologna-fc-1909",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "as-roma",
+          "away": "udinese-calcio",
+          "homeGoals": 3,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "fc-internazionale-milano",
+          "away": "ac-milan",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "atalanta-bc",
+          "away": "como-1907",
+          "homeGoals": 2,
+          "awayGoals": 3,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 6,
+      "matches": [
+        {
+          "home": "ac-milan",
+          "away": "us-lecce",
+          "homeGoals": 3,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "udinese-calcio",
+          "away": "fc-internazionale-milano",
+          "homeGoals": 2,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "genoa-cfc",
+          "away": "juventus-fc",
+          "homeGoals": 0,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "bologna-fc-1909",
+          "away": "atalanta-bc",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "torino-fc",
+          "away": "ss-lazio",
+          "homeGoals": 2,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "como-1907",
+          "away": "hellas-verona-fc",
+          "homeGoals": 3,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "as-roma",
+          "away": "venezia-fc",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "empoli-fc",
+          "away": "acf-fiorentina",
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "ssc-napoli",
+          "away": "ac-monza",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "parma-calcio-1913",
+          "away": "cagliari-calcio",
+          "homeGoals": 2,
+          "awayGoals": 3,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 7,
+      "matches": [
+        {
+          "home": "ssc-napoli",
+          "away": "como-1907",
+          "homeGoals": 3,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "hellas-verona-fc",
+          "away": "venezia-fc",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "udinese-calcio",
+          "away": "us-lecce",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "atalanta-bc",
+          "away": "genoa-cfc",
+          "homeGoals": 5,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "fc-internazionale-milano",
+          "away": "torino-fc",
+          "homeGoals": 3,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "juventus-fc",
+          "away": "cagliari-calcio",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "bologna-fc-1909",
+          "away": "parma-calcio-1913",
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "ss-lazio",
+          "away": "empoli-fc",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "ac-monza",
+          "away": "as-roma",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "acf-fiorentina",
+          "away": "ac-milan",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 8,
+      "matches": [
+        {
+          "home": "como-1907",
+          "away": "parma-calcio-1913",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "genoa-cfc",
+          "away": "bologna-fc-1909",
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "ac-milan",
+          "away": "udinese-calcio",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "juventus-fc",
+          "away": "ss-lazio",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "empoli-fc",
+          "away": "ssc-napoli",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "us-lecce",
+          "away": "acf-fiorentina",
+          "homeGoals": 0,
+          "awayGoals": 6,
+          "played": true
+        },
+        {
+          "home": "venezia-fc",
+          "away": "atalanta-bc",
+          "homeGoals": 0,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "cagliari-calcio",
+          "away": "torino-fc",
+          "homeGoals": 3,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "as-roma",
+          "away": "fc-internazionale-milano",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "hellas-verona-fc",
+          "away": "ac-monza",
+          "homeGoals": 0,
+          "awayGoals": 3,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 9,
+      "matches": [
+        {
+          "home": "udinese-calcio",
+          "away": "cagliari-calcio",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "torino-fc",
+          "away": "como-1907",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "ssc-napoli",
+          "away": "us-lecce",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "atalanta-bc",
+          "away": "hellas-verona-fc",
+          "homeGoals": 6,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "parma-calcio-1913",
+          "away": "empoli-fc",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "ss-lazio",
+          "away": "genoa-cfc",
+          "homeGoals": 3,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "ac-monza",
+          "away": "venezia-fc",
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "fc-internazionale-milano",
+          "away": "juventus-fc",
+          "homeGoals": 4,
+          "awayGoals": 4,
+          "played": true
+        },
+        {
+          "home": "acf-fiorentina",
+          "away": "as-roma",
+          "homeGoals": 5,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "bologna-fc-1909",
+          "away": "ac-milan",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 10,
+      "matches": [
+        {
+          "home": "cagliari-calcio",
+          "away": "bologna-fc-1909",
+          "homeGoals": 0,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "us-lecce",
+          "away": "hellas-verona-fc",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "ac-milan",
+          "away": "ssc-napoli",
+          "homeGoals": 0,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "empoli-fc",
+          "away": "fc-internazionale-milano",
+          "homeGoals": 0,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "venezia-fc",
+          "away": "udinese-calcio",
+          "homeGoals": 3,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "atalanta-bc",
+          "away": "ac-monza",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "juventus-fc",
+          "away": "parma-calcio-1913",
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "genoa-cfc",
+          "away": "acf-fiorentina",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "como-1907",
+          "away": "ss-lazio",
+          "homeGoals": 1,
+          "awayGoals": 5,
+          "played": true
+        },
+        {
+          "home": "as-roma",
+          "away": "torino-fc",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 11,
+      "matches": [
+        {
+          "home": "bologna-fc-1909",
+          "away": "us-lecce",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "udinese-calcio",
+          "away": "juventus-fc",
+          "homeGoals": 0,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "ac-monza",
+          "away": "ac-milan",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "ssc-napoli",
+          "away": "atalanta-bc",
+          "homeGoals": 0,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "torino-fc",
+          "away": "acf-fiorentina",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "hellas-verona-fc",
+          "away": "as-roma",
+          "homeGoals": 3,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "fc-internazionale-milano",
+          "away": "venezia-fc",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "empoli-fc",
+          "away": "como-1907",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "parma-calcio-1913",
+          "away": "genoa-cfc",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "ss-lazio",
+          "away": "cagliari-calcio",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 12,
+      "matches": [
+        {
+          "home": "genoa-cfc",
+          "away": "como-1907",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "us-lecce",
+          "away": "empoli-fc",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "venezia-fc",
+          "away": "parma-calcio-1913",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "cagliari-calcio",
+          "away": "ac-milan",
+          "homeGoals": 3,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "juventus-fc",
+          "away": "torino-fc",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "atalanta-bc",
+          "away": "udinese-calcio",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "acf-fiorentina",
+          "away": "hellas-verona-fc",
+          "homeGoals": 3,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "as-roma",
+          "away": "bologna-fc-1909",
+          "homeGoals": 2,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "ac-monza",
+          "away": "ss-lazio",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "fc-internazionale-milano",
+          "away": "ssc-napoli",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 13,
+      "matches": [
+        {
+          "home": "hellas-verona-fc",
+          "away": "fc-internazionale-milano",
+          "homeGoals": 0,
+          "awayGoals": 5,
+          "played": true
+        },
+        {
+          "home": "ac-milan",
+          "away": "juventus-fc",
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "parma-calcio-1913",
+          "away": "atalanta-bc",
+          "homeGoals": 1,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "genoa-cfc",
+          "away": "cagliari-calcio",
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "como-1907",
+          "away": "acf-fiorentina",
+          "homeGoals": 0,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "torino-fc",
+          "away": "ac-monza",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "ssc-napoli",
+          "away": "as-roma",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "ss-lazio",
+          "away": "bologna-fc-1909",
+          "homeGoals": 3,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "empoli-fc",
+          "away": "udinese-calcio",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "venezia-fc",
+          "away": "us-lecce",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 14,
+      "matches": [
+        {
+          "home": "cagliari-calcio",
+          "away": "hellas-verona-fc",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "como-1907",
+          "away": "ac-monza",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "ac-milan",
+          "away": "empoli-fc",
+          "homeGoals": 3,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "bologna-fc-1909",
+          "away": "venezia-fc",
+          "homeGoals": 3,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "udinese-calcio",
+          "away": "genoa-cfc",
+          "homeGoals": 0,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "parma-calcio-1913",
+          "away": "ss-lazio",
+          "homeGoals": 3,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "torino-fc",
+          "away": "ssc-napoli",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "us-lecce",
+          "away": "juventus-fc",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "as-roma",
+          "away": "atalanta-bc",
+          "homeGoals": 0,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "acf-fiorentina",
+          "away": "fc-internazionale-milano",
+          "homeGoals": 3,
+          "awayGoals": 0,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 15,
+      "matches": [
+        {
+          "home": "fc-internazionale-milano",
+          "away": "parma-calcio-1913",
+          "homeGoals": 3,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "atalanta-bc",
+          "away": "ac-milan",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "genoa-cfc",
+          "away": "torino-fc",
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "juventus-fc",
+          "away": "bologna-fc-1909",
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "as-roma",
+          "away": "us-lecce",
+          "homeGoals": 4,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "acf-fiorentina",
+          "away": "cagliari-calcio",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "hellas-verona-fc",
+          "away": "empoli-fc",
+          "homeGoals": 1,
+          "awayGoals": 4,
+          "played": true
+        },
+        {
+          "home": "venezia-fc",
+          "away": "como-1907",
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "ssc-napoli",
+          "away": "ss-lazio",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "ac-monza",
+          "away": "udinese-calcio",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 16,
+      "matches": [
+        {
+          "home": "empoli-fc",
+          "away": "torino-fc",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "cagliari-calcio",
+          "away": "atalanta-bc",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "udinese-calcio",
+          "away": "ssc-napoli",
+          "homeGoals": 1,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "juventus-fc",
+          "away": "venezia-fc",
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "us-lecce",
+          "away": "ac-monza",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "bologna-fc-1909",
+          "away": "acf-fiorentina",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "parma-calcio-1913",
+          "away": "hellas-verona-fc",
+          "homeGoals": 2,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "como-1907",
+          "away": "as-roma",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "ac-milan",
+          "away": "genoa-cfc",
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "ss-lazio",
+          "away": "fc-internazionale-milano",
+          "homeGoals": 0,
+          "awayGoals": 6,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 17,
+      "matches": [
+        {
+          "home": "hellas-verona-fc",
+          "away": "ac-milan",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "torino-fc",
+          "away": "bologna-fc-1909",
+          "homeGoals": 0,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "genoa-cfc",
+          "away": "ssc-napoli",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "us-lecce",
+          "away": "ss-lazio",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "as-roma",
+          "away": "parma-calcio-1913",
+          "homeGoals": 5,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "venezia-fc",
+          "away": "cagliari-calcio",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "atalanta-bc",
+          "away": "empoli-fc",
+          "homeGoals": 3,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "ac-monza",
+          "away": "juventus-fc",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "acf-fiorentina",
+          "away": "udinese-calcio",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "fc-internazionale-milano",
+          "away": "como-1907",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 18,
+      "matches": [
+        {
+          "home": "empoli-fc",
+          "away": "genoa-cfc",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "parma-calcio-1913",
+          "away": "ac-monza",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "cagliari-calcio",
+          "away": "fc-internazionale-milano",
+          "homeGoals": 0,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "ss-lazio",
+          "away": "atalanta-bc",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "udinese-calcio",
+          "away": "torino-fc",
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "ssc-napoli",
+          "away": "venezia-fc",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "juventus-fc",
+          "away": "acf-fiorentina",
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "ac-milan",
+          "away": "as-roma",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "como-1907",
+          "away": "us-lecce",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "bologna-fc-1909",
+          "away": "hellas-verona-fc",
+          "homeGoals": 2,
+          "awayGoals": 3,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 19,
+      "matches": [
+        {
+          "home": "venezia-fc",
+          "away": "empoli-fc",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "acf-fiorentina",
+          "away": "ssc-napoli",
+          "homeGoals": 0,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "hellas-verona-fc",
+          "away": "udinese-calcio",
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "ac-monza",
+          "away": "cagliari-calcio",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "us-lecce",
+          "away": "genoa-cfc",
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "torino-fc",
+          "away": "parma-calcio-1913",
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "as-roma",
+          "away": "ss-lazio",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "como-1907",
+          "away": "ac-milan",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "atalanta-bc",
+          "away": "juventus-fc",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "fc-internazionale-milano",
+          "away": "bologna-fc-1909",
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 20,
+      "matches": [
+        {
+          "home": "ss-lazio",
+          "away": "como-1907",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "empoli-fc",
+          "away": "us-lecce",
+          "homeGoals": 1,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "udinese-calcio",
+          "away": "atalanta-bc",
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "torino-fc",
+          "away": "juventus-fc",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "ac-milan",
+          "away": "cagliari-calcio",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "genoa-cfc",
+          "away": "parma-calcio-1913",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "venezia-fc",
+          "away": "fc-internazionale-milano",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "bologna-fc-1909",
+          "away": "as-roma",
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "ssc-napoli",
+          "away": "hellas-verona-fc",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "ac-monza",
+          "away": "acf-fiorentina",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 21,
+      "matches": [
+        {
+          "home": "as-roma",
+          "away": "genoa-cfc",
+          "homeGoals": 3,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "bologna-fc-1909",
+          "away": "ac-monza",
+          "homeGoals": 3,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "juventus-fc",
+          "away": "ac-milan",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "atalanta-bc",
+          "away": "ssc-napoli",
+          "homeGoals": 2,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "acf-fiorentina",
+          "away": "torino-fc",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "cagliari-calcio",
+          "away": "us-lecce",
+          "homeGoals": 4,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "parma-calcio-1913",
+          "away": "venezia-fc",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "hellas-verona-fc",
+          "away": "ss-lazio",
+          "homeGoals": 0,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "fc-internazionale-milano",
+          "away": "empoli-fc",
+          "homeGoals": 3,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "como-1907",
+          "away": "udinese-calcio",
+          "homeGoals": 4,
+          "awayGoals": 1,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 22,
+      "matches": [
+        {
+          "home": "torino-fc",
+          "away": "cagliari-calcio",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "como-1907",
+          "away": "atalanta-bc",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "ssc-napoli",
+          "away": "juventus-fc",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "empoli-fc",
+          "away": "bologna-fc-1909",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "ac-milan",
+          "away": "parma-calcio-1913",
+          "homeGoals": 3,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "udinese-calcio",
+          "away": "as-roma",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "us-lecce",
+          "away": "fc-internazionale-milano",
+          "homeGoals": 0,
+          "awayGoals": 4,
+          "played": true
+        },
+        {
+          "home": "ss-lazio",
+          "away": "acf-fiorentina",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "venezia-fc",
+          "away": "hellas-verona-fc",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "genoa-cfc",
+          "away": "ac-monza",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 23,
+      "matches": [
+        {
+          "home": "parma-calcio-1913",
+          "away": "us-lecce",
+          "homeGoals": 1,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "ac-monza",
+          "away": "hellas-verona-fc",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "udinese-calcio",
+          "away": "venezia-fc",
+          "homeGoals": 3,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "atalanta-bc",
+          "away": "torino-fc",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "bologna-fc-1909",
+          "away": "como-1907",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "juventus-fc",
+          "away": "empoli-fc",
+          "homeGoals": 4,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "acf-fiorentina",
+          "away": "genoa-cfc",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "ac-milan",
+          "away": "fc-internazionale-milano",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "as-roma",
+          "away": "ssc-napoli",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "cagliari-calcio",
+          "away": "ss-lazio",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 24,
+      "matches": [
+        {
+          "home": "como-1907",
+          "away": "juventus-fc",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "hellas-verona-fc",
+          "away": "atalanta-bc",
+          "homeGoals": 0,
+          "awayGoals": 5,
+          "played": true
+        },
+        {
+          "home": "empoli-fc",
+          "away": "ac-milan",
+          "homeGoals": 0,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "torino-fc",
+          "away": "genoa-cfc",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "venezia-fc",
+          "away": "as-roma",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "cagliari-calcio",
+          "away": "parma-calcio-1913",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "ss-lazio",
+          "away": "ac-monza",
+          "homeGoals": 5,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "us-lecce",
+          "away": "bologna-fc-1909",
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "ssc-napoli",
+          "away": "udinese-calcio",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "fc-internazionale-milano",
+          "away": "acf-fiorentina",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 25,
+      "matches": [
+        {
+          "home": "bologna-fc-1909",
+          "away": "torino-fc",
+          "homeGoals": 3,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "atalanta-bc",
+          "away": "cagliari-calcio",
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "ss-lazio",
+          "away": "ssc-napoli",
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "ac-milan",
+          "away": "hellas-verona-fc",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "acf-fiorentina",
+          "away": "como-1907",
+          "homeGoals": 0,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "ac-monza",
+          "away": "us-lecce",
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "udinese-calcio",
+          "away": "empoli-fc",
+          "homeGoals": 3,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "parma-calcio-1913",
+          "away": "as-roma",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "juventus-fc",
+          "away": "fc-internazionale-milano",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "genoa-cfc",
+          "away": "venezia-fc",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 26,
+      "matches": [
+        {
+          "home": "us-lecce",
+          "away": "udinese-calcio",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "parma-calcio-1913",
+          "away": "bologna-fc-1909",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "venezia-fc",
+          "away": "ss-lazio",
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "torino-fc",
+          "away": "ac-milan",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "fc-internazionale-milano",
+          "away": "genoa-cfc",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "como-1907",
+          "away": "ssc-napoli",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "hellas-verona-fc",
+          "away": "acf-fiorentina",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "empoli-fc",
+          "away": "atalanta-bc",
+          "homeGoals": 0,
+          "awayGoals": 5,
+          "played": true
+        },
+        {
+          "home": "cagliari-calcio",
+          "away": "juventus-fc",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "as-roma",
+          "away": "ac-monza",
+          "homeGoals": 4,
+          "awayGoals": 0,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 27,
+      "matches": [
+        {
+          "home": "acf-fiorentina",
+          "away": "us-lecce",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "atalanta-bc",
+          "away": "venezia-fc",
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "ssc-napoli",
+          "away": "fc-internazionale-milano",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "udinese-calcio",
+          "away": "parma-calcio-1913",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "ac-monza",
+          "away": "torino-fc",
+          "homeGoals": 0,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "bologna-fc-1909",
+          "away": "cagliari-calcio",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "genoa-cfc",
+          "away": "empoli-fc",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "as-roma",
+          "away": "como-1907",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "ac-milan",
+          "away": "ss-lazio",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "juventus-fc",
+          "away": "hellas-verona-fc",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 28,
+      "matches": [
+        {
+          "home": "cagliari-calcio",
+          "away": "genoa-cfc",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "como-1907",
+          "away": "venezia-fc",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "parma-calcio-1913",
+          "away": "torino-fc",
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "us-lecce",
+          "away": "ac-milan",
+          "homeGoals": 2,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "fc-internazionale-milano",
+          "away": "ac-monza",
+          "homeGoals": 3,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "hellas-verona-fc",
+          "away": "bologna-fc-1909",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "ssc-napoli",
+          "away": "acf-fiorentina",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "empoli-fc",
+          "away": "as-roma",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "juventus-fc",
+          "away": "atalanta-bc",
+          "homeGoals": 0,
+          "awayGoals": 4,
+          "played": true
+        },
+        {
+          "home": "ss-lazio",
+          "away": "udinese-calcio",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 29,
+      "matches": [
+        {
+          "home": "genoa-cfc",
+          "away": "us-lecce",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "ac-monza",
+          "away": "parma-calcio-1913",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "udinese-calcio",
+          "away": "hellas-verona-fc",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "ac-milan",
+          "away": "como-1907",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "torino-fc",
+          "away": "empoli-fc",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "venezia-fc",
+          "away": "ssc-napoli",
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "bologna-fc-1909",
+          "away": "ss-lazio",
+          "homeGoals": 5,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "as-roma",
+          "away": "cagliari-calcio",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "acf-fiorentina",
+          "away": "juventus-fc",
+          "homeGoals": 3,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "atalanta-bc",
+          "away": "fc-internazionale-milano",
+          "homeGoals": 0,
+          "awayGoals": 2,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 30,
+      "matches": [
+        {
+          "home": "como-1907",
+          "away": "empoli-fc",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "venezia-fc",
+          "away": "bologna-fc-1909",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "juventus-fc",
+          "away": "genoa-cfc",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "us-lecce",
+          "away": "as-roma",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "cagliari-calcio",
+          "away": "ac-monza",
+          "homeGoals": 3,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "acf-fiorentina",
+          "away": "atalanta-bc",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "fc-internazionale-milano",
+          "away": "udinese-calcio",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "ssc-napoli",
+          "away": "ac-milan",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "hellas-verona-fc",
+          "away": "parma-calcio-1913",
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "ss-lazio",
+          "away": "torino-fc",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 31,
+      "matches": [
+        {
+          "home": "genoa-cfc",
+          "away": "udinese-calcio",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "ac-monza",
+          "away": "como-1907",
+          "homeGoals": 1,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "parma-calcio-1913",
+          "away": "fc-internazionale-milano",
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "ac-milan",
+          "away": "acf-fiorentina",
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "us-lecce",
+          "away": "venezia-fc",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "empoli-fc",
+          "away": "cagliari-calcio",
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "torino-fc",
+          "away": "hellas-verona-fc",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "atalanta-bc",
+          "away": "ss-lazio",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "as-roma",
+          "away": "juventus-fc",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "bologna-fc-1909",
+          "away": "ssc-napoli",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 32,
+      "matches": [
+        {
+          "home": "udinese-calcio",
+          "away": "ac-milan",
+          "homeGoals": 0,
+          "awayGoals": 4,
+          "played": true
+        },
+        {
+          "home": "venezia-fc",
+          "away": "ac-monza",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "fc-internazionale-milano",
+          "away": "cagliari-calcio",
+          "homeGoals": 3,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "juventus-fc",
+          "away": "us-lecce",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "atalanta-bc",
+          "away": "bologna-fc-1909",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "acf-fiorentina",
+          "away": "parma-calcio-1913",
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "hellas-verona-fc",
+          "away": "genoa-cfc",
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "como-1907",
+          "away": "torino-fc",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "ss-lazio",
+          "away": "as-roma",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "ssc-napoli",
+          "away": "empoli-fc",
+          "homeGoals": 3,
+          "awayGoals": 0,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 33,
+      "matches": [
+        {
+          "home": "us-lecce",
+          "away": "como-1907",
+          "homeGoals": 0,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "ac-monza",
+          "away": "ssc-napoli",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "as-roma",
+          "away": "hellas-verona-fc",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "empoli-fc",
+          "away": "venezia-fc",
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "bologna-fc-1909",
+          "away": "fc-internazionale-milano",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "ac-milan",
+          "away": "atalanta-bc",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "cagliari-calcio",
+          "away": "acf-fiorentina",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "genoa-cfc",
+          "away": "ss-lazio",
+          "homeGoals": 0,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "parma-calcio-1913",
+          "away": "juventus-fc",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "torino-fc",
+          "away": "udinese-calcio",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 34,
+      "matches": [
+        {
+          "home": "como-1907",
+          "away": "genoa-cfc",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "venezia-fc",
+          "away": "ac-milan",
+          "homeGoals": 0,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "acf-fiorentina",
+          "away": "empoli-fc",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "fc-internazionale-milano",
+          "away": "as-roma",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "juventus-fc",
+          "away": "ac-monza",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "atalanta-bc",
+          "away": "us-lecce",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "ssc-napoli",
+          "away": "torino-fc",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "udinese-calcio",
+          "away": "bologna-fc-1909",
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "hellas-verona-fc",
+          "away": "cagliari-calcio",
+          "homeGoals": 0,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "ss-lazio",
+          "away": "parma-calcio-1913",
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 35,
+      "matches": [
+        {
+          "home": "torino-fc",
+          "away": "venezia-fc",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "cagliari-calcio",
+          "away": "udinese-calcio",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "parma-calcio-1913",
+          "away": "como-1907",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "us-lecce",
+          "away": "ssc-napoli",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "fc-internazionale-milano",
+          "away": "hellas-verona-fc",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "empoli-fc",
+          "away": "ss-lazio",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "ac-monza",
+          "away": "atalanta-bc",
+          "homeGoals": 0,
+          "awayGoals": 4,
+          "played": true
+        },
+        {
+          "home": "as-roma",
+          "away": "acf-fiorentina",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "bologna-fc-1909",
+          "away": "juventus-fc",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "genoa-cfc",
+          "away": "ac-milan",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 36,
+      "matches": [
+        {
+          "home": "ac-milan",
+          "away": "bologna-fc-1909",
+          "homeGoals": 3,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "como-1907",
+          "away": "cagliari-calcio",
+          "homeGoals": 3,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "ss-lazio",
+          "away": "juventus-fc",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "empoli-fc",
+          "away": "parma-calcio-1913",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "udinese-calcio",
+          "away": "ac-monza",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "hellas-verona-fc",
+          "away": "us-lecce",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "torino-fc",
+          "away": "fc-internazionale-milano",
+          "homeGoals": 0,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "ssc-napoli",
+          "away": "genoa-cfc",
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "venezia-fc",
+          "away": "acf-fiorentina",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "atalanta-bc",
+          "away": "as-roma",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 37,
+      "matches": [
+        {
+          "home": "genoa-cfc",
+          "away": "atalanta-bc",
+          "homeGoals": 2,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "cagliari-calcio",
+          "away": "venezia-fc",
+          "homeGoals": 3,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "acf-fiorentina",
+          "away": "bologna-fc-1909",
+          "homeGoals": 3,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "hellas-verona-fc",
+          "away": "como-1907",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "fc-internazionale-milano",
+          "away": "ss-lazio",
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "juventus-fc",
+          "away": "udinese-calcio",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "us-lecce",
+          "away": "torino-fc",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "ac-monza",
+          "away": "empoli-fc",
+          "homeGoals": 1,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "parma-calcio-1913",
+          "away": "ssc-napoli",
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "as-roma",
+          "away": "ac-milan",
+          "homeGoals": 3,
+          "awayGoals": 1,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 38,
+      "matches": [
+        {
+          "home": "como-1907",
+          "away": "fc-internazionale-milano",
+          "homeGoals": 0,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "ssc-napoli",
+          "away": "cagliari-calcio",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "bologna-fc-1909",
+          "away": "genoa-cfc",
+          "homeGoals": 1,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "ac-milan",
+          "away": "ac-monza",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "atalanta-bc",
+          "away": "parma-calcio-1913",
+          "homeGoals": 2,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "empoli-fc",
+          "away": "hellas-verona-fc",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "ss-lazio",
+          "away": "us-lecce",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "torino-fc",
+          "away": "as-roma",
+          "homeGoals": 0,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "udinese-calcio",
+          "away": "acf-fiorentina",
+          "homeGoals": 2,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "venezia-fc",
+          "away": "juventus-fc",
+          "homeGoals": 2,
+          "awayGoals": 3,
+          "played": true
+        }
+      ]
+    }
+  ]
+}

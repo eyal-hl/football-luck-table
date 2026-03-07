@@ -1,0 +1,41 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  flex-wrap: wrap;
+}
+
+.label {
+  font-size: 0.78rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-tertiary);
+  margin-right: 0.25rem;
+  white-space: nowrap;
+}
+
+.btn {
+  padding: 0.35rem 0.75rem;
+  border-radius: 0.4rem;
+  border: 1.5px solid var(--border);
+  background: var(--surface-2);
+  color: var(--text-secondary);
+  font-size: 0.82rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.15s;
+  white-space: nowrap;
+  font-family: inherit;
+}
+
+.btn:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.btn.active {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}

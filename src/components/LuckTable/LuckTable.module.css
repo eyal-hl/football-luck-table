@@ -1,0 +1,129 @@
+.wrapper {
+  overflow-x: auto;
+  border-radius: 0.75rem;
+  border: 1px solid var(--border);
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+.table th {
+  background: var(--surface-2);
+  color: var(--text-tertiary);
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 0.75rem 1rem;
+  text-align: left;
+  border-bottom: 1px solid var(--border);
+  white-space: nowrap;
+}
+
+.table th.center {
+  text-align: center;
+}
+
+.table td {
+  padding: 0.7rem 1rem;
+  border-bottom: 1px solid var(--border);
+  vertical-align: middle;
+  color: var(--text-primary);
+}
+
+.table tr:last-child td {
+  border-bottom: none;
+}
+
+.table tr:hover td {
+  background: var(--surface-2);
+}
+
+.rankCell {
+  text-align: center;
+  font-weight: 700;
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  width: 3rem;
+}
+
+.luckBadge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 0.82rem;
+  border-radius: 0.4rem;
+  padding: 0.25rem 0.6rem;
+  color: #fff;
+  min-width: 3.5rem;
+  text-align: center;
+}
+
+.teamCell {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  white-space: nowrap;
+}
+
+.teamName {
+  font-weight: 600;
+}
+
+.fixturesCell {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+
+.fixturePill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.2rem 0.5rem;
+  border-radius: 0.35rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+  border: 1px solid var(--border);
+  background: var(--surface-2);
+  color: var(--text-secondary);
+  white-space: nowrap;
+}
+
+.fixturePill .gwLabel {
+  font-size: 0.68rem;
+  color: var(--text-tertiary);
+}
+
+.fixturePill .homeAway {
+  font-size: 0.65rem;
+  font-weight: 700;
+  padding: 0.05rem 0.25rem;
+  border-radius: 0.2rem;
+  background: var(--surface-3);
+  color: var(--text-tertiary);
+  text-transform: uppercase;
+}
+
+.fixturePill .rankBadge {
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 0.05rem 0.3rem;
+  border-radius: 0.2rem;
+  color: #fff;
+}
+
+.scoreCell {
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+
+.empty {
+  padding: 3rem;
+  text-align: center;
+  color: var(--text-tertiary);
+}

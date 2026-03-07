@@ -1,0 +1,67 @@
+.panel {
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: 0.75rem;
+  padding: 1.25rem 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  align-items: flex-end;
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  min-width: 130px;
+}
+
+.label {
+  font-size: 0.78rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-tertiary);
+}
+
+.sublabel {
+  font-size: 0.7rem;
+  color: var(--text-tertiary);
+  margin-top: -0.25rem;
+}
+
+.input {
+  padding: 0.45rem 0.6rem;
+  border-radius: 0.4rem;
+  border: 1.5px solid var(--border);
+  background: var(--surface-1);
+  color: var(--text-primary);
+  font-size: 0.95rem;
+  font-family: inherit;
+  width: 100%;
+  transition: border-color 0.15s;
+  -moz-appearance: textfield;
+}
+
+.input::-webkit-outer-spin-button,
+.input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.input:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+
+.divider {
+  width: 1px;
+  height: 3rem;
+  background: var(--border);
+  align-self: center;
+}
+
+@media (max-width: 600px) {
+  .divider {
+    display: none;
+  }
+}

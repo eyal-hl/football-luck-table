@@ -1,0 +1,2431 @@
+{
+  "leagueId": "bundesliga",
+  "leagueName": "Bundesliga",
+  "season": "2023-24",
+  "currentGameweek": 34,
+  "totalGameweeks": 34,
+  "teams": [
+    {
+      "id": "1-fc-k-ln",
+      "name": "1. FC Köln",
+      "shortName": "1. FC Köln",
+      "logoUrl": "https://crests.football-data.org/1.png"
+    },
+    {
+      "id": "tsg-1899-hoffenheim",
+      "name": "TSG 1899 Hoffenheim",
+      "shortName": "Hoffenheim",
+      "logoUrl": "https://crests.football-data.org/2.png"
+    },
+    {
+      "id": "bayer-04-leverkusen",
+      "name": "Bayer 04 Leverkusen",
+      "shortName": "Leverkusen",
+      "logoUrl": "https://crests.football-data.org/3.png"
+    },
+    {
+      "id": "borussia-dortmund",
+      "name": "Borussia Dortmund",
+      "shortName": "Dortmund",
+      "logoUrl": "https://crests.football-data.org/4.png"
+    },
+    {
+      "id": "fc-bayern-m-nchen",
+      "name": "FC Bayern München",
+      "shortName": "Bayern",
+      "logoUrl": "https://crests.football-data.org/5.png"
+    },
+    {
+      "id": "vfb-stuttgart",
+      "name": "VfB Stuttgart",
+      "shortName": "Stuttgart",
+      "logoUrl": "https://crests.football-data.org/10.png"
+    },
+    {
+      "id": "vfl-wolfsburg",
+      "name": "VfL Wolfsburg",
+      "shortName": "Wolfsburg",
+      "logoUrl": "https://crests.football-data.org/11.png"
+    },
+    {
+      "id": "sv-werder-bremen",
+      "name": "SV Werder Bremen",
+      "shortName": "Bremen",
+      "logoUrl": "https://crests.football-data.org/12.png"
+    },
+    {
+      "id": "1-fsv-mainz-05",
+      "name": "1. FSV Mainz 05",
+      "shortName": "Mainz",
+      "logoUrl": "https://crests.football-data.org/15.png"
+    },
+    {
+      "id": "fc-augsburg",
+      "name": "FC Augsburg",
+      "shortName": "Augsburg",
+      "logoUrl": "https://crests.football-data.org/16.png"
+    },
+    {
+      "id": "sc-freiburg",
+      "name": "SC Freiburg",
+      "shortName": "Freiburg",
+      "logoUrl": "https://crests.football-data.org/17.png"
+    },
+    {
+      "id": "borussia-m-nchengladbach",
+      "name": "Borussia Mönchengladbach",
+      "shortName": "M'gladbach",
+      "logoUrl": "https://crests.football-data.org/18.png"
+    },
+    {
+      "id": "eintracht-frankfurt",
+      "name": "Eintracht Frankfurt",
+      "shortName": "Frankfurt",
+      "logoUrl": "https://crests.football-data.org/19.png"
+    },
+    {
+      "id": "1-fc-union-berlin",
+      "name": "1. FC Union Berlin",
+      "shortName": "Union Berlin",
+      "logoUrl": "https://crests.football-data.org/28.png"
+    },
+    {
+      "id": "vfl-bochum-1848",
+      "name": "VfL Bochum 1848",
+      "shortName": "Bochum",
+      "logoUrl": "https://crests.football-data.org/36.png"
+    },
+    {
+      "id": "1-fc-heidenheim-1846",
+      "name": "1. FC Heidenheim 1846",
+      "shortName": "Heidenheim",
+      "logoUrl": "https://crests.football-data.org/44.png"
+    },
+    {
+      "id": "sv-darmstadt-98",
+      "name": "SV Darmstadt 98",
+      "shortName": "Darmstadt",
+      "logoUrl": "https://crests.football-data.org/55.png"
+    },
+    {
+      "id": "rb-leipzig",
+      "name": "RB Leipzig",
+      "shortName": "RB Leipzig",
+      "logoUrl": "https://crests.football-data.org/721.png"
+    }
+  ],
+  "gameweeks": [
+    {
+      "gw": 1,
+      "matches": [
+        {
+          "home": "sv-werder-bremen",
+          "away": "fc-bayern-m-nchen",
+          "homeGoals": 0,
+          "awayGoals": 4,
+          "played": true
+        },
+        {
+          "home": "bayer-04-leverkusen",
+          "away": "rb-leipzig",
+          "homeGoals": 3,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "vfl-wolfsburg",
+          "away": "1-fc-heidenheim-1846",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "tsg-1899-hoffenheim",
+          "away": "sc-freiburg",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "fc-augsburg",
+          "away": "borussia-m-nchengladbach",
+          "homeGoals": 4,
+          "awayGoals": 4,
+          "played": true
+        },
+        {
+          "home": "vfb-stuttgart",
+          "away": "vfl-bochum-1848",
+          "homeGoals": 5,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "borussia-dortmund",
+          "away": "1-fc-k-ln",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "1-fc-union-berlin",
+          "away": "1-fsv-mainz-05",
+          "homeGoals": 4,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "eintracht-frankfurt",
+          "away": "sv-darmstadt-98",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 2,
+      "matches": [
+        {
+          "home": "rb-leipzig",
+          "away": "vfb-stuttgart",
+          "homeGoals": 5,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "sc-freiburg",
+          "away": "sv-werder-bremen",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "1-fc-k-ln",
+          "away": "vfl-wolfsburg",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "vfl-bochum-1848",
+          "away": "borussia-dortmund",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "1-fc-heidenheim-1846",
+          "away": "tsg-1899-hoffenheim",
+          "homeGoals": 2,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "sv-darmstadt-98",
+          "away": "1-fc-union-berlin",
+          "homeGoals": 1,
+          "awayGoals": 4,
+          "played": true
+        },
+        {
+          "home": "borussia-m-nchengladbach",
+          "away": "bayer-04-leverkusen",
+          "homeGoals": 0,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "1-fsv-mainz-05",
+          "away": "eintracht-frankfurt",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "fc-bayern-m-nchen",
+          "away": "fc-augsburg",
+          "homeGoals": 3,
+          "awayGoals": 1,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 3,
+      "matches": [
+        {
+          "home": "borussia-dortmund",
+          "away": "1-fc-heidenheim-1846",
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "bayer-04-leverkusen",
+          "away": "sv-darmstadt-98",
+          "homeGoals": 5,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "tsg-1899-hoffenheim",
+          "away": "vfl-wolfsburg",
+          "homeGoals": 3,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "sv-werder-bremen",
+          "away": "1-fsv-mainz-05",
+          "homeGoals": 4,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "fc-augsburg",
+          "away": "vfl-bochum-1848",
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "vfb-stuttgart",
+          "away": "sc-freiburg",
+          "homeGoals": 5,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "borussia-m-nchengladbach",
+          "away": "fc-bayern-m-nchen",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "eintracht-frankfurt",
+          "away": "1-fc-k-ln",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "1-fc-union-berlin",
+          "away": "rb-leipzig",
+          "homeGoals": 0,
+          "awayGoals": 3,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 4,
+      "matches": [
+        {
+          "home": "fc-bayern-m-nchen",
+          "away": "bayer-04-leverkusen",
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "rb-leipzig",
+          "away": "fc-augsburg",
+          "homeGoals": 3,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "sc-freiburg",
+          "away": "borussia-dortmund",
+          "homeGoals": 2,
+          "awayGoals": 4,
+          "played": true
+        },
+        {
+          "home": "vfl-wolfsburg",
+          "away": "1-fc-union-berlin",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "1-fsv-mainz-05",
+          "away": "vfb-stuttgart",
+          "homeGoals": 1,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "1-fc-k-ln",
+          "away": "tsg-1899-hoffenheim",
+          "homeGoals": 1,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "vfl-bochum-1848",
+          "away": "eintracht-frankfurt",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "1-fc-heidenheim-1846",
+          "away": "sv-werder-bremen",
+          "homeGoals": 4,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "sv-darmstadt-98",
+          "away": "borussia-m-nchengladbach",
+          "homeGoals": 3,
+          "awayGoals": 3,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 5,
+      "matches": [
+        {
+          "home": "vfb-stuttgart",
+          "away": "sv-darmstadt-98",
+          "homeGoals": 3,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "fc-bayern-m-nchen",
+          "away": "vfl-bochum-1848",
+          "homeGoals": 7,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "borussia-dortmund",
+          "away": "vfl-wolfsburg",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "1-fc-union-berlin",
+          "away": "tsg-1899-hoffenheim",
+          "homeGoals": 0,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "borussia-m-nchengladbach",
+          "away": "rb-leipzig",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "fc-augsburg",
+          "away": "1-fsv-mainz-05",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "sv-werder-bremen",
+          "away": "1-fc-k-ln",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "bayer-04-leverkusen",
+          "away": "1-fc-heidenheim-1846",
+          "homeGoals": 4,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "eintracht-frankfurt",
+          "away": "sc-freiburg",
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 6,
+      "matches": [
+        {
+          "home": "tsg-1899-hoffenheim",
+          "away": "borussia-dortmund",
+          "homeGoals": 1,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "vfl-wolfsburg",
+          "away": "eintracht-frankfurt",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "1-fsv-mainz-05",
+          "away": "bayer-04-leverkusen",
+          "homeGoals": 0,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "1-fc-k-ln",
+          "away": "vfb-stuttgart",
+          "homeGoals": 0,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "vfl-bochum-1848",
+          "away": "borussia-m-nchengladbach",
+          "homeGoals": 1,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "1-fc-heidenheim-1846",
+          "away": "1-fc-union-berlin",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "rb-leipzig",
+          "away": "fc-bayern-m-nchen",
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "sv-darmstadt-98",
+          "away": "sv-werder-bremen",
+          "homeGoals": 4,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "sc-freiburg",
+          "away": "fc-augsburg",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 7,
+      "matches": [
+        {
+          "home": "borussia-m-nchengladbach",
+          "away": "1-fsv-mainz-05",
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "borussia-dortmund",
+          "away": "1-fc-union-berlin",
+          "homeGoals": 4,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "rb-leipzig",
+          "away": "vfl-bochum-1848",
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "fc-augsburg",
+          "away": "sv-darmstadt-98",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "vfb-stuttgart",
+          "away": "vfl-wolfsburg",
+          "homeGoals": 3,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "sv-werder-bremen",
+          "away": "tsg-1899-hoffenheim",
+          "homeGoals": 2,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "bayer-04-leverkusen",
+          "away": "1-fc-k-ln",
+          "homeGoals": 3,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "fc-bayern-m-nchen",
+          "away": "sc-freiburg",
+          "homeGoals": 3,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "eintracht-frankfurt",
+          "away": "1-fc-heidenheim-1846",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 8,
+      "matches": [
+        {
+          "home": "borussia-dortmund",
+          "away": "sv-werder-bremen",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "tsg-1899-hoffenheim",
+          "away": "eintracht-frankfurt",
+          "homeGoals": 1,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "sv-darmstadt-98",
+          "away": "rb-leipzig",
+          "homeGoals": 1,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "1-fc-union-berlin",
+          "away": "vfb-stuttgart",
+          "homeGoals": 0,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "sc-freiburg",
+          "away": "vfl-bochum-1848",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "vfl-wolfsburg",
+          "away": "bayer-04-leverkusen",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "1-fsv-mainz-05",
+          "away": "fc-bayern-m-nchen",
+          "homeGoals": 1,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "1-fc-k-ln",
+          "away": "borussia-m-nchengladbach",
+          "homeGoals": 3,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "1-fc-heidenheim-1846",
+          "away": "fc-augsburg",
+          "homeGoals": 2,
+          "awayGoals": 5,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 9,
+      "matches": [
+        {
+          "home": "vfl-bochum-1848",
+          "away": "1-fsv-mainz-05",
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "fc-bayern-m-nchen",
+          "away": "sv-darmstadt-98",
+          "homeGoals": 8,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "borussia-m-nchengladbach",
+          "away": "1-fc-heidenheim-1846",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "sv-werder-bremen",
+          "away": "1-fc-union-berlin",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "fc-augsburg",
+          "away": "vfl-wolfsburg",
+          "homeGoals": 3,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "vfb-stuttgart",
+          "away": "tsg-1899-hoffenheim",
+          "homeGoals": 2,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "rb-leipzig",
+          "away": "1-fc-k-ln",
+          "homeGoals": 6,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "eintracht-frankfurt",
+          "away": "borussia-dortmund",
+          "homeGoals": 3,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "bayer-04-leverkusen",
+          "away": "sc-freiburg",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 10,
+      "matches": [
+        {
+          "home": "sv-darmstadt-98",
+          "away": "vfl-bochum-1848",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "1-fc-union-berlin",
+          "away": "eintracht-frankfurt",
+          "homeGoals": 0,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "sc-freiburg",
+          "away": "borussia-m-nchengladbach",
+          "homeGoals": 3,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "1-fsv-mainz-05",
+          "away": "rb-leipzig",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "1-fc-k-ln",
+          "away": "fc-augsburg",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "tsg-1899-hoffenheim",
+          "away": "bayer-04-leverkusen",
+          "homeGoals": 2,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "borussia-dortmund",
+          "away": "fc-bayern-m-nchen",
+          "homeGoals": 0,
+          "awayGoals": 4,
+          "played": true
+        },
+        {
+          "home": "vfl-wolfsburg",
+          "away": "sv-werder-bremen",
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "1-fc-heidenheim-1846",
+          "away": "vfb-stuttgart",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 11,
+      "matches": [
+        {
+          "home": "borussia-m-nchengladbach",
+          "away": "vfl-wolfsburg",
+          "homeGoals": 4,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "fc-bayern-m-nchen",
+          "away": "1-fc-heidenheim-1846",
+          "homeGoals": 4,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "fc-augsburg",
+          "away": "tsg-1899-hoffenheim",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "vfb-stuttgart",
+          "away": "borussia-dortmund",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "sv-darmstadt-98",
+          "away": "1-fsv-mainz-05",
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "vfl-bochum-1848",
+          "away": "1-fc-k-ln",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "bayer-04-leverkusen",
+          "away": "1-fc-union-berlin",
+          "homeGoals": 4,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "sv-werder-bremen",
+          "away": "eintracht-frankfurt",
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "rb-leipzig",
+          "away": "sc-freiburg",
+          "homeGoals": 3,
+          "awayGoals": 1,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 12,
+      "matches": [
+        {
+          "home": "1-fc-k-ln",
+          "away": "fc-bayern-m-nchen",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "borussia-dortmund",
+          "away": "borussia-m-nchengladbach",
+          "homeGoals": 4,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "1-fc-union-berlin",
+          "away": "fc-augsburg",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "sc-freiburg",
+          "away": "sv-darmstadt-98",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "vfl-wolfsburg",
+          "away": "rb-leipzig",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "sv-werder-bremen",
+          "away": "bayer-04-leverkusen",
+          "homeGoals": 0,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "eintracht-frankfurt",
+          "away": "vfb-stuttgart",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "1-fc-heidenheim-1846",
+          "away": "vfl-bochum-1848",
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "tsg-1899-hoffenheim",
+          "away": "1-fsv-mainz-05",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 13,
+      "matches": [
+        {
+          "home": "sv-darmstadt-98",
+          "away": "1-fc-k-ln",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "rb-leipzig",
+          "away": "1-fc-heidenheim-1846",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "borussia-m-nchengladbach",
+          "away": "tsg-1899-hoffenheim",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "vfl-bochum-1848",
+          "away": "vfl-wolfsburg",
+          "homeGoals": 3,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "vfb-stuttgart",
+          "away": "sv-werder-bremen",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "1-fsv-mainz-05",
+          "away": "sc-freiburg",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "bayer-04-leverkusen",
+          "away": "borussia-dortmund",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "fc-augsburg",
+          "away": "eintracht-frankfurt",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "fc-bayern-m-nchen",
+          "away": "1-fc-union-berlin",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 14,
+      "matches": [
+        {
+          "home": "tsg-1899-hoffenheim",
+          "away": "vfl-bochum-1848",
+          "homeGoals": 3,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "1-fc-union-berlin",
+          "away": "borussia-m-nchengladbach",
+          "homeGoals": 3,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "eintracht-frankfurt",
+          "away": "fc-bayern-m-nchen",
+          "homeGoals": 5,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "vfl-wolfsburg",
+          "away": "sc-freiburg",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "sv-werder-bremen",
+          "away": "fc-augsburg",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "1-fc-heidenheim-1846",
+          "away": "sv-darmstadt-98",
+          "homeGoals": 3,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "borussia-dortmund",
+          "away": "rb-leipzig",
+          "homeGoals": 2,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "vfb-stuttgart",
+          "away": "bayer-04-leverkusen",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "1-fc-k-ln",
+          "away": "1-fsv-mainz-05",
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 15,
+      "matches": [
+        {
+          "home": "borussia-m-nchengladbach",
+          "away": "sv-werder-bremen",
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "1-fsv-mainz-05",
+          "away": "1-fc-heidenheim-1846",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "vfl-bochum-1848",
+          "away": "1-fc-union-berlin",
+          "homeGoals": 3,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "fc-augsburg",
+          "away": "borussia-dortmund",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "sv-darmstadt-98",
+          "away": "vfl-wolfsburg",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "rb-leipzig",
+          "away": "tsg-1899-hoffenheim",
+          "homeGoals": 3,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "sc-freiburg",
+          "away": "1-fc-k-ln",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "bayer-04-leverkusen",
+          "away": "eintracht-frankfurt",
+          "homeGoals": 3,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "fc-bayern-m-nchen",
+          "away": "vfb-stuttgart",
+          "homeGoals": 3,
+          "awayGoals": 0,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 16,
+      "matches": [
+        {
+          "home": "sv-werder-bremen",
+          "away": "rb-leipzig",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "borussia-dortmund",
+          "away": "1-fsv-mainz-05",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "tsg-1899-hoffenheim",
+          "away": "sv-darmstadt-98",
+          "homeGoals": 3,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "1-fc-union-berlin",
+          "away": "1-fc-k-ln",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "bayer-04-leverkusen",
+          "away": "vfl-bochum-1848",
+          "homeGoals": 4,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "eintracht-frankfurt",
+          "away": "borussia-m-nchengladbach",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "vfl-wolfsburg",
+          "away": "fc-bayern-m-nchen",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "vfb-stuttgart",
+          "away": "fc-augsburg",
+          "homeGoals": 3,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "1-fc-heidenheim-1846",
+          "away": "sc-freiburg",
+          "homeGoals": 3,
+          "awayGoals": 2,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 17,
+      "matches": [
+        {
+          "home": "fc-bayern-m-nchen",
+          "away": "tsg-1899-hoffenheim",
+          "homeGoals": 3,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "rb-leipzig",
+          "away": "eintracht-frankfurt",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "sc-freiburg",
+          "away": "1-fc-union-berlin",
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "1-fsv-mainz-05",
+          "away": "vfl-wolfsburg",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "1-fc-k-ln",
+          "away": "1-fc-heidenheim-1846",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "fc-augsburg",
+          "away": "bayer-04-leverkusen",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "sv-darmstadt-98",
+          "away": "borussia-dortmund",
+          "homeGoals": 0,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "vfl-bochum-1848",
+          "away": "sv-werder-bremen",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "borussia-m-nchengladbach",
+          "away": "vfb-stuttgart",
+          "homeGoals": 3,
+          "awayGoals": 1,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 18,
+      "matches": [
+        {
+          "home": "1-fc-k-ln",
+          "away": "borussia-dortmund",
+          "homeGoals": 0,
+          "awayGoals": 4,
+          "played": true
+        },
+        {
+          "home": "sv-darmstadt-98",
+          "away": "eintracht-frankfurt",
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "1-fc-heidenheim-1846",
+          "away": "vfl-wolfsburg",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "sc-freiburg",
+          "away": "tsg-1899-hoffenheim",
+          "homeGoals": 3,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "vfl-bochum-1848",
+          "away": "vfb-stuttgart",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "rb-leipzig",
+          "away": "bayer-04-leverkusen",
+          "homeGoals": 2,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "fc-bayern-m-nchen",
+          "away": "sv-werder-bremen",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "borussia-m-nchengladbach",
+          "away": "fc-augsburg",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "1-fsv-mainz-05",
+          "away": "1-fc-union-berlin",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 19,
+      "matches": [
+        {
+          "home": "eintracht-frankfurt",
+          "away": "1-fsv-mainz-05",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "fc-augsburg",
+          "away": "fc-bayern-m-nchen",
+          "homeGoals": 2,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "vfb-stuttgart",
+          "away": "rb-leipzig",
+          "homeGoals": 5,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "sv-werder-bremen",
+          "away": "sc-freiburg",
+          "homeGoals": 3,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "vfl-wolfsburg",
+          "away": "1-fc-k-ln",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "tsg-1899-hoffenheim",
+          "away": "1-fc-heidenheim-1846",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "bayer-04-leverkusen",
+          "away": "borussia-m-nchengladbach",
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "1-fc-union-berlin",
+          "away": "sv-darmstadt-98",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "borussia-dortmund",
+          "away": "vfl-bochum-1848",
+          "homeGoals": 3,
+          "awayGoals": 1,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 20,
+      "matches": [
+        {
+          "home": "1-fc-heidenheim-1846",
+          "away": "borussia-dortmund",
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "sv-darmstadt-98",
+          "away": "bayer-04-leverkusen",
+          "homeGoals": 0,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "fc-bayern-m-nchen",
+          "away": "borussia-m-nchengladbach",
+          "homeGoals": 3,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "1-fsv-mainz-05",
+          "away": "sv-werder-bremen",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "vfl-bochum-1848",
+          "away": "fc-augsburg",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "sc-freiburg",
+          "away": "vfb-stuttgart",
+          "homeGoals": 1,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "1-fc-k-ln",
+          "away": "eintracht-frankfurt",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "vfl-wolfsburg",
+          "away": "tsg-1899-hoffenheim",
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "rb-leipzig",
+          "away": "1-fc-union-berlin",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 21,
+      "matches": [
+        {
+          "home": "borussia-dortmund",
+          "away": "sc-freiburg",
+          "homeGoals": 3,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "fc-augsburg",
+          "away": "rb-leipzig",
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "1-fc-union-berlin",
+          "away": "vfl-wolfsburg",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "eintracht-frankfurt",
+          "away": "vfl-bochum-1848",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "sv-werder-bremen",
+          "away": "1-fc-heidenheim-1846",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "borussia-m-nchengladbach",
+          "away": "sv-darmstadt-98",
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "bayer-04-leverkusen",
+          "away": "fc-bayern-m-nchen",
+          "homeGoals": 3,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "vfb-stuttgart",
+          "away": "1-fsv-mainz-05",
+          "homeGoals": 3,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "tsg-1899-hoffenheim",
+          "away": "1-fc-k-ln",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 22,
+      "matches": [
+        {
+          "home": "1-fc-k-ln",
+          "away": "sv-werder-bremen",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "vfl-wolfsburg",
+          "away": "borussia-dortmund",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "tsg-1899-hoffenheim",
+          "away": "1-fc-union-berlin",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "1-fc-heidenheim-1846",
+          "away": "bayer-04-leverkusen",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "1-fsv-mainz-05",
+          "away": "fc-augsburg",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "sv-darmstadt-98",
+          "away": "vfb-stuttgart",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "rb-leipzig",
+          "away": "borussia-m-nchengladbach",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "sc-freiburg",
+          "away": "eintracht-frankfurt",
+          "homeGoals": 3,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "vfl-bochum-1848",
+          "away": "fc-bayern-m-nchen",
+          "homeGoals": 3,
+          "awayGoals": 2,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 23,
+      "matches": [
+        {
+          "home": "bayer-04-leverkusen",
+          "away": "1-fsv-mainz-05",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "vfb-stuttgart",
+          "away": "1-fc-k-ln",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "1-fc-union-berlin",
+          "away": "1-fc-heidenheim-1846",
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "sv-werder-bremen",
+          "away": "sv-darmstadt-98",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "borussia-m-nchengladbach",
+          "away": "vfl-bochum-1848",
+          "homeGoals": 5,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "fc-bayern-m-nchen",
+          "away": "rb-leipzig",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "eintracht-frankfurt",
+          "away": "vfl-wolfsburg",
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "borussia-dortmund",
+          "away": "tsg-1899-hoffenheim",
+          "homeGoals": 2,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "fc-augsburg",
+          "away": "sc-freiburg",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 24,
+      "matches": [
+        {
+          "home": "sc-freiburg",
+          "away": "fc-bayern-m-nchen",
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "1-fc-union-berlin",
+          "away": "borussia-dortmund",
+          "homeGoals": 0,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "vfl-bochum-1848",
+          "away": "rb-leipzig",
+          "homeGoals": 1,
+          "awayGoals": 4,
+          "played": true
+        },
+        {
+          "home": "1-fc-heidenheim-1846",
+          "away": "eintracht-frankfurt",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "1-fsv-mainz-05",
+          "away": "borussia-m-nchengladbach",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "sv-darmstadt-98",
+          "away": "fc-augsburg",
+          "homeGoals": 0,
+          "awayGoals": 6,
+          "played": true
+        },
+        {
+          "home": "vfl-wolfsburg",
+          "away": "vfb-stuttgart",
+          "homeGoals": 2,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "1-fc-k-ln",
+          "away": "bayer-04-leverkusen",
+          "homeGoals": 0,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "tsg-1899-hoffenheim",
+          "away": "sv-werder-bremen",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 25,
+      "matches": [
+        {
+          "home": "vfb-stuttgart",
+          "away": "1-fc-union-berlin",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "fc-bayern-m-nchen",
+          "away": "1-fsv-mainz-05",
+          "homeGoals": 8,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "borussia-m-nchengladbach",
+          "away": "1-fc-k-ln",
+          "homeGoals": 3,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "fc-augsburg",
+          "away": "1-fc-heidenheim-1846",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "rb-leipzig",
+          "away": "sv-darmstadt-98",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "sv-werder-bremen",
+          "away": "borussia-dortmund",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "vfl-bochum-1848",
+          "away": "sc-freiburg",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "eintracht-frankfurt",
+          "away": "tsg-1899-hoffenheim",
+          "homeGoals": 3,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "bayer-04-leverkusen",
+          "away": "vfl-wolfsburg",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 26,
+      "matches": [
+        {
+          "home": "1-fc-k-ln",
+          "away": "rb-leipzig",
+          "homeGoals": 1,
+          "awayGoals": 5,
+          "played": true
+        },
+        {
+          "home": "sv-darmstadt-98",
+          "away": "fc-bayern-m-nchen",
+          "homeGoals": 2,
+          "awayGoals": 5,
+          "played": true
+        },
+        {
+          "home": "1-fc-heidenheim-1846",
+          "away": "borussia-m-nchengladbach",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "1-fc-union-berlin",
+          "away": "sv-werder-bremen",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "1-fsv-mainz-05",
+          "away": "vfl-bochum-1848",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "vfl-wolfsburg",
+          "away": "fc-augsburg",
+          "homeGoals": 1,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "tsg-1899-hoffenheim",
+          "away": "vfb-stuttgart",
+          "homeGoals": 0,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "sc-freiburg",
+          "away": "bayer-04-leverkusen",
+          "homeGoals": 2,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "borussia-dortmund",
+          "away": "eintracht-frankfurt",
+          "homeGoals": 3,
+          "awayGoals": 1,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 27,
+      "matches": [
+        {
+          "home": "eintracht-frankfurt",
+          "away": "1-fc-union-berlin",
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "borussia-m-nchengladbach",
+          "away": "sc-freiburg",
+          "homeGoals": 0,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "sv-werder-bremen",
+          "away": "vfl-wolfsburg",
+          "homeGoals": 0,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "rb-leipzig",
+          "away": "1-fsv-mainz-05",
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "bayer-04-leverkusen",
+          "away": "tsg-1899-hoffenheim",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "fc-bayern-m-nchen",
+          "away": "borussia-dortmund",
+          "homeGoals": 0,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "fc-augsburg",
+          "away": "1-fc-k-ln",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "vfb-stuttgart",
+          "away": "1-fc-heidenheim-1846",
+          "homeGoals": 3,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "vfl-bochum-1848",
+          "away": "sv-darmstadt-98",
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 28,
+      "matches": [
+        {
+          "home": "eintracht-frankfurt",
+          "away": "sv-werder-bremen",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "1-fc-heidenheim-1846",
+          "away": "fc-bayern-m-nchen",
+          "homeGoals": 3,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "sc-freiburg",
+          "away": "rb-leipzig",
+          "homeGoals": 1,
+          "awayGoals": 4,
+          "played": true
+        },
+        {
+          "home": "1-fc-union-berlin",
+          "away": "bayer-04-leverkusen",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "1-fc-k-ln",
+          "away": "vfl-bochum-1848",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "1-fsv-mainz-05",
+          "away": "sv-darmstadt-98",
+          "homeGoals": 4,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "borussia-dortmund",
+          "away": "vfb-stuttgart",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "tsg-1899-hoffenheim",
+          "away": "fc-augsburg",
+          "homeGoals": 3,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "vfl-wolfsburg",
+          "away": "borussia-m-nchengladbach",
+          "homeGoals": 1,
+          "awayGoals": 3,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 29,
+      "matches": [
+        {
+          "home": "fc-augsburg",
+          "away": "1-fc-union-berlin",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "borussia-m-nchengladbach",
+          "away": "borussia-dortmund",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "rb-leipzig",
+          "away": "vfl-wolfsburg",
+          "homeGoals": 3,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "fc-bayern-m-nchen",
+          "away": "1-fc-k-ln",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "1-fsv-mainz-05",
+          "away": "tsg-1899-hoffenheim",
+          "homeGoals": 4,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "vfl-bochum-1848",
+          "away": "1-fc-heidenheim-1846",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "vfb-stuttgart",
+          "away": "eintracht-frankfurt",
+          "homeGoals": 3,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "sv-darmstadt-98",
+          "away": "sc-freiburg",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "bayer-04-leverkusen",
+          "away": "sv-werder-bremen",
+          "homeGoals": 5,
+          "awayGoals": 0,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 30,
+      "matches": [
+        {
+          "home": "eintracht-frankfurt",
+          "away": "fc-augsburg",
+          "homeGoals": 3,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "1-fc-heidenheim-1846",
+          "away": "rb-leipzig",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "tsg-1899-hoffenheim",
+          "away": "borussia-m-nchengladbach",
+          "homeGoals": 4,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "vfl-wolfsburg",
+          "away": "vfl-bochum-1848",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "1-fc-k-ln",
+          "away": "sv-darmstadt-98",
+          "homeGoals": 0,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "1-fc-union-berlin",
+          "away": "fc-bayern-m-nchen",
+          "homeGoals": 1,
+          "awayGoals": 5,
+          "played": true
+        },
+        {
+          "home": "sv-werder-bremen",
+          "away": "vfb-stuttgart",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "borussia-dortmund",
+          "away": "bayer-04-leverkusen",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "sc-freiburg",
+          "away": "1-fsv-mainz-05",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 31,
+      "matches": [
+        {
+          "home": "vfl-bochum-1848",
+          "away": "tsg-1899-hoffenheim",
+          "homeGoals": 3,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "rb-leipzig",
+          "away": "borussia-dortmund",
+          "homeGoals": 4,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "fc-bayern-m-nchen",
+          "away": "eintracht-frankfurt",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "sc-freiburg",
+          "away": "vfl-wolfsburg",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "fc-augsburg",
+          "away": "sv-werder-bremen",
+          "homeGoals": 0,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "bayer-04-leverkusen",
+          "away": "vfb-stuttgart",
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "borussia-m-nchengladbach",
+          "away": "1-fc-union-berlin",
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "1-fsv-mainz-05",
+          "away": "1-fc-k-ln",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "sv-darmstadt-98",
+          "away": "1-fc-heidenheim-1846",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 32,
+      "matches": [
+        {
+          "home": "tsg-1899-hoffenheim",
+          "away": "rb-leipzig",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "vfb-stuttgart",
+          "away": "fc-bayern-m-nchen",
+          "homeGoals": 3,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "sv-werder-bremen",
+          "away": "borussia-m-nchengladbach",
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "borussia-dortmund",
+          "away": "fc-augsburg",
+          "homeGoals": 5,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "vfl-wolfsburg",
+          "away": "sv-darmstadt-98",
+          "homeGoals": 3,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "1-fc-k-ln",
+          "away": "sc-freiburg",
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "1-fc-union-berlin",
+          "away": "vfl-bochum-1848",
+          "homeGoals": 3,
+          "awayGoals": 4,
+          "played": true
+        },
+        {
+          "home": "eintracht-frankfurt",
+          "away": "bayer-04-leverkusen",
+          "homeGoals": 1,
+          "awayGoals": 5,
+          "played": true
+        },
+        {
+          "home": "1-fc-heidenheim-1846",
+          "away": "1-fsv-mainz-05",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 33,
+      "matches": [
+        {
+          "home": "fc-augsburg",
+          "away": "vfb-stuttgart",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "1-fc-k-ln",
+          "away": "1-fc-union-berlin",
+          "homeGoals": 3,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "borussia-m-nchengladbach",
+          "away": "eintracht-frankfurt",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "rb-leipzig",
+          "away": "sv-werder-bremen",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "sc-freiburg",
+          "away": "1-fc-heidenheim-1846",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "1-fsv-mainz-05",
+          "away": "borussia-dortmund",
+          "homeGoals": 3,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "sv-darmstadt-98",
+          "away": "tsg-1899-hoffenheim",
+          "homeGoals": 0,
+          "awayGoals": 6,
+          "played": true
+        },
+        {
+          "home": "fc-bayern-m-nchen",
+          "away": "vfl-wolfsburg",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "vfl-bochum-1848",
+          "away": "bayer-04-leverkusen",
+          "homeGoals": 0,
+          "awayGoals": 5,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 34,
+      "matches": [
+        {
+          "home": "tsg-1899-hoffenheim",
+          "away": "fc-bayern-m-nchen",
+          "homeGoals": 4,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "eintracht-frankfurt",
+          "away": "rb-leipzig",
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "1-fc-union-berlin",
+          "away": "sc-freiburg",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "vfl-wolfsburg",
+          "away": "1-fsv-mainz-05",
+          "homeGoals": 1,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "vfb-stuttgart",
+          "away": "borussia-m-nchengladbach",
+          "homeGoals": 4,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "1-fc-heidenheim-1846",
+          "away": "1-fc-k-ln",
+          "homeGoals": 4,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "sv-werder-bremen",
+          "away": "vfl-bochum-1848",
+          "homeGoals": 4,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "bayer-04-leverkusen",
+          "away": "fc-augsburg",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "borussia-dortmund",
+          "away": "sv-darmstadt-98",
+          "homeGoals": 4,
+          "awayGoals": 0,
+          "played": true
+        }
+      ]
+    }
+  ]
+}

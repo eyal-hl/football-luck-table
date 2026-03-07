@@ -1,0 +1,25 @@
+.toggle {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: 2rem;
+  padding: 0.35rem 0.75rem;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+  transition: background 0.2s, color 0.2s;
+  white-space: nowrap;
+}
+
+.toggle:hover {
+  background: var(--surface-3);
+  color: var(--text-primary);
+}
+
+.icon {
+  font-size: 1rem;
+  line-height: 1;
+}
