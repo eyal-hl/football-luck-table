@@ -2,20 +2,16 @@
 """
 Football Luck Table — Data Update Script
 ========================================
-Fetches live match data from an external API and writes it to the
+Fetches live match data from football-data.org and writes it to
 public/data/*.json files consumed by the frontend.
 
 Usage:
-    export API_KEY="your_api_key_here"
-    python3 scripts/update_data.py [--league premier-league] [--all]
+    python scripts/update_data.py --all
+    python scripts/update_data.py --league premier-league
 
-Supported APIs (configure below):
-    - football-data.org  (FOOTBALL_DATA_API)
-    - api-football via RapidAPI  (API_FOOTBALL)
-
-Currently this script contains a STUB implementation that shows the
-expected structure. Swap out the fetch functions with real API calls
-once you've chosen a provider.
+Requires API_KEY in .env (football-data.org token).
+Free tier covers Premier League only. Other leagues require a paid plan
+— the script falls back to existing stub data for restricted competitions.
 """
 
 from __future__ import annotations
@@ -23,210 +19,238 @@ from __future__ import annotations
 import argparse
 import json
 import os
+import re
 import sys
+import time
+import urllib.error
+import urllib.request
 from pathlib import Path
 from typing import Any
 
+# ── Load .env ─────────────────────────────────────────────────────────────────
+
+def load_env() -> None:
+    env_path = Path(__file__).parent.parent / ".env"
+    if not env_path.exists():
+        return
+    for line in env_path.read_text().splitlines():
+        line = line.strip()
+        if not line or line.startswith("#") or "=" not in line:
+            continue
+        key, _, value = line.partition("=")
+        os.environ.setdefault(key.strip(), value.strip())
+
+load_env()
+
+# Force UTF-8 output on Windows so emoji/box chars don't crash
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8")
+
 # ── Configuration ─────────────────────────────────────────────────────────────
 
-API_KEY = os.environ.get("API_KEY", "")
-API_PROVIDER = os.environ.get("API_PROVIDER", "football-data")  # or "api-football"
+API_KEY      = os.environ.get("API_KEY", "")
+API_BASE     = "https://api.football-data.org/v4"
+SEASON_YEAR  = "2025"   # football-data.org uses the start year
+OUTPUT_DIR   = Path(__file__).parent.parent / "public" / "data"
 
-OUTPUT_DIR = Path(__file__).parent.parent / "public" / "data"
-
-# Mapping of our league IDs to API-specific competition codes
 LEAGUE_CONFIG: dict[str, dict[str, Any]] = {
     "premier-league": {
         "name": "Premier League",
-        "season": "2024-25",
+        "season": "2025-26",
         "totalGameweeks": 38,
-        # football-data.org competition code:
-        "football_data_code": "PL",
-        # api-football league id:
-        "api_football_id": 39,
+        "code": "PL",
     },
     "la-liga": {
         "name": "La Liga",
-        "season": "2024-25",
+        "season": "2025-26",
         "totalGameweeks": 38,
-        "football_data_code": "PD",
-        "api_football_id": 140,
+        "code": "PD",
     },
     "serie-a": {
         "name": "Serie A",
-        "season": "2024-25",
+        "season": "2025-26",
         "totalGameweeks": 38,
-        "football_data_code": "SA",
-        "api_football_id": 135,
+        "code": "SA",
     },
     "bundesliga": {
         "name": "Bundesliga",
-        "season": "2024-25",
+        "season": "2025-26",
         "totalGameweeks": 34,
-        "football_data_code": "BL1",
-        "api_football_id": 78,
+        "code": "BL1",
     },
 }
 
-# ── Data schema helpers ────────────────────────────────────────────────────────
+# ── Helpers ───────────────────────────────────────────────────────────────────
 
 def slugify(name: str) -> str:
-    """Convert a team name to a URL-safe id."""
-    import re
     return re.sub(r"[^a-z0-9]+", "-", name.lower()).strip("-")
 
 
-def make_match(home_id: str, away_id: str, home_goals: int | None, away_goals: int | None) -> dict:
+def api_get(path: str) -> Any:
+    """Make an authenticated GET request to football-data.org."""
+    url = f"{API_BASE}{path}"
+    req = urllib.request.Request(url, headers={"X-Auth-Token": API_KEY})
+    with urllib.request.urlopen(req, timeout=15) as resp:
+        return json.loads(resp.read())
+
+
+# ── football-data.org fetch ───────────────────────────────────────────────────
+
+def fetch_from_football_data_org(league_id: str, config: dict) -> dict:
+    code = config["code"]
+    total_gws = config["totalGameweeks"]
+
+    print(f"  Fetching teams for {config['name']} ({code})…")
+    teams_raw = api_get(f"/competitions/{code}/teams?season={SEASON_YEAR}")["teams"]
+    time.sleep(7)  # free tier: 10 req/min → ~6 s between calls, use 7 to be safe
+
+    print(f"  Fetching matches for {config['name']} ({code})…")
+    matches_raw = api_get(f"/competitions/{code}/matches?season={SEASON_YEAR}")["matches"]
+
+    # ── Build teams list ──
+    teams: list[dict] = []
+    team_id_map: dict[int, str] = {}   # api numeric id → our slug
+
+    for t in teams_raw:
+        slug = slugify(t["name"])
+        team_id_map[t["id"]] = slug
+        teams.append({
+            "id": slug,
+            "name": t["name"],
+            "shortName": t.get("shortName") or t["name"],
+            "logoUrl": t.get("crest", ""),
+        })
+
+    # ── Build gameweeks ──
+    # Group matches by matchday
+    gw_map: dict[int, list[dict]] = {gw: [] for gw in range(1, total_gws + 1)}
+
+    finished_gws: set[int] = set()
+
+    for m in matches_raw:
+        matchday = m.get("matchday")
+        if matchday is None or matchday < 1 or matchday > total_gws:
+            continue
+
+        status = m.get("status", "")
+        played = status == "FINISHED"
+
+        home_api_id = m["homeTeam"]["id"]
+        away_api_id = m["awayTeam"]["id"]
+        home_slug = team_id_map.get(home_api_id, slugify(m["homeTeam"].get("name", "")))
+        away_slug = team_id_map.get(away_api_id, slugify(m["awayTeam"].get("name", "")))
+
+        if played:
+            score = m.get("score", {}).get("fullTime", {})
+            home_goals = score.get("home")
+            away_goals = score.get("away")
+            # Guard: mark as unplayed if goals are missing despite FINISHED status
+            if home_goals is None or away_goals is None:
+                played = False
+                home_goals = None
+                away_goals = None
+            else:
+                finished_gws.add(matchday)
+        else:
+            home_goals = None
+            away_goals = None
+
+        gw_map[matchday].append({
+            "home": home_slug,
+            "away": away_slug,
+            "homeGoals": home_goals,
+            "awayGoals": away_goals,
+            "played": played,
+        })
+
+    gameweeks = [{"gw": gw, "matches": gw_map[gw]} for gw in range(1, total_gws + 1)]
+
+    # currentGameweek = highest matchday where ALL matches are finished.
+    # Scan all GWs so a postponed match mid-season does not freeze the counter.
+    current_gw = 0
+    for gw in range(1, total_gws + 1):
+        matches_in_gw = gw_map[gw]
+        if matches_in_gw and all(m["played"] for m in matches_in_gw):
+            current_gw = gw
+
     return {
-        "home": home_id,
-        "away": away_id,
-        "homeGoals": home_goals,
-        "awayGoals": away_goals,
-        "played": home_goals is not None,
+        "teams": teams,
+        "gameweeks": gameweeks,
+        "currentGameweek": current_gw,
     }
 
 
-# ── Stub fetch functions ───────────────────────────────────────────────────────
-# Replace these with real HTTP calls once you've chosen an API.
+# ── Fallback: keep existing stub data ─────────────────────────────────────────
 
-def fetch_teams_stub(league_id: str) -> list[dict]:
-    """STUB: Load existing teams from the current JSON file."""
+def load_existing(league_id: str) -> dict | None:
     path = OUTPUT_DIR / f"{league_id}.json"
     if path.exists():
         with open(path) as f:
-            return json.load(f)["teams"]
-    return []
-
-
-def fetch_matches_stub(league_id: str) -> list[dict]:
-    """STUB: Load existing gameweeks from the current JSON file."""
-    path = OUTPUT_DIR / f"{league_id}.json"
-    if path.exists():
-        with open(path) as f:
-            return json.load(f)["gameweeks"]
-    return []
-
-
-def get_current_gameweek_stub(league_id: str) -> int:
-    """STUB: Return current GW from existing file."""
-    path = OUTPUT_DIR / f"{league_id}.json"
-    if path.exists():
-        with open(path) as f:
-            return json.load(f).get("currentGameweek", 1)
-    return 1
-
-
-# ── Real fetch functions (implement these) ─────────────────────────────────────
-
-def fetch_from_football_data_org(league_id: str, config: dict) -> dict:
-    """
-    Fetch data from football-data.org.
-    Requires API_KEY to be set.
-
-    Endpoint: GET https://api.football-data.org/v4/competitions/{code}/matches
-              GET https://api.football-data.org/v4/competitions/{code}/teams
-
-    Uncomment and implement when ready.
-    """
-    raise NotImplementedError(
-        "Implement fetch_from_football_data_org() with real HTTP calls. "
-        "See: https://www.football-data.org/documentation/quickstart"
-    )
-    # import urllib.request
-    # headers = {"X-Auth-Token": API_KEY}
-    # base = "https://api.football-data.org/v4"
-    # code = config["football_data_code"]
-    # season_year = config["season"].split("-")[0]
-    #
-    # # Fetch teams
-    # req = urllib.request.Request(f"{base}/competitions/{code}/teams?season={season_year}", headers=headers)
-    # with urllib.request.urlopen(req) as resp:
-    #     teams_raw = json.loads(resp.read())["teams"]
-    #
-    # # Fetch matches
-    # req = urllib.request.Request(f"{base}/competitions/{code}/matches?season={season_year}", headers=headers)
-    # with urllib.request.urlopen(req) as resp:
-    #     matches_raw = json.loads(resp.read())["matches"]
-    #
-    # # Transform to our schema...
-
-
-def fetch_from_api_football(league_id: str, config: dict) -> dict:
-    """
-    Fetch data from api-football (RapidAPI).
-    Requires API_KEY to be set.
-
-    See: https://www.api-football.com/documentation-v3
-
-    Uncomment and implement when ready.
-    """
-    raise NotImplementedError(
-        "Implement fetch_from_api_football() with real HTTP calls. "
-        "See: https://www.api-football.com/documentation-v3"
-    )
+            data = json.load(f)
+        return {
+            "teams": data["teams"],
+            "gameweeks": data["gameweeks"],
+            "currentGameweek": data["currentGameweek"],
+        }
+    return None
 
 
 # ── Main update logic ──────────────────────────────────────────────────────────
 
-def update_league(league_id: str, use_stub: bool = False) -> None:
-    config = LEAGUE_CONFIG.get(league_id)
-    if not config:
-        print(f"Unknown league: {league_id}", file=sys.stderr)
-        sys.exit(1)
+def update_league(league_id: str) -> None:
+    config = LEAGUE_CONFIG[league_id]
+    print(f"\n── {config['name']} ──")
 
-    print(f"Updating {config['name']}…")
+    if not API_KEY:
+        print("  ✗ API_KEY not set in .env — skipping.")
+        return
 
-    if use_stub or not API_KEY:
-        print("  ⚠ No API_KEY set or --stub flag used. Using existing stub data.")
-        teams = fetch_teams_stub(league_id)
-        gameweeks = fetch_matches_stub(league_id)
-        current_gw = get_current_gameweek_stub(league_id)
-    else:
-        if API_PROVIDER == "football-data":
-            result = fetch_from_football_data_org(league_id, config)
-        elif API_PROVIDER == "api-football":
-            result = fetch_from_api_football(league_id, config)
-        else:
-            print(f"Unknown API_PROVIDER: {API_PROVIDER}", file=sys.stderr)
-            sys.exit(1)
-
-        teams = result["teams"]
-        gameweeks = result["gameweeks"]
-        current_gw = result["currentGameweek"]
+    try:
+        result = fetch_from_football_data_org(league_id, config)
+    except urllib.error.HTTPError as e:
+        if e.code == 403:
+            print(f"  ⚠ 403 Forbidden — your plan doesn't cover {config['name']}.")
+            print("    Keeping existing data.")
+            return
+        raise
 
     output = {
         "leagueId": league_id,
         "leagueName": config["name"],
         "season": config["season"],
-        "currentGameweek": current_gw,
+        "currentGameweek": result["currentGameweek"],
         "totalGameweeks": config["totalGameweeks"],
-        "teams": teams,
-        "gameweeks": gameweeks,
+        "teams": result["teams"],
+        "gameweeks": result["gameweeks"],
     }
 
     out_path = OUTPUT_DIR / f"{league_id}.json"
-    with open(out_path, "w") as f:
-        json.dump(output, f, indent=2)
+    with open(out_path, "w", encoding="utf-8") as f:
+        json.dump(output, f, indent=2, ensure_ascii=False)
 
-    print(f"  ✓ Written to {out_path}")
+    total_played = sum(
+        1 for gw in result["gameweeks"] for m in gw["matches"] if m["played"]
+    )
+    print(f"  ✓ {len(result['teams'])} teams · {total_played} matches played · "
+          f"current GW: {result['currentGameweek']} → {out_path.name}")
 
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Update football luck table data")
-    parser.add_argument("--league", choices=list(LEAGUE_CONFIG.keys()), help="Update a specific league")
-    parser.add_argument("--all", action="store_true", help="Update all leagues")
-    parser.add_argument("--stub", action="store_true", help="Use stub data (no API calls)")
+    group = parser.add_mutually_exclusive_group(required=True)
+    group.add_argument("--league", choices=list(LEAGUE_CONFIG.keys()))
+    group.add_argument("--all", action="store_true")
     args = parser.parse_args()
-
-    if not args.all and not args.league:
-        parser.print_help()
-        sys.exit(0)
 
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
-    leagues_to_update = list(LEAGUE_CONFIG.keys()) if args.all else [args.league]
-    for league_id in leagues_to_update:
-        update_league(league_id, use_stub=args.stub)
+    leagues = list(LEAGUE_CONFIG.keys()) if args.all else [args.league]
+    for i, league_id in enumerate(leagues):
+        update_league(league_id)
+        # Rate-limit between leagues (not needed within a league — we already sleep there)
+        if args.all and i < len(leagues) - 1:
+            print("  (waiting 7 s for rate limit…)")
+            time.sleep(7)
 
     print("\nDone.")
 

@@ -1,11 +1,13 @@
 import { useState, useEffect, useMemo } from 'react';
 import type { LeagueId, AppTab, Theme } from './types';
 import { useLeagueData } from './hooks/useLeagueData';
-import { calculateLuckTable, calculateCumulativeLuck } from './utils/calculations';
+import { calculateLuckTable, calculateCumulativeLuck, calculateFormTable } from './utils/calculations';
 import { LeagueSelector } from './components/LeagueSelector/LeagueSelector';
 import { Phase1Controls, Phase2Controls } from './components/Controls/Controls';
 import { LuckTable } from './components/LuckTable/LuckTable';
 import { CumulativeLuckTable } from './components/CumulativeLuckTable/CumulativeLuckTable';
+import { FormTable } from './components/FormTable/FormTable';
+import { Accordion } from './components/Accordion/Accordion';
 import { ThemeToggle } from './components/ThemeToggle/ThemeToggle';
 import styles from './App.module.css';
 import './index.css';
@@ -56,27 +58,19 @@ function App() {
     const cur = data.currentGameweek;
     const total = data.totalGameweeks;
 
-    if (p1ScheduleStart === null) {
-      setP1ScheduleStart(Math.min(cur + 1, total));
-    }
-    if (p1ScheduleEnd === null) {
-      setP1ScheduleEnd(Math.min(cur + 5, total));
-    }
-    if (p2GwA === null) {
-      setP2GwA(Math.max(1, cur - 4));
-    }
-    if (p2GwB === null) {
-      setP2GwB(cur);
-    }
+    if (p1ScheduleStart === null) setP1ScheduleStart(Math.min(cur + 1, total));
+    if (p1ScheduleEnd === null)   setP1ScheduleEnd(Math.min(cur + 5, total));
+    if (p2GwA === null)           setP2GwA(Math.max(1, cur - 4));
+    if (p2GwB === null)           setP2GwB(cur);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [data]);
 
-  // ── Computed values ──
+  // ── Derived values ──
   const p1Start = p1ScheduleStart ?? 1;
-  const p1End = p1ScheduleEnd ?? 1;
-  const p2A = p2GwA ?? 1;
-  const p2B = p2GwB ?? 1;
-  const maxGw = data?.totalGameweeks ?? 38;
+  const p1End   = p1ScheduleEnd ?? 1;
+  const p2A     = p2GwA ?? 1;
+  const p2B     = p2GwB ?? 1;
+  const maxGw   = data?.totalGameweeks ?? 38;
 
   const luckEntries = useMemo(() => {
     if (!data || p1ScheduleStart === null || p1ScheduleEnd === null) return [];
@@ -87,6 +81,24 @@ function App() {
     if (!data || p2GwA === null || p2GwB === null) return [];
     return calculateCumulativeLuck(data, p2FormWindow, p2A, p2B);
   }, [data, p2FormWindow, p2A, p2B, p2GwA, p2GwB]);
+
+  // Form table shown at the bottom:
+  // Phase 1 → form just before the schedule window starts (last X games up to p1Start-1)
+  // Phase 2 → form just before the evaluation period ends (last X games up to p2B)
+  const p1FormTable = useMemo(() => {
+    if (!data || p1ScheduleStart === null) return [];
+    const end   = p1Start - 1;
+    const start = Math.max(1, end - p1FormWindow + 1);
+    if (end < 1) return [];
+    return calculateFormTable(data, start, end);
+  }, [data, p1FormWindow, p1Start, p1ScheduleStart]);
+
+  const p2FormTable = useMemo(() => {
+    if (!data || p2GwB === null) return [];
+    const end   = p2B;
+    const start = Math.max(1, end - p2FormWindow + 1);
+    return calculateFormTable(data, start, end);
+  }, [data, p2FormWindow, p2B, p2GwB]);
 
   return (
     <div className={styles.app}>
@@ -155,11 +167,11 @@ function App() {
             <strong>Green = Lucky</strong>, <strong>Red = Unlucky</strong>.
           </div>
 
-          <div className={styles.sectionHeader}>
-            <span className={styles.sectionTitle}>
-              Luckiness Ranking — GW {p1Start} to GW {p1End}
-            </span>
-            <div className={styles.legend}>
+          <Accordion
+            title={`Luckiness Ranking — GW ${p1Start} to GW ${p1End}`}
+            meta={`${luckEntries.length} teams`}
+          >
+            <div className={styles.legendRow}>
               <span className={styles.legendItem}>
                 <span className={styles.legendDot} style={{ background: 'hsl(120,65%,42%)' }} />
                 Luckiest
@@ -173,9 +185,16 @@ function App() {
                 Unluckiest
               </span>
             </div>
-          </div>
+            <LuckTable data={data} entries={luckEntries} />
+          </Accordion>
 
-          <LuckTable data={data} entries={luckEntries} />
+          <Accordion
+            title="Form Table"
+            meta={`last ${p1FormWindow} games · up to GW ${p1Start - 1}`}
+            defaultOpen={false}
+          >
+            <FormTable data={data} formTable={p1FormTable} />
+          </Accordion>
         </div>
       )}
 
@@ -199,16 +218,20 @@ function App() {
             period. <strong>Green = Luckiest</strong>, <strong>Red = Unluckiest</strong>.
           </div>
 
-          <div className={styles.sectionHeader}>
-            <span className={styles.sectionTitle}>
-              Cumulative Luck — GW {p2A} to GW {p2B}
-            </span>
-            <span className={styles.sectionMeta}>
-              Form window: last {p2FormWindow} games · Higher total = luckier
-            </span>
-          </div>
+          <Accordion
+            title={`Cumulative Luck — GW ${p2A} to GW ${p2B}`}
+            meta={`form window: last ${p2FormWindow} games · higher total = luckier`}
+          >
+            <CumulativeLuckTable data={data} entries={cumulativeEntries} />
+          </Accordion>
 
-          <CumulativeLuckTable data={data} entries={cumulativeEntries} />
+          <Accordion
+            title="Form Table"
+            meta={`last ${p2FormWindow} games · up to GW ${p2B}`}
+            defaultOpen={false}
+          >
+            <FormTable data={data} formTable={p2FormTable} />
+          </Accordion>
         </div>
       )}
     </div>

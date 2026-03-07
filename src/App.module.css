@@ -70,32 +70,17 @@
   gap: 1.25rem;
 }
 
-.sectionHeader {
-  display: flex;
-  align-items: baseline;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-}
-
-.sectionTitle {
-  font-size: 1rem;
-  font-weight: 700;
-  color: var(--text-primary);
-}
-
-.sectionMeta {
-  font-size: 0.8rem;
-  color: var(--text-tertiary);
-}
 
 /* ── Legend ── */
-.legend {
+.legendRow {
   display: flex;
   align-items: center;
   gap: 1rem;
   font-size: 0.78rem;
   color: var(--text-tertiary);
+  padding: 0.6rem 1rem;
+  border-bottom: 1px solid var(--border);
+  background: var(--surface-1);
 }
 
 .legendItem {
