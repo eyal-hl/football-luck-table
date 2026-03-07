@@ -1,0 +1,2981 @@
+{
+  "leagueId": "serie-a",
+  "leagueName": "Serie A",
+  "season": "2024-25",
+  "currentGameweek": 28,
+  "totalGameweeks": 38,
+  "teams": [
+    {
+      "id": "inter-milan",
+      "name": "Inter Milan",
+      "shortName": "INT",
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/0/05/FC_Internazionale_Milano_2021.svg"
+    },
+    {
+      "id": "juventus",
+      "name": "Juventus",
+      "shortName": "JUV",
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/1/15/Juventus_FC_2017_icon_%28black%29.svg"
+    },
+    {
+      "id": "ac-milan",
+      "name": "AC Milan",
+      "shortName": "MIL",
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Logo_of_AC_Milan.svg"
+    },
+    {
+      "id": "napoli",
+      "name": "Napoli",
+      "shortName": "NAP",
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2d/SSC_Napoli.svg"
+    },
+    {
+      "id": "roma",
+      "name": "Roma",
+      "shortName": "ROM",
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/en/f/f7/AS_Roma_logo_%282017%29.svg"
+    },
+    {
+      "id": "atalanta",
+      "name": "Atalanta",
+      "shortName": "ATA",
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/en/6/66/AtalantaBC.svg"
+    },
+    {
+      "id": "lazio",
+      "name": "Lazio",
+      "shortName": "LAZ",
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/en/7/71/SS_Lazio_Badge_2017.svg"
+    },
+    {
+      "id": "fiorentina",
+      "name": "Fiorentina",
+      "shortName": "FIO",
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/archive/a/a2/20200105160218%21ACF_Fiorentina_%282022%29.svg"
+    },
+    {
+      "id": "torino",
+      "name": "Torino",
+      "shortName": "TOR",
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/en/4/4a/Torino_FC_1906.svg"
+    },
+    {
+      "id": "bologna",
+      "name": "Bologna",
+      "shortName": "BOL",
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Bologna_FC_1909_logo.svg"
+    },
+    {
+      "id": "udinese",
+      "name": "Udinese",
+      "shortName": "UDI",
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/en/e/e9/Udinese_Calcio_logo_%282015%29.svg"
+    },
+    {
+      "id": "genoa",
+      "name": "Genoa",
+      "shortName": "GEN",
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Genoa_CFC_logo.svg"
+    },
+    {
+      "id": "sassuolo",
+      "name": "Sassuolo",
+      "shortName": "SAS",
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/en/0/03/US_Sassuolo_Calcio_logo.svg"
+    },
+    {
+      "id": "monza",
+      "name": "Monza",
+      "shortName": "MON",
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/en/2/25/AC_Monza.svg"
+    },
+    {
+      "id": "cagliari",
+      "name": "Cagliari",
+      "shortName": "CAG",
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/en/d/d7/Cagliari_Calcio_1920.svg"
+    },
+    {
+      "id": "lecce",
+      "name": "Lecce",
+      "shortName": "LEC",
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/en/9/93/US_Lecce_logo.svg"
+    },
+    {
+      "id": "verona",
+      "name": "Verona",
+      "shortName": "VER",
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/en/7/72/Hellas_Verona_FC.svg"
+    },
+    {
+      "id": "empoli",
+      "name": "Empoli",
+      "shortName": "EMP",
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/en/e/e7/Empoli_FC_logo.svg"
+    },
+    {
+      "id": "frosinone",
+      "name": "Frosinone",
+      "shortName": "FRO",
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/en/c/cd/Frosinone_Calcio.svg"
+    },
+    {
+      "id": "salernitana",
+      "name": "Salernitana",
+      "shortName": "SAL",
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/en/a/af/US_Salernitana_1919.svg"
+    }
+  ],
+  "gameweeks": [
+    {
+      "gw": 1,
+      "matches": [
+        {
+          "home": "inter-milan",
+          "away": "salernitana",
+          "homeGoals": 3,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "juventus",
+          "away": "frosinone",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "ac-milan",
+          "away": "empoli",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "napoli",
+          "away": "verona",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "roma",
+          "away": "lecce",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "atalanta",
+          "away": "cagliari",
+          "homeGoals": 2,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "lazio",
+          "away": "monza",
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "fiorentina",
+          "away": "sassuolo",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "torino",
+          "away": "genoa",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "bologna",
+          "away": "udinese",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 2,
+      "matches": [
+        {
+          "home": "inter-milan",
+          "away": "frosinone",
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "salernitana",
+          "away": "empoli",
+          "homeGoals": 1,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "juventus",
+          "away": "verona",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "ac-milan",
+          "away": "lecce",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "napoli",
+          "away": "cagliari",
+          "homeGoals": 3,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "roma",
+          "away": "monza",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "atalanta",
+          "away": "sassuolo",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "lazio",
+          "away": "genoa",
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "fiorentina",
+          "away": "udinese",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "torino",
+          "away": "bologna",
+          "homeGoals": 3,
+          "awayGoals": 2,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 3,
+      "matches": [
+        {
+          "home": "inter-milan",
+          "away": "empoli",
+          "homeGoals": 2,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "frosinone",
+          "away": "verona",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "salernitana",
+          "away": "lecce",
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "juventus",
+          "away": "cagliari",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "ac-milan",
+          "away": "monza",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "napoli",
+          "away": "sassuolo",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "roma",
+          "away": "genoa",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "atalanta",
+          "away": "udinese",
+          "homeGoals": 2,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "lazio",
+          "away": "bologna",
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "fiorentina",
+          "away": "torino",
+          "homeGoals": 3,
+          "awayGoals": 2,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 4,
+      "matches": [
+        {
+          "home": "inter-milan",
+          "away": "verona",
+          "homeGoals": 2,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "empoli",
+          "away": "lecce",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "frosinone",
+          "away": "cagliari",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "salernitana",
+          "away": "monza",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "juventus",
+          "away": "sassuolo",
+          "homeGoals": 1,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "ac-milan",
+          "away": "genoa",
+          "homeGoals": 3,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "napoli",
+          "away": "udinese",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "roma",
+          "away": "bologna",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "atalanta",
+          "away": "torino",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "lazio",
+          "away": "fiorentina",
+          "homeGoals": 4,
+          "awayGoals": 0,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 5,
+      "matches": [
+        {
+          "home": "inter-milan",
+          "away": "lecce",
+          "homeGoals": 3,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "verona",
+          "away": "cagliari",
+          "homeGoals": 3,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "empoli",
+          "away": "monza",
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "frosinone",
+          "away": "sassuolo",
+          "homeGoals": 3,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "salernitana",
+          "away": "genoa",
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "juventus",
+          "away": "udinese",
+          "homeGoals": 3,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "ac-milan",
+          "away": "bologna",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "napoli",
+          "away": "torino",
+          "homeGoals": 4,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "roma",
+          "away": "fiorentina",
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "atalanta",
+          "away": "lazio",
+          "homeGoals": 3,
+          "awayGoals": 2,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 6,
+      "matches": [
+        {
+          "home": "inter-milan",
+          "away": "cagliari",
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "lecce",
+          "away": "monza",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "verona",
+          "away": "sassuolo",
+          "homeGoals": 1,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "empoli",
+          "away": "genoa",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "frosinone",
+          "away": "udinese",
+          "homeGoals": 3,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "salernitana",
+          "away": "bologna",
+          "homeGoals": 3,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "juventus",
+          "away": "torino",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "ac-milan",
+          "away": "fiorentina",
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "napoli",
+          "away": "lazio",
+          "homeGoals": 0,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "roma",
+          "away": "atalanta",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 7,
+      "matches": [
+        {
+          "home": "inter-milan",
+          "away": "monza",
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "cagliari",
+          "away": "sassuolo",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "lecce",
+          "away": "genoa",
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "verona",
+          "away": "udinese",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "empoli",
+          "away": "bologna",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "frosinone",
+          "away": "torino",
+          "homeGoals": 3,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "salernitana",
+          "away": "fiorentina",
+          "homeGoals": 1,
+          "awayGoals": 4,
+          "played": true
+        },
+        {
+          "home": "juventus",
+          "away": "lazio",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "ac-milan",
+          "away": "atalanta",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "napoli",
+          "away": "roma",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 8,
+      "matches": [
+        {
+          "home": "inter-milan",
+          "away": "sassuolo",
+          "homeGoals": 3,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "monza",
+          "away": "genoa",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "cagliari",
+          "away": "udinese",
+          "homeGoals": 0,
+          "awayGoals": 4,
+          "played": true
+        },
+        {
+          "home": "lecce",
+          "away": "bologna",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "verona",
+          "away": "torino",
+          "homeGoals": 3,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "empoli",
+          "away": "fiorentina",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "frosinone",
+          "away": "lazio",
+          "homeGoals": 1,
+          "awayGoals": 4,
+          "played": true
+        },
+        {
+          "home": "salernitana",
+          "away": "atalanta",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "juventus",
+          "away": "roma",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "ac-milan",
+          "away": "napoli",
+          "homeGoals": 0,
+          "awayGoals": 2,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 9,
+      "matches": [
+        {
+          "home": "inter-milan",
+          "away": "genoa",
+          "homeGoals": 3,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "sassuolo",
+          "away": "udinese",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "monza",
+          "away": "bologna",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "cagliari",
+          "away": "torino",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "lecce",
+          "away": "fiorentina",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "verona",
+          "away": "lazio",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "empoli",
+          "away": "atalanta",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "frosinone",
+          "away": "roma",
+          "homeGoals": 0,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "salernitana",
+          "away": "napoli",
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "juventus",
+          "away": "ac-milan",
+          "homeGoals": 4,
+          "awayGoals": 0,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 10,
+      "matches": [
+        {
+          "home": "inter-milan",
+          "away": "udinese",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "genoa",
+          "away": "bologna",
+          "homeGoals": 3,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "sassuolo",
+          "away": "torino",
+          "homeGoals": 3,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "monza",
+          "away": "fiorentina",
+          "homeGoals": 3,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "cagliari",
+          "away": "lazio",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "lecce",
+          "away": "atalanta",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "verona",
+          "away": "roma",
+          "homeGoals": 3,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "empoli",
+          "away": "napoli",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "frosinone",
+          "away": "ac-milan",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "salernitana",
+          "away": "juventus",
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 11,
+      "matches": [
+        {
+          "home": "inter-milan",
+          "away": "bologna",
+          "homeGoals": 3,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "udinese",
+          "away": "torino",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "genoa",
+          "away": "fiorentina",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "sassuolo",
+          "away": "lazio",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "monza",
+          "away": "atalanta",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "cagliari",
+          "away": "roma",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "lecce",
+          "away": "napoli",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "verona",
+          "away": "ac-milan",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "empoli",
+          "away": "juventus",
+          "homeGoals": 0,
+          "awayGoals": 4,
+          "played": true
+        },
+        {
+          "home": "frosinone",
+          "away": "salernitana",
+          "homeGoals": 3,
+          "awayGoals": 0,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 12,
+      "matches": [
+        {
+          "home": "inter-milan",
+          "away": "torino",
+          "homeGoals": 2,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "bologna",
+          "away": "fiorentina",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "udinese",
+          "away": "lazio",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "genoa",
+          "away": "atalanta",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "sassuolo",
+          "away": "roma",
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "monza",
+          "away": "napoli",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "cagliari",
+          "away": "ac-milan",
+          "homeGoals": 0,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "lecce",
+          "away": "juventus",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "verona",
+          "away": "salernitana",
+          "homeGoals": 3,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "empoli",
+          "away": "frosinone",
+          "homeGoals": 0,
+          "awayGoals": 2,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 13,
+      "matches": [
+        {
+          "home": "inter-milan",
+          "away": "fiorentina",
+          "homeGoals": 0,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "torino",
+          "away": "lazio",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "bologna",
+          "away": "atalanta",
+          "homeGoals": 0,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "udinese",
+          "away": "roma",
+          "homeGoals": 2,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "genoa",
+          "away": "napoli",
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "sassuolo",
+          "away": "ac-milan",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "monza",
+          "away": "juventus",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "cagliari",
+          "away": "salernitana",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "lecce",
+          "away": "frosinone",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "verona",
+          "away": "empoli",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 14,
+      "matches": [
+        {
+          "home": "inter-milan",
+          "away": "lazio",
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "fiorentina",
+          "away": "atalanta",
+          "homeGoals": 3,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "torino",
+          "away": "roma",
+          "homeGoals": 3,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "bologna",
+          "away": "napoli",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "udinese",
+          "away": "ac-milan",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "genoa",
+          "away": "juventus",
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "sassuolo",
+          "away": "salernitana",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "monza",
+          "away": "frosinone",
+          "homeGoals": 0,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "cagliari",
+          "away": "empoli",
+          "homeGoals": 3,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "lecce",
+          "away": "verona",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 15,
+      "matches": [
+        {
+          "home": "inter-milan",
+          "away": "atalanta",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "lazio",
+          "away": "roma",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "fiorentina",
+          "away": "napoli",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "torino",
+          "away": "ac-milan",
+          "homeGoals": 0,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "bologna",
+          "away": "juventus",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "udinese",
+          "away": "salernitana",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "genoa",
+          "away": "frosinone",
+          "homeGoals": 3,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "sassuolo",
+          "away": "empoli",
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "monza",
+          "away": "verona",
+          "homeGoals": 3,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "cagliari",
+          "away": "lecce",
+          "homeGoals": 1,
+          "awayGoals": 3,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 16,
+      "matches": [
+        {
+          "home": "inter-milan",
+          "away": "roma",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "atalanta",
+          "away": "napoli",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "lazio",
+          "away": "ac-milan",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "fiorentina",
+          "away": "juventus",
+          "homeGoals": 4,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "torino",
+          "away": "salernitana",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "bologna",
+          "away": "frosinone",
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "udinese",
+          "away": "empoli",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "genoa",
+          "away": "verona",
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "sassuolo",
+          "away": "lecce",
+          "homeGoals": 0,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "monza",
+          "away": "cagliari",
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 17,
+      "matches": [
+        {
+          "home": "inter-milan",
+          "away": "napoli",
+          "homeGoals": 3,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "roma",
+          "away": "ac-milan",
+          "homeGoals": 4,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "atalanta",
+          "away": "juventus",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "lazio",
+          "away": "salernitana",
+          "homeGoals": 4,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "fiorentina",
+          "away": "frosinone",
+          "homeGoals": 2,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "torino",
+          "away": "empoli",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "bologna",
+          "away": "verona",
+          "homeGoals": 3,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "udinese",
+          "away": "lecce",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "genoa",
+          "away": "cagliari",
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "sassuolo",
+          "away": "monza",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 18,
+      "matches": [
+        {
+          "home": "inter-milan",
+          "away": "ac-milan",
+          "homeGoals": 2,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "napoli",
+          "away": "juventus",
+          "homeGoals": 3,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "roma",
+          "away": "salernitana",
+          "homeGoals": 0,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "atalanta",
+          "away": "frosinone",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "lazio",
+          "away": "empoli",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "fiorentina",
+          "away": "verona",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "torino",
+          "away": "lecce",
+          "homeGoals": 1,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "bologna",
+          "away": "cagliari",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "udinese",
+          "away": "monza",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "genoa",
+          "away": "sassuolo",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 19,
+      "matches": [
+        {
+          "home": "inter-milan",
+          "away": "juventus",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "ac-milan",
+          "away": "salernitana",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "napoli",
+          "away": "frosinone",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "roma",
+          "away": "empoli",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "atalanta",
+          "away": "verona",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "lazio",
+          "away": "lecce",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "fiorentina",
+          "away": "cagliari",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "torino",
+          "away": "monza",
+          "homeGoals": 0,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "bologna",
+          "away": "sassuolo",
+          "homeGoals": 0,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "udinese",
+          "away": "genoa",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 20,
+      "matches": [
+        {
+          "home": "salernitana",
+          "away": "inter-milan",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "frosinone",
+          "away": "juventus",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "empoli",
+          "away": "ac-milan",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "verona",
+          "away": "napoli",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "lecce",
+          "away": "roma",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "cagliari",
+          "away": "atalanta",
+          "homeGoals": 2,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "monza",
+          "away": "lazio",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "sassuolo",
+          "away": "fiorentina",
+          "homeGoals": 0,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "genoa",
+          "away": "torino",
+          "homeGoals": 3,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "udinese",
+          "away": "bologna",
+          "homeGoals": 1,
+          "awayGoals": 3,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 21,
+      "matches": [
+        {
+          "home": "frosinone",
+          "away": "inter-milan",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "empoli",
+          "away": "salernitana",
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "verona",
+          "away": "juventus",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "lecce",
+          "away": "ac-milan",
+          "homeGoals": 3,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "cagliari",
+          "away": "napoli",
+          "homeGoals": 3,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "monza",
+          "away": "roma",
+          "homeGoals": 4,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "sassuolo",
+          "away": "atalanta",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "genoa",
+          "away": "lazio",
+          "homeGoals": 3,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "udinese",
+          "away": "fiorentina",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "bologna",
+          "away": "torino",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 22,
+      "matches": [
+        {
+          "home": "empoli",
+          "away": "inter-milan",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "verona",
+          "away": "frosinone",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "lecce",
+          "away": "salernitana",
+          "homeGoals": 0,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "cagliari",
+          "away": "juventus",
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "monza",
+          "away": "ac-milan",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "sassuolo",
+          "away": "napoli",
+          "homeGoals": 3,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "genoa",
+          "away": "roma",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "udinese",
+          "away": "atalanta",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "bologna",
+          "away": "lazio",
+          "homeGoals": 0,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "torino",
+          "away": "fiorentina",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 23,
+      "matches": [
+        {
+          "home": "verona",
+          "away": "inter-milan",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "lecce",
+          "away": "empoli",
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "cagliari",
+          "away": "frosinone",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "monza",
+          "away": "salernitana",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "sassuolo",
+          "away": "juventus",
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "genoa",
+          "away": "ac-milan",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "udinese",
+          "away": "napoli",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "bologna",
+          "away": "roma",
+          "homeGoals": 0,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "torino",
+          "away": "atalanta",
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "fiorentina",
+          "away": "lazio",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 24,
+      "matches": [
+        {
+          "home": "lecce",
+          "away": "inter-milan",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "cagliari",
+          "away": "verona",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "monza",
+          "away": "empoli",
+          "homeGoals": 3,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "sassuolo",
+          "away": "frosinone",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "genoa",
+          "away": "salernitana",
+          "homeGoals": 3,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "udinese",
+          "away": "juventus",
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "bologna",
+          "away": "ac-milan",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "torino",
+          "away": "napoli",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "fiorentina",
+          "away": "roma",
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "lazio",
+          "away": "atalanta",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 25,
+      "matches": [
+        {
+          "home": "cagliari",
+          "away": "inter-milan",
+          "homeGoals": 2,
+          "awayGoals": 4,
+          "played": true
+        },
+        {
+          "home": "monza",
+          "away": "lecce",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "sassuolo",
+          "away": "verona",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "genoa",
+          "away": "empoli",
+          "homeGoals": 1,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "udinese",
+          "away": "frosinone",
+          "homeGoals": 3,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "bologna",
+          "away": "salernitana",
+          "homeGoals": 3,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "torino",
+          "away": "juventus",
+          "homeGoals": 4,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "fiorentina",
+          "away": "ac-milan",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "lazio",
+          "away": "napoli",
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "atalanta",
+          "away": "roma",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 26,
+      "matches": [
+        {
+          "home": "monza",
+          "away": "inter-milan",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "sassuolo",
+          "away": "cagliari",
+          "homeGoals": 3,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "genoa",
+          "away": "lecce",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "udinese",
+          "away": "verona",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "bologna",
+          "away": "empoli",
+          "homeGoals": 0,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "torino",
+          "away": "frosinone",
+          "homeGoals": 1,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "fiorentina",
+          "away": "salernitana",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "lazio",
+          "away": "juventus",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "atalanta",
+          "away": "ac-milan",
+          "homeGoals": 3,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "roma",
+          "away": "napoli",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 27,
+      "matches": [
+        {
+          "home": "sassuolo",
+          "away": "inter-milan",
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "genoa",
+          "away": "monza",
+          "homeGoals": 1,
+          "awayGoals": 4,
+          "played": true
+        },
+        {
+          "home": "udinese",
+          "away": "cagliari",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "bologna",
+          "away": "lecce",
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "torino",
+          "away": "verona",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "fiorentina",
+          "away": "empoli",
+          "homeGoals": 3,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "lazio",
+          "away": "frosinone",
+          "homeGoals": 4,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "atalanta",
+          "away": "salernitana",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "roma",
+          "away": "juventus",
+          "homeGoals": 3,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "napoli",
+          "away": "ac-milan",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 28,
+      "matches": [
+        {
+          "home": "genoa",
+          "away": "inter-milan",
+          "homeGoals": 0,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "udinese",
+          "away": "sassuolo",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "bologna",
+          "away": "monza",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "torino",
+          "away": "cagliari",
+          "homeGoals": 1,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "fiorentina",
+          "away": "lecce",
+          "homeGoals": 3,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "lazio",
+          "away": "verona",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "atalanta",
+          "away": "empoli",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "roma",
+          "away": "frosinone",
+          "homeGoals": 3,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "napoli",
+          "away": "salernitana",
+          "homeGoals": 1,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "ac-milan",
+          "away": "juventus",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 29,
+      "matches": [
+        {
+          "home": "udinese",
+          "away": "inter-milan",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "bologna",
+          "away": "genoa",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "torino",
+          "away": "sassuolo",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "fiorentina",
+          "away": "monza",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "lazio",
+          "away": "cagliari",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "atalanta",
+          "away": "lecce",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "roma",
+          "away": "verona",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "napoli",
+          "away": "empoli",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "ac-milan",
+          "away": "frosinone",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "juventus",
+          "away": "salernitana",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        }
+      ]
+    },
+    {
+      "gw": 30,
+      "matches": [
+        {
+          "home": "bologna",
+          "away": "inter-milan",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "torino",
+          "away": "udinese",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "fiorentina",
+          "away": "genoa",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "lazio",
+          "away": "sassuolo",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "atalanta",
+          "away": "monza",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "roma",
+          "away": "cagliari",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "napoli",
+          "away": "lecce",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "ac-milan",
+          "away": "verona",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "juventus",
+          "away": "empoli",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "salernitana",
+          "away": "frosinone",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        }
+      ]
+    },
+    {
+      "gw": 31,
+      "matches": [
+        {
+          "home": "torino",
+          "away": "inter-milan",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "fiorentina",
+          "away": "bologna",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "lazio",
+          "away": "udinese",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "atalanta",
+          "away": "genoa",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "roma",
+          "away": "sassuolo",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "napoli",
+          "away": "monza",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "ac-milan",
+          "away": "cagliari",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "juventus",
+          "away": "lecce",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "salernitana",
+          "away": "verona",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "frosinone",
+          "away": "empoli",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        }
+      ]
+    },
+    {
+      "gw": 32,
+      "matches": [
+        {
+          "home": "fiorentina",
+          "away": "inter-milan",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "lazio",
+          "away": "torino",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "atalanta",
+          "away": "bologna",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "roma",
+          "away": "udinese",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "napoli",
+          "away": "genoa",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "ac-milan",
+          "away": "sassuolo",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "juventus",
+          "away": "monza",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "salernitana",
+          "away": "cagliari",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "frosinone",
+          "away": "lecce",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "empoli",
+          "away": "verona",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        }
+      ]
+    },
+    {
+      "gw": 33,
+      "matches": [
+        {
+          "home": "lazio",
+          "away": "inter-milan",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "atalanta",
+          "away": "fiorentina",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "roma",
+          "away": "torino",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "napoli",
+          "away": "bologna",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "ac-milan",
+          "away": "udinese",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "juventus",
+          "away": "genoa",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "salernitana",
+          "away": "sassuolo",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "frosinone",
+          "away": "monza",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "empoli",
+          "away": "cagliari",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "verona",
+          "away": "lecce",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        }
+      ]
+    },
+    {
+      "gw": 34,
+      "matches": [
+        {
+          "home": "atalanta",
+          "away": "inter-milan",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "roma",
+          "away": "lazio",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "napoli",
+          "away": "fiorentina",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "ac-milan",
+          "away": "torino",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "juventus",
+          "away": "bologna",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "salernitana",
+          "away": "udinese",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "frosinone",
+          "away": "genoa",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "empoli",
+          "away": "sassuolo",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "verona",
+          "away": "monza",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "lecce",
+          "away": "cagliari",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        }
+      ]
+    },
+    {
+      "gw": 35,
+      "matches": [
+        {
+          "home": "roma",
+          "away": "inter-milan",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "napoli",
+          "away": "atalanta",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "ac-milan",
+          "away": "lazio",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "juventus",
+          "away": "fiorentina",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "salernitana",
+          "away": "torino",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "frosinone",
+          "away": "bologna",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "empoli",
+          "away": "udinese",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "verona",
+          "away": "genoa",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "lecce",
+          "away": "sassuolo",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "cagliari",
+          "away": "monza",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        }
+      ]
+    },
+    {
+      "gw": 36,
+      "matches": [
+        {
+          "home": "napoli",
+          "away": "inter-milan",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "ac-milan",
+          "away": "roma",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "juventus",
+          "away": "atalanta",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "salernitana",
+          "away": "lazio",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "frosinone",
+          "away": "fiorentina",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "empoli",
+          "away": "torino",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "verona",
+          "away": "bologna",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "lecce",
+          "away": "udinese",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "cagliari",
+          "away": "genoa",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "monza",
+          "away": "sassuolo",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        }
+      ]
+    },
+    {
+      "gw": 37,
+      "matches": [
+        {
+          "home": "ac-milan",
+          "away": "inter-milan",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "juventus",
+          "away": "napoli",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "salernitana",
+          "away": "roma",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "frosinone",
+          "away": "atalanta",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "empoli",
+          "away": "lazio",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "verona",
+          "away": "fiorentina",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "lecce",
+          "away": "torino",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "cagliari",
+          "away": "bologna",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "monza",
+          "away": "udinese",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "sassuolo",
+          "away": "genoa",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        }
+      ]
+    },
+    {
+      "gw": 38,
+      "matches": [
+        {
+          "home": "juventus",
+          "away": "inter-milan",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "salernitana",
+          "away": "ac-milan",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "frosinone",
+          "away": "napoli",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "empoli",
+          "away": "roma",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "verona",
+          "away": "atalanta",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "lecce",
+          "away": "lazio",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "cagliari",
+          "away": "fiorentina",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "monza",
+          "away": "torino",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "sassuolo",
+          "away": "bologna",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "genoa",
+          "away": "udinese",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        }
+      ]
+    }
+  ]
+}

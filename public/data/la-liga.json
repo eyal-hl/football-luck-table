@@ -1,0 +1,2981 @@
+{
+  "leagueId": "la-liga",
+  "leagueName": "La Liga",
+  "season": "2024-25",
+  "currentGameweek": 28,
+  "totalGameweeks": 38,
+  "teams": [
+    {
+      "id": "real-madrid",
+      "name": "Real Madrid",
+      "shortName": "RMA",
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/en/5/56/Real_Madrid_CF.svg"
+    },
+    {
+      "id": "barcelona",
+      "name": "Barcelona",
+      "shortName": "BAR",
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/en/4/47/FC_Barcelona_%28crest%29.svg"
+    },
+    {
+      "id": "atletico-madrid",
+      "name": "Atletico Madrid",
+      "shortName": "ATM",
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/en/f/f4/Atletico_de_Madrid_2017_logo.svg"
+    },
+    {
+      "id": "athletic-bilbao",
+      "name": "Athletic Bilbao",
+      "shortName": "ATH",
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/en/9/98/Club_Athletic_de_Bilbao_logo.svg"
+    },
+    {
+      "id": "villarreal",
+      "name": "Villarreal",
+      "shortName": "VIL",
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/en/b/b9/Villarreal_CF_logo.svg"
+    },
+    {
+      "id": "real-betis",
+      "name": "Real Betis",
+      "shortName": "BET",
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/en/1/13/Real_betis_logo.svg"
+    },
+    {
+      "id": "real-sociedad",
+      "name": "Real Sociedad",
+      "shortName": "SOC",
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/en/f/f1/Real_Sociedad_logo_2017.svg"
+    },
+    {
+      "id": "sevilla",
+      "name": "Sevilla",
+      "shortName": "SEV",
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/en/3/3b/Sevilla_FC_logo.svg"
+    },
+    {
+      "id": "osasuna",
+      "name": "Osasuna",
+      "shortName": "OSA",
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/en/d/d6/Osasuna_logo.svg"
+    },
+    {
+      "id": "valencia",
+      "name": "Valencia",
+      "shortName": "VAL",
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/en/c/ce/Valenciacf.svg"
+    },
+    {
+      "id": "getafe",
+      "name": "Getafe",
+      "shortName": "GET",
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/en/0/05/Getafe_CF.svg"
+    },
+    {
+      "id": "rayo-vallecano",
+      "name": "Rayo Vallecano",
+      "shortName": "RAY",
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/en/0/06/Rayo_Vallecano_logo.svg"
+    },
+    {
+      "id": "celta-vigo",
+      "name": "Celta Vigo",
+      "shortName": "CEL",
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/en/4/4b/RC_Celta_de_Vigo_logo.svg"
+    },
+    {
+      "id": "mallorca",
+      "name": "Mallorca",
+      "shortName": "MAL",
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/en/2/2e/RCD_Mallorca_logo.svg"
+    },
+    {
+      "id": "alaves",
+      "name": "Alaves",
+      "shortName": "ALA",
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/en/5/50/Deportivo_Alaves_logo_2020.svg"
+    },
+    {
+      "id": "girona",
+      "name": "Girona",
+      "shortName": "GIR",
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/en/6/66/Girona_FC_badge.svg"
+    },
+    {
+      "id": "cadiz",
+      "name": "Cadiz",
+      "shortName": "CAD",
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/en/3/31/Logo_Cadiz_CF.svg"
+    },
+    {
+      "id": "almeria",
+      "name": "Almeria",
+      "shortName": "ALM",
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/en/8/8a/UD_Almeria.svg"
+    },
+    {
+      "id": "granada",
+      "name": "Granada",
+      "shortName": "GRA",
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/en/2/28/Granada_CF.svg"
+    },
+    {
+      "id": "las-palmas",
+      "name": "Las Palmas",
+      "shortName": "LPA",
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/en/3/35/UD_Las_Palmas_logo.svg"
+    }
+  ],
+  "gameweeks": [
+    {
+      "gw": 1,
+      "matches": [
+        {
+          "home": "real-madrid",
+          "away": "las-palmas",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "barcelona",
+          "away": "granada",
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "atletico-madrid",
+          "away": "almeria",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "athletic-bilbao",
+          "away": "cadiz",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "villarreal",
+          "away": "girona",
+          "homeGoals": 3,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "real-betis",
+          "away": "alaves",
+          "homeGoals": 3,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "real-sociedad",
+          "away": "mallorca",
+          "homeGoals": 2,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "sevilla",
+          "away": "celta-vigo",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "osasuna",
+          "away": "rayo-vallecano",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "valencia",
+          "away": "getafe",
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 2,
+      "matches": [
+        {
+          "home": "real-madrid",
+          "away": "granada",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "las-palmas",
+          "away": "almeria",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "barcelona",
+          "away": "cadiz",
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "atletico-madrid",
+          "away": "girona",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "athletic-bilbao",
+          "away": "alaves",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "villarreal",
+          "away": "mallorca",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "real-betis",
+          "away": "celta-vigo",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "real-sociedad",
+          "away": "rayo-vallecano",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "sevilla",
+          "away": "getafe",
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "osasuna",
+          "away": "valencia",
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 3,
+      "matches": [
+        {
+          "home": "real-madrid",
+          "away": "almeria",
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "granada",
+          "away": "cadiz",
+          "homeGoals": 0,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "las-palmas",
+          "away": "girona",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "barcelona",
+          "away": "alaves",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "atletico-madrid",
+          "away": "mallorca",
+          "homeGoals": 4,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "athletic-bilbao",
+          "away": "celta-vigo",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "villarreal",
+          "away": "rayo-vallecano",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "real-betis",
+          "away": "getafe",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "real-sociedad",
+          "away": "valencia",
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "sevilla",
+          "away": "osasuna",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 4,
+      "matches": [
+        {
+          "home": "real-madrid",
+          "away": "cadiz",
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "almeria",
+          "away": "girona",
+          "homeGoals": 3,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "granada",
+          "away": "alaves",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "las-palmas",
+          "away": "mallorca",
+          "homeGoals": 3,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "barcelona",
+          "away": "celta-vigo",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "atletico-madrid",
+          "away": "rayo-vallecano",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "athletic-bilbao",
+          "away": "getafe",
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "villarreal",
+          "away": "valencia",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "real-betis",
+          "away": "osasuna",
+          "homeGoals": 3,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "real-sociedad",
+          "away": "sevilla",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 5,
+      "matches": [
+        {
+          "home": "real-madrid",
+          "away": "girona",
+          "homeGoals": 0,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "cadiz",
+          "away": "alaves",
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "almeria",
+          "away": "mallorca",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "granada",
+          "away": "celta-vigo",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "las-palmas",
+          "away": "rayo-vallecano",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "barcelona",
+          "away": "getafe",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "atletico-madrid",
+          "away": "valencia",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "athletic-bilbao",
+          "away": "osasuna",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "villarreal",
+          "away": "sevilla",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "real-betis",
+          "away": "real-sociedad",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 6,
+      "matches": [
+        {
+          "home": "real-madrid",
+          "away": "alaves",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "girona",
+          "away": "mallorca",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "cadiz",
+          "away": "celta-vigo",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "almeria",
+          "away": "rayo-vallecano",
+          "homeGoals": 0,
+          "awayGoals": 4,
+          "played": true
+        },
+        {
+          "home": "granada",
+          "away": "getafe",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "las-palmas",
+          "away": "valencia",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "barcelona",
+          "away": "osasuna",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "atletico-madrid",
+          "away": "sevilla",
+          "homeGoals": 3,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "athletic-bilbao",
+          "away": "real-sociedad",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "villarreal",
+          "away": "real-betis",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 7,
+      "matches": [
+        {
+          "home": "real-madrid",
+          "away": "mallorca",
+          "homeGoals": 4,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "alaves",
+          "away": "celta-vigo",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "girona",
+          "away": "rayo-vallecano",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "cadiz",
+          "away": "getafe",
+          "homeGoals": 3,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "almeria",
+          "away": "valencia",
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "granada",
+          "away": "osasuna",
+          "homeGoals": 1,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "las-palmas",
+          "away": "sevilla",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "barcelona",
+          "away": "real-sociedad",
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "atletico-madrid",
+          "away": "real-betis",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "athletic-bilbao",
+          "away": "villarreal",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 8,
+      "matches": [
+        {
+          "home": "real-madrid",
+          "away": "celta-vigo",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "mallorca",
+          "away": "rayo-vallecano",
+          "homeGoals": 0,
+          "awayGoals": 4,
+          "played": true
+        },
+        {
+          "home": "alaves",
+          "away": "getafe",
+          "homeGoals": 3,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "girona",
+          "away": "valencia",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "cadiz",
+          "away": "osasuna",
+          "homeGoals": 3,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "almeria",
+          "away": "sevilla",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "granada",
+          "away": "real-sociedad",
+          "homeGoals": 2,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "las-palmas",
+          "away": "real-betis",
+          "homeGoals": 0,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "barcelona",
+          "away": "villarreal",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "atletico-madrid",
+          "away": "athletic-bilbao",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 9,
+      "matches": [
+        {
+          "home": "real-madrid",
+          "away": "rayo-vallecano",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "celta-vigo",
+          "away": "getafe",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "mallorca",
+          "away": "valencia",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "alaves",
+          "away": "osasuna",
+          "homeGoals": 2,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "girona",
+          "away": "sevilla",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "cadiz",
+          "away": "real-sociedad",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "almeria",
+          "away": "real-betis",
+          "homeGoals": 2,
+          "awayGoals": 4,
+          "played": true
+        },
+        {
+          "home": "granada",
+          "away": "villarreal",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "las-palmas",
+          "away": "athletic-bilbao",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "barcelona",
+          "away": "atletico-madrid",
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 10,
+      "matches": [
+        {
+          "home": "real-madrid",
+          "away": "getafe",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "rayo-vallecano",
+          "away": "valencia",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "celta-vigo",
+          "away": "osasuna",
+          "homeGoals": 1,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "mallorca",
+          "away": "sevilla",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "alaves",
+          "away": "real-sociedad",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "girona",
+          "away": "real-betis",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "cadiz",
+          "away": "villarreal",
+          "homeGoals": 2,
+          "awayGoals": 4,
+          "played": true
+        },
+        {
+          "home": "almeria",
+          "away": "athletic-bilbao",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "granada",
+          "away": "atletico-madrid",
+          "homeGoals": 3,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "las-palmas",
+          "away": "barcelona",
+          "homeGoals": 3,
+          "awayGoals": 2,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 11,
+      "matches": [
+        {
+          "home": "real-madrid",
+          "away": "valencia",
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "getafe",
+          "away": "osasuna",
+          "homeGoals": 3,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "rayo-vallecano",
+          "away": "sevilla",
+          "homeGoals": 3,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "celta-vigo",
+          "away": "real-sociedad",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "mallorca",
+          "away": "real-betis",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "alaves",
+          "away": "villarreal",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "girona",
+          "away": "athletic-bilbao",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "cadiz",
+          "away": "atletico-madrid",
+          "homeGoals": 0,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "almeria",
+          "away": "barcelona",
+          "homeGoals": 0,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "granada",
+          "away": "las-palmas",
+          "homeGoals": 4,
+          "awayGoals": 1,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 12,
+      "matches": [
+        {
+          "home": "real-madrid",
+          "away": "osasuna",
+          "homeGoals": 3,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "valencia",
+          "away": "sevilla",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "getafe",
+          "away": "real-sociedad",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "rayo-vallecano",
+          "away": "real-betis",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "celta-vigo",
+          "away": "villarreal",
+          "homeGoals": 2,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "mallorca",
+          "away": "athletic-bilbao",
+          "homeGoals": 3,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "alaves",
+          "away": "atletico-madrid",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "girona",
+          "away": "barcelona",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "cadiz",
+          "away": "las-palmas",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "almeria",
+          "away": "granada",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 13,
+      "matches": [
+        {
+          "home": "real-madrid",
+          "away": "sevilla",
+          "homeGoals": 1,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "osasuna",
+          "away": "real-sociedad",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "valencia",
+          "away": "real-betis",
+          "homeGoals": 1,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "getafe",
+          "away": "villarreal",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "rayo-vallecano",
+          "away": "athletic-bilbao",
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "celta-vigo",
+          "away": "atletico-madrid",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "mallorca",
+          "away": "barcelona",
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "alaves",
+          "away": "las-palmas",
+          "homeGoals": 4,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "girona",
+          "away": "granada",
+          "homeGoals": 3,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "cadiz",
+          "away": "almeria",
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 14,
+      "matches": [
+        {
+          "home": "real-madrid",
+          "away": "real-sociedad",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "sevilla",
+          "away": "real-betis",
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "osasuna",
+          "away": "villarreal",
+          "homeGoals": 3,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "valencia",
+          "away": "athletic-bilbao",
+          "homeGoals": 4,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "getafe",
+          "away": "atletico-madrid",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "rayo-vallecano",
+          "away": "barcelona",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "celta-vigo",
+          "away": "las-palmas",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "mallorca",
+          "away": "granada",
+          "homeGoals": 3,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "alaves",
+          "away": "almeria",
+          "homeGoals": 1,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "girona",
+          "away": "cadiz",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 15,
+      "matches": [
+        {
+          "home": "real-madrid",
+          "away": "real-betis",
+          "homeGoals": 0,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "real-sociedad",
+          "away": "villarreal",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "sevilla",
+          "away": "athletic-bilbao",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "osasuna",
+          "away": "atletico-madrid",
+          "homeGoals": 3,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "valencia",
+          "away": "barcelona",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "getafe",
+          "away": "las-palmas",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "rayo-vallecano",
+          "away": "granada",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "celta-vigo",
+          "away": "almeria",
+          "homeGoals": 3,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "mallorca",
+          "away": "cadiz",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "alaves",
+          "away": "girona",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 16,
+      "matches": [
+        {
+          "home": "real-madrid",
+          "away": "villarreal",
+          "homeGoals": 2,
+          "awayGoals": 4,
+          "played": true
+        },
+        {
+          "home": "real-betis",
+          "away": "athletic-bilbao",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "real-sociedad",
+          "away": "atletico-madrid",
+          "homeGoals": 0,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "sevilla",
+          "away": "barcelona",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "osasuna",
+          "away": "las-palmas",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "valencia",
+          "away": "granada",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "getafe",
+          "away": "almeria",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "rayo-vallecano",
+          "away": "cadiz",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "celta-vigo",
+          "away": "girona",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "mallorca",
+          "away": "alaves",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 17,
+      "matches": [
+        {
+          "home": "real-madrid",
+          "away": "athletic-bilbao",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "villarreal",
+          "away": "atletico-madrid",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "real-betis",
+          "away": "barcelona",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "real-sociedad",
+          "away": "las-palmas",
+          "homeGoals": 2,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "sevilla",
+          "away": "granada",
+          "homeGoals": 3,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "osasuna",
+          "away": "almeria",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "valencia",
+          "away": "cadiz",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "getafe",
+          "away": "girona",
+          "homeGoals": 3,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "rayo-vallecano",
+          "away": "alaves",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "celta-vigo",
+          "away": "mallorca",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 18,
+      "matches": [
+        {
+          "home": "real-madrid",
+          "away": "atletico-madrid",
+          "homeGoals": 4,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "athletic-bilbao",
+          "away": "barcelona",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "villarreal",
+          "away": "las-palmas",
+          "homeGoals": 0,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "real-betis",
+          "away": "granada",
+          "homeGoals": 1,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "real-sociedad",
+          "away": "almeria",
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "sevilla",
+          "away": "cadiz",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "osasuna",
+          "away": "girona",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "valencia",
+          "away": "alaves",
+          "homeGoals": 0,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "getafe",
+          "away": "mallorca",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "rayo-vallecano",
+          "away": "celta-vigo",
+          "homeGoals": 0,
+          "awayGoals": 2,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 19,
+      "matches": [
+        {
+          "home": "real-madrid",
+          "away": "barcelona",
+          "homeGoals": 3,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "atletico-madrid",
+          "away": "las-palmas",
+          "homeGoals": 3,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "athletic-bilbao",
+          "away": "granada",
+          "homeGoals": 4,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "villarreal",
+          "away": "almeria",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "real-betis",
+          "away": "cadiz",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "real-sociedad",
+          "away": "girona",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "sevilla",
+          "away": "alaves",
+          "homeGoals": 3,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "osasuna",
+          "away": "mallorca",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "valencia",
+          "away": "celta-vigo",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "getafe",
+          "away": "rayo-vallecano",
+          "homeGoals": 0,
+          "awayGoals": 2,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 20,
+      "matches": [
+        {
+          "home": "las-palmas",
+          "away": "real-madrid",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "granada",
+          "away": "barcelona",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "almeria",
+          "away": "atletico-madrid",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "cadiz",
+          "away": "athletic-bilbao",
+          "homeGoals": 4,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "girona",
+          "away": "villarreal",
+          "homeGoals": 0,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "alaves",
+          "away": "real-betis",
+          "homeGoals": 3,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "mallorca",
+          "away": "real-sociedad",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "celta-vigo",
+          "away": "sevilla",
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "rayo-vallecano",
+          "away": "osasuna",
+          "homeGoals": 2,
+          "awayGoals": 4,
+          "played": true
+        },
+        {
+          "home": "getafe",
+          "away": "valencia",
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 21,
+      "matches": [
+        {
+          "home": "granada",
+          "away": "real-madrid",
+          "homeGoals": 3,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "almeria",
+          "away": "las-palmas",
+          "homeGoals": 4,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "cadiz",
+          "away": "barcelona",
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "girona",
+          "away": "atletico-madrid",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "alaves",
+          "away": "athletic-bilbao",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "mallorca",
+          "away": "villarreal",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "celta-vigo",
+          "away": "real-betis",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "rayo-vallecano",
+          "away": "real-sociedad",
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "getafe",
+          "away": "sevilla",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "valencia",
+          "away": "osasuna",
+          "homeGoals": 4,
+          "awayGoals": 2,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 22,
+      "matches": [
+        {
+          "home": "almeria",
+          "away": "real-madrid",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "cadiz",
+          "away": "granada",
+          "homeGoals": 1,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "girona",
+          "away": "las-palmas",
+          "homeGoals": 0,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "alaves",
+          "away": "barcelona",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "mallorca",
+          "away": "atletico-madrid",
+          "homeGoals": 4,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "celta-vigo",
+          "away": "athletic-bilbao",
+          "homeGoals": 2,
+          "awayGoals": 4,
+          "played": true
+        },
+        {
+          "home": "rayo-vallecano",
+          "away": "villarreal",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "getafe",
+          "away": "real-betis",
+          "homeGoals": 3,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "valencia",
+          "away": "real-sociedad",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "osasuna",
+          "away": "sevilla",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 23,
+      "matches": [
+        {
+          "home": "cadiz",
+          "away": "real-madrid",
+          "homeGoals": 3,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "girona",
+          "away": "almeria",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "alaves",
+          "away": "granada",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "mallorca",
+          "away": "las-palmas",
+          "homeGoals": 3,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "celta-vigo",
+          "away": "barcelona",
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "rayo-vallecano",
+          "away": "atletico-madrid",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "getafe",
+          "away": "athletic-bilbao",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "valencia",
+          "away": "villarreal",
+          "homeGoals": 3,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "osasuna",
+          "away": "real-betis",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "sevilla",
+          "away": "real-sociedad",
+          "homeGoals": 1,
+          "awayGoals": 4,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 24,
+      "matches": [
+        {
+          "home": "girona",
+          "away": "real-madrid",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "alaves",
+          "away": "cadiz",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "mallorca",
+          "away": "almeria",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "celta-vigo",
+          "away": "granada",
+          "homeGoals": 3,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "rayo-vallecano",
+          "away": "las-palmas",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "getafe",
+          "away": "barcelona",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "valencia",
+          "away": "atletico-madrid",
+          "homeGoals": 2,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "osasuna",
+          "away": "athletic-bilbao",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "sevilla",
+          "away": "villarreal",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "real-sociedad",
+          "away": "real-betis",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 25,
+      "matches": [
+        {
+          "home": "alaves",
+          "away": "real-madrid",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "mallorca",
+          "away": "girona",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "celta-vigo",
+          "away": "cadiz",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "rayo-vallecano",
+          "away": "almeria",
+          "homeGoals": 4,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "getafe",
+          "away": "granada",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "valencia",
+          "away": "las-palmas",
+          "homeGoals": 3,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "osasuna",
+          "away": "barcelona",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "sevilla",
+          "away": "atletico-madrid",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "real-sociedad",
+          "away": "athletic-bilbao",
+          "homeGoals": 3,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "real-betis",
+          "away": "villarreal",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 26,
+      "matches": [
+        {
+          "home": "mallorca",
+          "away": "real-madrid",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "celta-vigo",
+          "away": "alaves",
+          "homeGoals": 3,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "rayo-vallecano",
+          "away": "girona",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "getafe",
+          "away": "cadiz",
+          "homeGoals": 0,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "valencia",
+          "away": "almeria",
+          "homeGoals": 2,
+          "awayGoals": 4,
+          "played": true
+        },
+        {
+          "home": "osasuna",
+          "away": "granada",
+          "homeGoals": 2,
+          "awayGoals": 4,
+          "played": true
+        },
+        {
+          "home": "sevilla",
+          "away": "las-palmas",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "real-sociedad",
+          "away": "barcelona",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "real-betis",
+          "away": "atletico-madrid",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "villarreal",
+          "away": "athletic-bilbao",
+          "homeGoals": 4,
+          "awayGoals": 0,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 27,
+      "matches": [
+        {
+          "home": "celta-vigo",
+          "away": "real-madrid",
+          "homeGoals": 3,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "rayo-vallecano",
+          "away": "mallorca",
+          "homeGoals": 3,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "getafe",
+          "away": "alaves",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "valencia",
+          "away": "girona",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "osasuna",
+          "away": "cadiz",
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "sevilla",
+          "away": "almeria",
+          "homeGoals": 0,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "real-sociedad",
+          "away": "granada",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "real-betis",
+          "away": "las-palmas",
+          "homeGoals": 4,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "villarreal",
+          "away": "barcelona",
+          "homeGoals": 3,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "athletic-bilbao",
+          "away": "atletico-madrid",
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 28,
+      "matches": [
+        {
+          "home": "rayo-vallecano",
+          "away": "real-madrid",
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "getafe",
+          "away": "celta-vigo",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "valencia",
+          "away": "mallorca",
+          "homeGoals": 3,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "osasuna",
+          "away": "alaves",
+          "homeGoals": 0,
+          "awayGoals": 4,
+          "played": true
+        },
+        {
+          "home": "sevilla",
+          "away": "girona",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "real-sociedad",
+          "away": "cadiz",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "real-betis",
+          "away": "almeria",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "villarreal",
+          "away": "granada",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "athletic-bilbao",
+          "away": "las-palmas",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "atletico-madrid",
+          "away": "barcelona",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 29,
+      "matches": [
+        {
+          "home": "getafe",
+          "away": "real-madrid",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "valencia",
+          "away": "rayo-vallecano",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "osasuna",
+          "away": "celta-vigo",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "sevilla",
+          "away": "mallorca",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "real-sociedad",
+          "away": "alaves",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "real-betis",
+          "away": "girona",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "villarreal",
+          "away": "cadiz",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "athletic-bilbao",
+          "away": "almeria",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "atletico-madrid",
+          "away": "granada",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "barcelona",
+          "away": "las-palmas",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        }
+      ]
+    },
+    {
+      "gw": 30,
+      "matches": [
+        {
+          "home": "valencia",
+          "away": "real-madrid",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "osasuna",
+          "away": "getafe",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "sevilla",
+          "away": "rayo-vallecano",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "real-sociedad",
+          "away": "celta-vigo",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "real-betis",
+          "away": "mallorca",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "villarreal",
+          "away": "alaves",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "athletic-bilbao",
+          "away": "girona",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "atletico-madrid",
+          "away": "cadiz",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "barcelona",
+          "away": "almeria",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "las-palmas",
+          "away": "granada",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        }
+      ]
+    },
+    {
+      "gw": 31,
+      "matches": [
+        {
+          "home": "osasuna",
+          "away": "real-madrid",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "sevilla",
+          "away": "valencia",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "real-sociedad",
+          "away": "getafe",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "real-betis",
+          "away": "rayo-vallecano",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "villarreal",
+          "away": "celta-vigo",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "athletic-bilbao",
+          "away": "mallorca",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "atletico-madrid",
+          "away": "alaves",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "barcelona",
+          "away": "girona",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "las-palmas",
+          "away": "cadiz",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "granada",
+          "away": "almeria",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        }
+      ]
+    },
+    {
+      "gw": 32,
+      "matches": [
+        {
+          "home": "sevilla",
+          "away": "real-madrid",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "real-sociedad",
+          "away": "osasuna",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "real-betis",
+          "away": "valencia",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "villarreal",
+          "away": "getafe",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "athletic-bilbao",
+          "away": "rayo-vallecano",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "atletico-madrid",
+          "away": "celta-vigo",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "barcelona",
+          "away": "mallorca",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "las-palmas",
+          "away": "alaves",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "granada",
+          "away": "girona",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "almeria",
+          "away": "cadiz",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        }
+      ]
+    },
+    {
+      "gw": 33,
+      "matches": [
+        {
+          "home": "real-sociedad",
+          "away": "real-madrid",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "real-betis",
+          "away": "sevilla",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "villarreal",
+          "away": "osasuna",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "athletic-bilbao",
+          "away": "valencia",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "atletico-madrid",
+          "away": "getafe",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "barcelona",
+          "away": "rayo-vallecano",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "las-palmas",
+          "away": "celta-vigo",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "granada",
+          "away": "mallorca",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "almeria",
+          "away": "alaves",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "cadiz",
+          "away": "girona",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        }
+      ]
+    },
+    {
+      "gw": 34,
+      "matches": [
+        {
+          "home": "real-betis",
+          "away": "real-madrid",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "villarreal",
+          "away": "real-sociedad",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "athletic-bilbao",
+          "away": "sevilla",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "atletico-madrid",
+          "away": "osasuna",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "barcelona",
+          "away": "valencia",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "las-palmas",
+          "away": "getafe",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "granada",
+          "away": "rayo-vallecano",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "almeria",
+          "away": "celta-vigo",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "cadiz",
+          "away": "mallorca",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "girona",
+          "away": "alaves",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        }
+      ]
+    },
+    {
+      "gw": 35,
+      "matches": [
+        {
+          "home": "villarreal",
+          "away": "real-madrid",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "athletic-bilbao",
+          "away": "real-betis",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "atletico-madrid",
+          "away": "real-sociedad",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "barcelona",
+          "away": "sevilla",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "las-palmas",
+          "away": "osasuna",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "granada",
+          "away": "valencia",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "almeria",
+          "away": "getafe",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "cadiz",
+          "away": "rayo-vallecano",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "girona",
+          "away": "celta-vigo",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "alaves",
+          "away": "mallorca",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        }
+      ]
+    },
+    {
+      "gw": 36,
+      "matches": [
+        {
+          "home": "athletic-bilbao",
+          "away": "real-madrid",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "atletico-madrid",
+          "away": "villarreal",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "barcelona",
+          "away": "real-betis",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "las-palmas",
+          "away": "real-sociedad",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "granada",
+          "away": "sevilla",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "almeria",
+          "away": "osasuna",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "cadiz",
+          "away": "valencia",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "girona",
+          "away": "getafe",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "alaves",
+          "away": "rayo-vallecano",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "mallorca",
+          "away": "celta-vigo",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        }
+      ]
+    },
+    {
+      "gw": 37,
+      "matches": [
+        {
+          "home": "atletico-madrid",
+          "away": "real-madrid",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "barcelona",
+          "away": "athletic-bilbao",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "las-palmas",
+          "away": "villarreal",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "granada",
+          "away": "real-betis",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "almeria",
+          "away": "real-sociedad",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "cadiz",
+          "away": "sevilla",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "girona",
+          "away": "osasuna",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "alaves",
+          "away": "valencia",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "mallorca",
+          "away": "getafe",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "celta-vigo",
+          "away": "rayo-vallecano",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        }
+      ]
+    },
+    {
+      "gw": 38,
+      "matches": [
+        {
+          "home": "barcelona",
+          "away": "real-madrid",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "las-palmas",
+          "away": "atletico-madrid",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "granada",
+          "away": "athletic-bilbao",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "almeria",
+          "away": "villarreal",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "cadiz",
+          "away": "real-betis",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "girona",
+          "away": "real-sociedad",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "alaves",
+          "away": "sevilla",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "mallorca",
+          "away": "osasuna",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "celta-vigo",
+          "away": "valencia",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "rayo-vallecano",
+          "away": "getafe",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        }
+      ]
+    }
+  ]
+}

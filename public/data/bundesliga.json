@@ -1,0 +1,2431 @@
+{
+  "leagueId": "bundesliga",
+  "leagueName": "Bundesliga",
+  "season": "2024-25",
+  "currentGameweek": 25,
+  "totalGameweeks": 34,
+  "teams": [
+    {
+      "id": "bayer-leverkusen",
+      "name": "Bayer Leverkusen",
+      "shortName": "LEV",
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/en/5/59/Bayer_04_Leverkusen_logo.svg"
+    },
+    {
+      "id": "borussia-dortmund",
+      "name": "Borussia Dortmund",
+      "shortName": "BVB",
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/6/67/Borussia_Dortmund_logo.svg"
+    },
+    {
+      "id": "bayern-munich",
+      "name": "Bayern Munich",
+      "shortName": "BAY",
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1b/FC_Bayern_M%C3%BCnchen_logo_%282002%E2%80%932017%29.svg"
+    },
+    {
+      "id": "rb-leipzig",
+      "name": "RB Leipzig",
+      "shortName": "RBL",
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/en/0/04/RB_Leipzig_2014_logo.svg"
+    },
+    {
+      "id": "borussia-mgladbach",
+      "name": "Borussia M'gladbach",
+      "shortName": "BMG",
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/8/81/Borussia_M%C3%B6nchengladbach_logo.svg"
+    },
+    {
+      "id": "eintracht-frankfurt",
+      "name": "Eintracht Frankfurt",
+      "shortName": "SGE",
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/0/04/Eintracht_Frankfurt_Logo.svg"
+    },
+    {
+      "id": "vfb-stuttgart",
+      "name": "VfB Stuttgart",
+      "shortName": "VFB",
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/e/eb/VfB_Stuttgart_1893_Logo.svg"
+    },
+    {
+      "id": "sc-freiburg",
+      "name": "SC Freiburg",
+      "shortName": "SCF",
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/de/f/f1/SC-Freiburg_Logo-neu.svg"
+    },
+    {
+      "id": "union-berlin",
+      "name": "Union Berlin",
+      "shortName": "FCU",
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/4/44/1._FC_Union_Berlin_Logo.svg"
+    },
+    {
+      "id": "vfl-wolfsburg",
+      "name": "VfL Wolfsburg",
+      "shortName": "WOB",
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Logo-VfL-Wolfsburg.svg"
+    },
+    {
+      "id": "werder-bremen",
+      "name": "Werder Bremen",
+      "shortName": "SVW",
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/en/b/be/SV-Werder-Bremen-Logo.svg"
+    },
+    {
+      "id": "fc-augsburg",
+      "name": "FC Augsburg",
+      "shortName": "FCA",
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/de/b/b5/Logo_FC_Augsburg.svg"
+    },
+    {
+      "id": "vfl-bochum",
+      "name": "VfL Bochum",
+      "shortName": "BOC",
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/de/7/72/VfL_Bochum_logo.svg"
+    },
+    {
+      "id": "fc-heidenheim",
+      "name": "FC Heidenheim",
+      "shortName": "HDH",
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/de/2/2e/1._FC_Heidenheim_1846.svg"
+    },
+    {
+      "id": "mainz-05",
+      "name": "Mainz 05",
+      "shortName": "M05",
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg"
+    },
+    {
+      "id": "fc-koln",
+      "name": "FC Koln",
+      "shortName": "KOE",
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/5/53/FC_Cologne_logo.svg"
+    },
+    {
+      "id": "holstein-kiel",
+      "name": "Holstein Kiel",
+      "shortName": "KIE",
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/7/71/Holstein_Kiel_Logo.svg"
+    },
+    {
+      "id": "st-pauli",
+      "name": "St. Pauli",
+      "shortName": "STP",
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/4/42/FC_St._Pauli_logo.svg"
+    }
+  ],
+  "gameweeks": [
+    {
+      "gw": 1,
+      "matches": [
+        {
+          "home": "bayer-leverkusen",
+          "away": "st-pauli",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "borussia-dortmund",
+          "away": "holstein-kiel",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "bayern-munich",
+          "away": "fc-koln",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "rb-leipzig",
+          "away": "mainz-05",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "borussia-mgladbach",
+          "away": "fc-heidenheim",
+          "homeGoals": 3,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "eintracht-frankfurt",
+          "away": "vfl-bochum",
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "vfb-stuttgart",
+          "away": "fc-augsburg",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "sc-freiburg",
+          "away": "werder-bremen",
+          "homeGoals": 1,
+          "awayGoals": 4,
+          "played": true
+        },
+        {
+          "home": "union-berlin",
+          "away": "vfl-wolfsburg",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 2,
+      "matches": [
+        {
+          "home": "bayer-leverkusen",
+          "away": "holstein-kiel",
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "st-pauli",
+          "away": "fc-koln",
+          "homeGoals": 0,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "borussia-dortmund",
+          "away": "mainz-05",
+          "homeGoals": 0,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "bayern-munich",
+          "away": "fc-heidenheim",
+          "homeGoals": 3,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "rb-leipzig",
+          "away": "vfl-bochum",
+          "homeGoals": 1,
+          "awayGoals": 4,
+          "played": true
+        },
+        {
+          "home": "borussia-mgladbach",
+          "away": "fc-augsburg",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "eintracht-frankfurt",
+          "away": "werder-bremen",
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "vfb-stuttgart",
+          "away": "vfl-wolfsburg",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "sc-freiburg",
+          "away": "union-berlin",
+          "homeGoals": 0,
+          "awayGoals": 2,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 3,
+      "matches": [
+        {
+          "home": "bayer-leverkusen",
+          "away": "fc-koln",
+          "homeGoals": 0,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "holstein-kiel",
+          "away": "mainz-05",
+          "homeGoals": 3,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "st-pauli",
+          "away": "fc-heidenheim",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "borussia-dortmund",
+          "away": "vfl-bochum",
+          "homeGoals": 3,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "bayern-munich",
+          "away": "fc-augsburg",
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "rb-leipzig",
+          "away": "werder-bremen",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "borussia-mgladbach",
+          "away": "vfl-wolfsburg",
+          "homeGoals": 3,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "eintracht-frankfurt",
+          "away": "union-berlin",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "vfb-stuttgart",
+          "away": "sc-freiburg",
+          "homeGoals": 0,
+          "awayGoals": 2,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 4,
+      "matches": [
+        {
+          "home": "bayer-leverkusen",
+          "away": "mainz-05",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "fc-koln",
+          "away": "fc-heidenheim",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "holstein-kiel",
+          "away": "vfl-bochum",
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "st-pauli",
+          "away": "fc-augsburg",
+          "homeGoals": 3,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "borussia-dortmund",
+          "away": "werder-bremen",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "bayern-munich",
+          "away": "vfl-wolfsburg",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "rb-leipzig",
+          "away": "union-berlin",
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "borussia-mgladbach",
+          "away": "sc-freiburg",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "eintracht-frankfurt",
+          "away": "vfb-stuttgart",
+          "homeGoals": 3,
+          "awayGoals": 2,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 5,
+      "matches": [
+        {
+          "home": "bayer-leverkusen",
+          "away": "fc-heidenheim",
+          "homeGoals": 0,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "mainz-05",
+          "away": "vfl-bochum",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "fc-koln",
+          "away": "fc-augsburg",
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "holstein-kiel",
+          "away": "werder-bremen",
+          "homeGoals": 4,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "st-pauli",
+          "away": "vfl-wolfsburg",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "borussia-dortmund",
+          "away": "union-berlin",
+          "homeGoals": 3,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "bayern-munich",
+          "away": "sc-freiburg",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "rb-leipzig",
+          "away": "vfb-stuttgart",
+          "homeGoals": 3,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "borussia-mgladbach",
+          "away": "eintracht-frankfurt",
+          "homeGoals": 0,
+          "awayGoals": 3,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 6,
+      "matches": [
+        {
+          "home": "bayer-leverkusen",
+          "away": "vfl-bochum",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "fc-heidenheim",
+          "away": "fc-augsburg",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "mainz-05",
+          "away": "werder-bremen",
+          "homeGoals": 1,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "fc-koln",
+          "away": "vfl-wolfsburg",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "holstein-kiel",
+          "away": "union-berlin",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "st-pauli",
+          "away": "sc-freiburg",
+          "homeGoals": 0,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "borussia-dortmund",
+          "away": "vfb-stuttgart",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "bayern-munich",
+          "away": "eintracht-frankfurt",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "rb-leipzig",
+          "away": "borussia-mgladbach",
+          "homeGoals": 0,
+          "awayGoals": 2,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 7,
+      "matches": [
+        {
+          "home": "bayer-leverkusen",
+          "away": "fc-augsburg",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "vfl-bochum",
+          "away": "werder-bremen",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "fc-heidenheim",
+          "away": "vfl-wolfsburg",
+          "homeGoals": 3,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "mainz-05",
+          "away": "union-berlin",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "fc-koln",
+          "away": "sc-freiburg",
+          "homeGoals": 0,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "holstein-kiel",
+          "away": "vfb-stuttgart",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "st-pauli",
+          "away": "eintracht-frankfurt",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "borussia-dortmund",
+          "away": "borussia-mgladbach",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "bayern-munich",
+          "away": "rb-leipzig",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 8,
+      "matches": [
+        {
+          "home": "bayer-leverkusen",
+          "away": "werder-bremen",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "fc-augsburg",
+          "away": "vfl-wolfsburg",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "vfl-bochum",
+          "away": "union-berlin",
+          "homeGoals": 1,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "fc-heidenheim",
+          "away": "sc-freiburg",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "mainz-05",
+          "away": "vfb-stuttgart",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "fc-koln",
+          "away": "eintracht-frankfurt",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "holstein-kiel",
+          "away": "borussia-mgladbach",
+          "homeGoals": 3,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "st-pauli",
+          "away": "rb-leipzig",
+          "homeGoals": 3,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "borussia-dortmund",
+          "away": "bayern-munich",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 9,
+      "matches": [
+        {
+          "home": "bayer-leverkusen",
+          "away": "vfl-wolfsburg",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "werder-bremen",
+          "away": "union-berlin",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "fc-augsburg",
+          "away": "sc-freiburg",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "vfl-bochum",
+          "away": "vfb-stuttgart",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "fc-heidenheim",
+          "away": "eintracht-frankfurt",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "mainz-05",
+          "away": "borussia-mgladbach",
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "fc-koln",
+          "away": "rb-leipzig",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "holstein-kiel",
+          "away": "bayern-munich",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "st-pauli",
+          "away": "borussia-dortmund",
+          "homeGoals": 3,
+          "awayGoals": 3,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 10,
+      "matches": [
+        {
+          "home": "bayer-leverkusen",
+          "away": "union-berlin",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "vfl-wolfsburg",
+          "away": "sc-freiburg",
+          "homeGoals": 0,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "werder-bremen",
+          "away": "vfb-stuttgart",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "fc-augsburg",
+          "away": "eintracht-frankfurt",
+          "homeGoals": 3,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "vfl-bochum",
+          "away": "borussia-mgladbach",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "fc-heidenheim",
+          "away": "rb-leipzig",
+          "homeGoals": 3,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "mainz-05",
+          "away": "bayern-munich",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "fc-koln",
+          "away": "borussia-dortmund",
+          "homeGoals": 0,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "holstein-kiel",
+          "away": "st-pauli",
+          "homeGoals": 0,
+          "awayGoals": 2,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 11,
+      "matches": [
+        {
+          "home": "bayer-leverkusen",
+          "away": "sc-freiburg",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "union-berlin",
+          "away": "vfb-stuttgart",
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "vfl-wolfsburg",
+          "away": "eintracht-frankfurt",
+          "homeGoals": 0,
+          "awayGoals": 4,
+          "played": true
+        },
+        {
+          "home": "werder-bremen",
+          "away": "borussia-mgladbach",
+          "homeGoals": 0,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "fc-augsburg",
+          "away": "rb-leipzig",
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "vfl-bochum",
+          "away": "bayern-munich",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "fc-heidenheim",
+          "away": "borussia-dortmund",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "mainz-05",
+          "away": "st-pauli",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "fc-koln",
+          "away": "holstein-kiel",
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 12,
+      "matches": [
+        {
+          "home": "bayer-leverkusen",
+          "away": "vfb-stuttgart",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "sc-freiburg",
+          "away": "eintracht-frankfurt",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "union-berlin",
+          "away": "borussia-mgladbach",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "vfl-wolfsburg",
+          "away": "rb-leipzig",
+          "homeGoals": 2,
+          "awayGoals": 4,
+          "played": true
+        },
+        {
+          "home": "werder-bremen",
+          "away": "bayern-munich",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "fc-augsburg",
+          "away": "borussia-dortmund",
+          "homeGoals": 1,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "vfl-bochum",
+          "away": "st-pauli",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "fc-heidenheim",
+          "away": "holstein-kiel",
+          "homeGoals": 1,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "mainz-05",
+          "away": "fc-koln",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 13,
+      "matches": [
+        {
+          "home": "bayer-leverkusen",
+          "away": "eintracht-frankfurt",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "vfb-stuttgart",
+          "away": "borussia-mgladbach",
+          "homeGoals": 0,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "sc-freiburg",
+          "away": "rb-leipzig",
+          "homeGoals": 0,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "union-berlin",
+          "away": "bayern-munich",
+          "homeGoals": 3,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "vfl-wolfsburg",
+          "away": "borussia-dortmund",
+          "homeGoals": 4,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "werder-bremen",
+          "away": "st-pauli",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "fc-augsburg",
+          "away": "holstein-kiel",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "vfl-bochum",
+          "away": "fc-koln",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "fc-heidenheim",
+          "away": "mainz-05",
+          "homeGoals": 3,
+          "awayGoals": 1,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 14,
+      "matches": [
+        {
+          "home": "bayer-leverkusen",
+          "away": "borussia-mgladbach",
+          "homeGoals": 4,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "eintracht-frankfurt",
+          "away": "rb-leipzig",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "vfb-stuttgart",
+          "away": "bayern-munich",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "sc-freiburg",
+          "away": "borussia-dortmund",
+          "homeGoals": 3,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "union-berlin",
+          "away": "st-pauli",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "vfl-wolfsburg",
+          "away": "holstein-kiel",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "werder-bremen",
+          "away": "fc-koln",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "fc-augsburg",
+          "away": "mainz-05",
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "vfl-bochum",
+          "away": "fc-heidenheim",
+          "homeGoals": 0,
+          "awayGoals": 2,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 15,
+      "matches": [
+        {
+          "home": "bayer-leverkusen",
+          "away": "rb-leipzig",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "borussia-mgladbach",
+          "away": "bayern-munich",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "eintracht-frankfurt",
+          "away": "borussia-dortmund",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "vfb-stuttgart",
+          "away": "st-pauli",
+          "homeGoals": 0,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "sc-freiburg",
+          "away": "holstein-kiel",
+          "homeGoals": 0,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "union-berlin",
+          "away": "fc-koln",
+          "homeGoals": 0,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "vfl-wolfsburg",
+          "away": "mainz-05",
+          "homeGoals": 3,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "werder-bremen",
+          "away": "fc-heidenheim",
+          "homeGoals": 4,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "fc-augsburg",
+          "away": "vfl-bochum",
+          "homeGoals": 1,
+          "awayGoals": 3,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 16,
+      "matches": [
+        {
+          "home": "bayer-leverkusen",
+          "away": "bayern-munich",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "rb-leipzig",
+          "away": "borussia-dortmund",
+          "homeGoals": 3,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "borussia-mgladbach",
+          "away": "st-pauli",
+          "homeGoals": 4,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "eintracht-frankfurt",
+          "away": "holstein-kiel",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "vfb-stuttgart",
+          "away": "fc-koln",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "sc-freiburg",
+          "away": "mainz-05",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "union-berlin",
+          "away": "fc-heidenheim",
+          "homeGoals": 2,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "vfl-wolfsburg",
+          "away": "vfl-bochum",
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "werder-bremen",
+          "away": "fc-augsburg",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 17,
+      "matches": [
+        {
+          "home": "bayer-leverkusen",
+          "away": "borussia-dortmund",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "bayern-munich",
+          "away": "st-pauli",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "rb-leipzig",
+          "away": "holstein-kiel",
+          "homeGoals": 3,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "borussia-mgladbach",
+          "away": "fc-koln",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "eintracht-frankfurt",
+          "away": "mainz-05",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "vfb-stuttgart",
+          "away": "fc-heidenheim",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "sc-freiburg",
+          "away": "vfl-bochum",
+          "homeGoals": 3,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "union-berlin",
+          "away": "fc-augsburg",
+          "homeGoals": 0,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "vfl-wolfsburg",
+          "away": "werder-bremen",
+          "homeGoals": 0,
+          "awayGoals": 4,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 18,
+      "matches": [
+        {
+          "home": "st-pauli",
+          "away": "bayer-leverkusen",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "holstein-kiel",
+          "away": "borussia-dortmund",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "fc-koln",
+          "away": "bayern-munich",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "mainz-05",
+          "away": "rb-leipzig",
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "fc-heidenheim",
+          "away": "borussia-mgladbach",
+          "homeGoals": 0,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "vfl-bochum",
+          "away": "eintracht-frankfurt",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "fc-augsburg",
+          "away": "vfb-stuttgart",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "werder-bremen",
+          "away": "sc-freiburg",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "vfl-wolfsburg",
+          "away": "union-berlin",
+          "homeGoals": 1,
+          "awayGoals": 4,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 19,
+      "matches": [
+        {
+          "home": "holstein-kiel",
+          "away": "bayer-leverkusen",
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "fc-koln",
+          "away": "st-pauli",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "mainz-05",
+          "away": "borussia-dortmund",
+          "homeGoals": 4,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "fc-heidenheim",
+          "away": "bayern-munich",
+          "homeGoals": 2,
+          "awayGoals": 4,
+          "played": true
+        },
+        {
+          "home": "vfl-bochum",
+          "away": "rb-leipzig",
+          "homeGoals": 3,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "fc-augsburg",
+          "away": "borussia-mgladbach",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "werder-bremen",
+          "away": "eintracht-frankfurt",
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "vfl-wolfsburg",
+          "away": "vfb-stuttgart",
+          "homeGoals": 3,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "union-berlin",
+          "away": "sc-freiburg",
+          "homeGoals": 0,
+          "awayGoals": 2,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 20,
+      "matches": [
+        {
+          "home": "fc-koln",
+          "away": "bayer-leverkusen",
+          "homeGoals": 3,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "mainz-05",
+          "away": "holstein-kiel",
+          "homeGoals": 2,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "fc-heidenheim",
+          "away": "st-pauli",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "vfl-bochum",
+          "away": "borussia-dortmund",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "fc-augsburg",
+          "away": "bayern-munich",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "werder-bremen",
+          "away": "rb-leipzig",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "vfl-wolfsburg",
+          "away": "borussia-mgladbach",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "union-berlin",
+          "away": "eintracht-frankfurt",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "sc-freiburg",
+          "away": "vfb-stuttgart",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 21,
+      "matches": [
+        {
+          "home": "mainz-05",
+          "away": "bayer-leverkusen",
+          "homeGoals": 3,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "fc-heidenheim",
+          "away": "fc-koln",
+          "homeGoals": 3,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "vfl-bochum",
+          "away": "holstein-kiel",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "fc-augsburg",
+          "away": "st-pauli",
+          "homeGoals": 0,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "werder-bremen",
+          "away": "borussia-dortmund",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "vfl-wolfsburg",
+          "away": "bayern-munich",
+          "homeGoals": 4,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "union-berlin",
+          "away": "rb-leipzig",
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "sc-freiburg",
+          "away": "borussia-mgladbach",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "vfb-stuttgart",
+          "away": "eintracht-frankfurt",
+          "homeGoals": 0,
+          "awayGoals": 2,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 22,
+      "matches": [
+        {
+          "home": "fc-heidenheim",
+          "away": "bayer-leverkusen",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "vfl-bochum",
+          "away": "mainz-05",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "fc-augsburg",
+          "away": "fc-koln",
+          "homeGoals": 3,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "werder-bremen",
+          "away": "holstein-kiel",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "vfl-wolfsburg",
+          "away": "st-pauli",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "union-berlin",
+          "away": "borussia-dortmund",
+          "homeGoals": 4,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "sc-freiburg",
+          "away": "bayern-munich",
+          "homeGoals": 3,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "vfb-stuttgart",
+          "away": "rb-leipzig",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "eintracht-frankfurt",
+          "away": "borussia-mgladbach",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 23,
+      "matches": [
+        {
+          "home": "vfl-bochum",
+          "away": "bayer-leverkusen",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "fc-augsburg",
+          "away": "fc-heidenheim",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "werder-bremen",
+          "away": "mainz-05",
+          "homeGoals": 3,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "vfl-wolfsburg",
+          "away": "fc-koln",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "union-berlin",
+          "away": "holstein-kiel",
+          "homeGoals": 3,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "sc-freiburg",
+          "away": "st-pauli",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "vfb-stuttgart",
+          "away": "borussia-dortmund",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "eintracht-frankfurt",
+          "away": "bayern-munich",
+          "homeGoals": 4,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "borussia-mgladbach",
+          "away": "rb-leipzig",
+          "homeGoals": 0,
+          "awayGoals": 2,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 24,
+      "matches": [
+        {
+          "home": "fc-augsburg",
+          "away": "bayer-leverkusen",
+          "homeGoals": 0,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "werder-bremen",
+          "away": "vfl-bochum",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "vfl-wolfsburg",
+          "away": "fc-heidenheim",
+          "homeGoals": 3,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "union-berlin",
+          "away": "mainz-05",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "sc-freiburg",
+          "away": "fc-koln",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "vfb-stuttgart",
+          "away": "holstein-kiel",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "eintracht-frankfurt",
+          "away": "st-pauli",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "borussia-mgladbach",
+          "away": "borussia-dortmund",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "rb-leipzig",
+          "away": "bayern-munich",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 25,
+      "matches": [
+        {
+          "home": "werder-bremen",
+          "away": "bayer-leverkusen",
+          "homeGoals": 2,
+          "awayGoals": 4,
+          "played": true
+        },
+        {
+          "home": "vfl-wolfsburg",
+          "away": "fc-augsburg",
+          "homeGoals": 2,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "union-berlin",
+          "away": "vfl-bochum",
+          "homeGoals": 0,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "sc-freiburg",
+          "away": "fc-heidenheim",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "vfb-stuttgart",
+          "away": "mainz-05",
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "eintracht-frankfurt",
+          "away": "fc-koln",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "borussia-mgladbach",
+          "away": "holstein-kiel",
+          "homeGoals": 3,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "rb-leipzig",
+          "away": "st-pauli",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "bayern-munich",
+          "away": "borussia-dortmund",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 26,
+      "matches": [
+        {
+          "home": "vfl-wolfsburg",
+          "away": "bayer-leverkusen",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "union-berlin",
+          "away": "werder-bremen",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "sc-freiburg",
+          "away": "fc-augsburg",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "vfb-stuttgart",
+          "away": "vfl-bochum",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "eintracht-frankfurt",
+          "away": "fc-heidenheim",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "borussia-mgladbach",
+          "away": "mainz-05",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "rb-leipzig",
+          "away": "fc-koln",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "bayern-munich",
+          "away": "holstein-kiel",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "borussia-dortmund",
+          "away": "st-pauli",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        }
+      ]
+    },
+    {
+      "gw": 27,
+      "matches": [
+        {
+          "home": "union-berlin",
+          "away": "bayer-leverkusen",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "sc-freiburg",
+          "away": "vfl-wolfsburg",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "vfb-stuttgart",
+          "away": "werder-bremen",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "eintracht-frankfurt",
+          "away": "fc-augsburg",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "borussia-mgladbach",
+          "away": "vfl-bochum",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "rb-leipzig",
+          "away": "fc-heidenheim",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "bayern-munich",
+          "away": "mainz-05",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "borussia-dortmund",
+          "away": "fc-koln",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "st-pauli",
+          "away": "holstein-kiel",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        }
+      ]
+    },
+    {
+      "gw": 28,
+      "matches": [
+        {
+          "home": "sc-freiburg",
+          "away": "bayer-leverkusen",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "vfb-stuttgart",
+          "away": "union-berlin",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "eintracht-frankfurt",
+          "away": "vfl-wolfsburg",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "borussia-mgladbach",
+          "away": "werder-bremen",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "rb-leipzig",
+          "away": "fc-augsburg",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "bayern-munich",
+          "away": "vfl-bochum",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "borussia-dortmund",
+          "away": "fc-heidenheim",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "st-pauli",
+          "away": "mainz-05",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "holstein-kiel",
+          "away": "fc-koln",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        }
+      ]
+    },
+    {
+      "gw": 29,
+      "matches": [
+        {
+          "home": "vfb-stuttgart",
+          "away": "bayer-leverkusen",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "eintracht-frankfurt",
+          "away": "sc-freiburg",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "borussia-mgladbach",
+          "away": "union-berlin",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "rb-leipzig",
+          "away": "vfl-wolfsburg",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "bayern-munich",
+          "away": "werder-bremen",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "borussia-dortmund",
+          "away": "fc-augsburg",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "st-pauli",
+          "away": "vfl-bochum",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "holstein-kiel",
+          "away": "fc-heidenheim",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "fc-koln",
+          "away": "mainz-05",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        }
+      ]
+    },
+    {
+      "gw": 30,
+      "matches": [
+        {
+          "home": "eintracht-frankfurt",
+          "away": "bayer-leverkusen",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "borussia-mgladbach",
+          "away": "vfb-stuttgart",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "rb-leipzig",
+          "away": "sc-freiburg",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "bayern-munich",
+          "away": "union-berlin",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "borussia-dortmund",
+          "away": "vfl-wolfsburg",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "st-pauli",
+          "away": "werder-bremen",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "holstein-kiel",
+          "away": "fc-augsburg",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "fc-koln",
+          "away": "vfl-bochum",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "mainz-05",
+          "away": "fc-heidenheim",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        }
+      ]
+    },
+    {
+      "gw": 31,
+      "matches": [
+        {
+          "home": "borussia-mgladbach",
+          "away": "bayer-leverkusen",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "rb-leipzig",
+          "away": "eintracht-frankfurt",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "bayern-munich",
+          "away": "vfb-stuttgart",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "borussia-dortmund",
+          "away": "sc-freiburg",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "st-pauli",
+          "away": "union-berlin",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "holstein-kiel",
+          "away": "vfl-wolfsburg",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "fc-koln",
+          "away": "werder-bremen",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "mainz-05",
+          "away": "fc-augsburg",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "fc-heidenheim",
+          "away": "vfl-bochum",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        }
+      ]
+    },
+    {
+      "gw": 32,
+      "matches": [
+        {
+          "home": "rb-leipzig",
+          "away": "bayer-leverkusen",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "bayern-munich",
+          "away": "borussia-mgladbach",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "borussia-dortmund",
+          "away": "eintracht-frankfurt",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "st-pauli",
+          "away": "vfb-stuttgart",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "holstein-kiel",
+          "away": "sc-freiburg",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "fc-koln",
+          "away": "union-berlin",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "mainz-05",
+          "away": "vfl-wolfsburg",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "fc-heidenheim",
+          "away": "werder-bremen",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "vfl-bochum",
+          "away": "fc-augsburg",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        }
+      ]
+    },
+    {
+      "gw": 33,
+      "matches": [
+        {
+          "home": "bayern-munich",
+          "away": "bayer-leverkusen",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "borussia-dortmund",
+          "away": "rb-leipzig",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "st-pauli",
+          "away": "borussia-mgladbach",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "holstein-kiel",
+          "away": "eintracht-frankfurt",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "fc-koln",
+          "away": "vfb-stuttgart",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "mainz-05",
+          "away": "sc-freiburg",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "fc-heidenheim",
+          "away": "union-berlin",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "vfl-bochum",
+          "away": "vfl-wolfsburg",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "fc-augsburg",
+          "away": "werder-bremen",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        }
+      ]
+    },
+    {
+      "gw": 34,
+      "matches": [
+        {
+          "home": "borussia-dortmund",
+          "away": "bayer-leverkusen",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "st-pauli",
+          "away": "bayern-munich",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "holstein-kiel",
+          "away": "rb-leipzig",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "fc-koln",
+          "away": "borussia-mgladbach",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "mainz-05",
+          "away": "eintracht-frankfurt",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "fc-heidenheim",
+          "away": "vfb-stuttgart",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "vfl-bochum",
+          "away": "sc-freiburg",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "fc-augsburg",
+          "away": "union-berlin",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "werder-bremen",
+          "away": "vfl-wolfsburg",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        }
+      ]
+    }
+  ]
+}

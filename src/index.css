@@ -1,0 +1,70 @@
+/* ── CSS custom properties ── */
+:root {
+  --font-sans: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'Courier New', monospace;
+  --accent: #3b82f6;
+  --accent-hover: #2563eb;
+  --radius: 0.75rem;
+}
+
+/* ── Light theme ── */
+[data-theme='light'] {
+  --bg: #f8fafc;
+  --surface-1: #ffffff;
+  --surface-2: #f1f5f9;
+  --surface-3: #e2e8f0;
+  --border: #e2e8f0;
+  --text-primary: #0f172a;
+  --text-secondary: #475569;
+  --text-tertiary: #94a3b8;
+  color-scheme: light;
+}
+
+/* ── Dark theme ── */
+[data-theme='dark'] {
+  --bg: #0d1117;
+  --surface-1: #161b22;
+  --surface-2: #1c2330;
+  --surface-3: #252d3a;
+  --border: #30363d;
+  --text-primary: #e6edf3;
+  --text-secondary: #8b949e;
+  --text-tertiary: #6e7681;
+  color-scheme: dark;
+}
+
+/* ── Reset & base ── */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-family: var(--font-sans);
+  background: var(--bg);
+  color: var(--text-primary);
+  line-height: 1.5;
+  min-height: 100dvh;
+  transition: background 0.25s, color 0.25s;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+input {
+  font-family: inherit;
+}
+
+img {
+  display: block;
+}

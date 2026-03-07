@@ -1,0 +1,2981 @@
+{
+  "leagueId": "premier-league",
+  "leagueName": "Premier League",
+  "season": "2024-25",
+  "currentGameweek": 28,
+  "totalGameweeks": 38,
+  "teams": [
+    {
+      "id": "arsenal",
+      "name": "Arsenal",
+      "shortName": "ARS",
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/en/5/53/Arsenal_FC.svg"
+    },
+    {
+      "id": "aston-villa",
+      "name": "Aston Villa",
+      "shortName": "AVL",
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/en/9/9a/Aston_Villa_FC_new_crest_2016.svg"
+    },
+    {
+      "id": "bournemouth",
+      "name": "Bournemouth",
+      "shortName": "BOU",
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/en/e/e5/AFC_Bournemouth_%282013%29.svg"
+    },
+    {
+      "id": "brentford",
+      "name": "Brentford",
+      "shortName": "BRE",
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/en/2/2a/Brentford_FC_crest.svg"
+    },
+    {
+      "id": "brighton",
+      "name": "Brighton",
+      "shortName": "BHA",
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/en/f/fd/Brighton_%26_Hove_Albion_logo.svg"
+    },
+    {
+      "id": "chelsea",
+      "name": "Chelsea",
+      "shortName": "CHE",
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/en/c/cc/Chelsea_FC.svg"
+    },
+    {
+      "id": "crystal-palace",
+      "name": "Crystal Palace",
+      "shortName": "CRY",
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/en/a/a2/Crystal_Palace_FC_logo_%282022%29.svg"
+    },
+    {
+      "id": "everton",
+      "name": "Everton",
+      "shortName": "EVE",
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/en/7/7c/Everton_FC_logo.svg"
+    },
+    {
+      "id": "fulham",
+      "name": "Fulham",
+      "shortName": "FUL",
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/en/e/eb/Fulham_FC_%28shield%29.svg"
+    },
+    {
+      "id": "ipswich",
+      "name": "Ipswich",
+      "shortName": "IPS",
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/en/4/43/Ipswich_Town.svg"
+    },
+    {
+      "id": "leicester",
+      "name": "Leicester",
+      "shortName": "LEI",
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/en/2/2d/Leicester_City_crest.svg"
+    },
+    {
+      "id": "liverpool",
+      "name": "Liverpool",
+      "shortName": "LIV",
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/en/0/0c/Liverpool_FC.svg"
+    },
+    {
+      "id": "manchester-city",
+      "name": "Manchester City",
+      "shortName": "MCI",
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/en/e/eb/Manchester_City_FC_badge.svg"
+    },
+    {
+      "id": "manchester-united",
+      "name": "Manchester United",
+      "shortName": "MUN",
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/en/7/7a/Manchester_United_FC_crest.svg"
+    },
+    {
+      "id": "newcastle",
+      "name": "Newcastle",
+      "shortName": "NEW",
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/en/5/56/Newcastle_United_Logo.svg"
+    },
+    {
+      "id": "nottingham-forest",
+      "name": "Nottingham Forest",
+      "shortName": "NFO",
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/en/e/e5/Nottingham_Forest_F.C._logo.svg"
+    },
+    {
+      "id": "southampton",
+      "name": "Southampton",
+      "shortName": "SOU",
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/en/c/c9/FC_Southampton.svg"
+    },
+    {
+      "id": "tottenham",
+      "name": "Tottenham",
+      "shortName": "TOT",
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/en/b/b4/Tottenham_Hotspur.svg"
+    },
+    {
+      "id": "west-ham",
+      "name": "West Ham",
+      "shortName": "WHU",
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/en/c/c2/West_Ham_United_FC_logo.svg"
+    },
+    {
+      "id": "wolverhampton",
+      "name": "Wolverhampton",
+      "shortName": "WOL",
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/en/f/fc/Wolverhampton_Wanderers.svg"
+    }
+  ],
+  "gameweeks": [
+    {
+      "gw": 1,
+      "matches": [
+        {
+          "home": "arsenal",
+          "away": "wolverhampton",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "aston-villa",
+          "away": "west-ham",
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "bournemouth",
+          "away": "tottenham",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "brentford",
+          "away": "southampton",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "brighton",
+          "away": "nottingham-forest",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "chelsea",
+          "away": "newcastle",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "crystal-palace",
+          "away": "manchester-united",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "everton",
+          "away": "manchester-city",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "fulham",
+          "away": "liverpool",
+          "homeGoals": 4,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "ipswich",
+          "away": "leicester",
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 2,
+      "matches": [
+        {
+          "home": "arsenal",
+          "away": "west-ham",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "wolverhampton",
+          "away": "tottenham",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "aston-villa",
+          "away": "southampton",
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "bournemouth",
+          "away": "nottingham-forest",
+          "homeGoals": 0,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "brentford",
+          "away": "newcastle",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "brighton",
+          "away": "manchester-united",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "chelsea",
+          "away": "manchester-city",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "crystal-palace",
+          "away": "liverpool",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "everton",
+          "away": "leicester",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "fulham",
+          "away": "ipswich",
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 3,
+      "matches": [
+        {
+          "home": "arsenal",
+          "away": "tottenham",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "west-ham",
+          "away": "southampton",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "wolverhampton",
+          "away": "nottingham-forest",
+          "homeGoals": 3,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "aston-villa",
+          "away": "newcastle",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "bournemouth",
+          "away": "manchester-united",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "brentford",
+          "away": "manchester-city",
+          "homeGoals": 3,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "brighton",
+          "away": "liverpool",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "chelsea",
+          "away": "leicester",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "crystal-palace",
+          "away": "ipswich",
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "everton",
+          "away": "fulham",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 4,
+      "matches": [
+        {
+          "home": "arsenal",
+          "away": "southampton",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "tottenham",
+          "away": "nottingham-forest",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "west-ham",
+          "away": "newcastle",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "wolverhampton",
+          "away": "manchester-united",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "aston-villa",
+          "away": "manchester-city",
+          "homeGoals": 3,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "bournemouth",
+          "away": "liverpool",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "brentford",
+          "away": "leicester",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "brighton",
+          "away": "ipswich",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "chelsea",
+          "away": "fulham",
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "crystal-palace",
+          "away": "everton",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 5,
+      "matches": [
+        {
+          "home": "arsenal",
+          "away": "nottingham-forest",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "southampton",
+          "away": "newcastle",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "tottenham",
+          "away": "manchester-united",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "west-ham",
+          "away": "manchester-city",
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "wolverhampton",
+          "away": "liverpool",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "aston-villa",
+          "away": "leicester",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "bournemouth",
+          "away": "ipswich",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "brentford",
+          "away": "fulham",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "brighton",
+          "away": "everton",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "chelsea",
+          "away": "crystal-palace",
+          "homeGoals": 1,
+          "awayGoals": 3,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 6,
+      "matches": [
+        {
+          "home": "arsenal",
+          "away": "newcastle",
+          "homeGoals": 1,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "nottingham-forest",
+          "away": "manchester-united",
+          "homeGoals": 0,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "southampton",
+          "away": "manchester-city",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "tottenham",
+          "away": "liverpool",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "west-ham",
+          "away": "leicester",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "wolverhampton",
+          "away": "ipswich",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "aston-villa",
+          "away": "fulham",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "bournemouth",
+          "away": "everton",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "brentford",
+          "away": "crystal-palace",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "brighton",
+          "away": "chelsea",
+          "homeGoals": 3,
+          "awayGoals": 2,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 7,
+      "matches": [
+        {
+          "home": "arsenal",
+          "away": "manchester-united",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "newcastle",
+          "away": "manchester-city",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "nottingham-forest",
+          "away": "liverpool",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "southampton",
+          "away": "leicester",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "tottenham",
+          "away": "ipswich",
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "west-ham",
+          "away": "fulham",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "wolverhampton",
+          "away": "everton",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "aston-villa",
+          "away": "crystal-palace",
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "bournemouth",
+          "away": "chelsea",
+          "homeGoals": 3,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "brentford",
+          "away": "brighton",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 8,
+      "matches": [
+        {
+          "home": "arsenal",
+          "away": "manchester-city",
+          "homeGoals": 0,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "manchester-united",
+          "away": "liverpool",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "newcastle",
+          "away": "leicester",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "nottingham-forest",
+          "away": "ipswich",
+          "homeGoals": 3,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "southampton",
+          "away": "fulham",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "tottenham",
+          "away": "everton",
+          "homeGoals": 2,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "west-ham",
+          "away": "crystal-palace",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "wolverhampton",
+          "away": "chelsea",
+          "homeGoals": 5,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "aston-villa",
+          "away": "brighton",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "bournemouth",
+          "away": "brentford",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 9,
+      "matches": [
+        {
+          "home": "arsenal",
+          "away": "liverpool",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "manchester-city",
+          "away": "leicester",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "manchester-united",
+          "away": "ipswich",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "newcastle",
+          "away": "fulham",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "nottingham-forest",
+          "away": "everton",
+          "homeGoals": 2,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "southampton",
+          "away": "crystal-palace",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "tottenham",
+          "away": "chelsea",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "west-ham",
+          "away": "brighton",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "wolverhampton",
+          "away": "brentford",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "aston-villa",
+          "away": "bournemouth",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 10,
+      "matches": [
+        {
+          "home": "arsenal",
+          "away": "leicester",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "liverpool",
+          "away": "ipswich",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "manchester-city",
+          "away": "fulham",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "manchester-united",
+          "away": "everton",
+          "homeGoals": 4,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "newcastle",
+          "away": "crystal-palace",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "nottingham-forest",
+          "away": "chelsea",
+          "homeGoals": 3,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "southampton",
+          "away": "brighton",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "tottenham",
+          "away": "brentford",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "west-ham",
+          "away": "bournemouth",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "wolverhampton",
+          "away": "aston-villa",
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 11,
+      "matches": [
+        {
+          "home": "arsenal",
+          "away": "ipswich",
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "leicester",
+          "away": "fulham",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "liverpool",
+          "away": "everton",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "manchester-city",
+          "away": "crystal-palace",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "manchester-united",
+          "away": "chelsea",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "newcastle",
+          "away": "brighton",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "nottingham-forest",
+          "away": "brentford",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "southampton",
+          "away": "bournemouth",
+          "homeGoals": 4,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "tottenham",
+          "away": "aston-villa",
+          "homeGoals": 0,
+          "awayGoals": 5,
+          "played": true
+        },
+        {
+          "home": "west-ham",
+          "away": "wolverhampton",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 12,
+      "matches": [
+        {
+          "home": "arsenal",
+          "away": "fulham",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "ipswich",
+          "away": "everton",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "leicester",
+          "away": "crystal-palace",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "liverpool",
+          "away": "chelsea",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "manchester-city",
+          "away": "brighton",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "manchester-united",
+          "away": "brentford",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "newcastle",
+          "away": "bournemouth",
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "nottingham-forest",
+          "away": "aston-villa",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "southampton",
+          "away": "wolverhampton",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "tottenham",
+          "away": "west-ham",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 13,
+      "matches": [
+        {
+          "home": "arsenal",
+          "away": "everton",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "fulham",
+          "away": "crystal-palace",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "ipswich",
+          "away": "chelsea",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "leicester",
+          "away": "brighton",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "liverpool",
+          "away": "brentford",
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "manchester-city",
+          "away": "bournemouth",
+          "homeGoals": 0,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "manchester-united",
+          "away": "aston-villa",
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "newcastle",
+          "away": "wolverhampton",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "nottingham-forest",
+          "away": "west-ham",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "southampton",
+          "away": "tottenham",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 14,
+      "matches": [
+        {
+          "home": "arsenal",
+          "away": "crystal-palace",
+          "homeGoals": 3,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "everton",
+          "away": "chelsea",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "fulham",
+          "away": "brighton",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "ipswich",
+          "away": "brentford",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "leicester",
+          "away": "bournemouth",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "liverpool",
+          "away": "aston-villa",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "manchester-city",
+          "away": "wolverhampton",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "manchester-united",
+          "away": "west-ham",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "newcastle",
+          "away": "tottenham",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "nottingham-forest",
+          "away": "southampton",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 15,
+      "matches": [
+        {
+          "home": "arsenal",
+          "away": "chelsea",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "crystal-palace",
+          "away": "brighton",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "everton",
+          "away": "brentford",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "fulham",
+          "away": "bournemouth",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "ipswich",
+          "away": "aston-villa",
+          "homeGoals": 1,
+          "awayGoals": 4,
+          "played": true
+        },
+        {
+          "home": "leicester",
+          "away": "wolverhampton",
+          "homeGoals": 0,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "liverpool",
+          "away": "west-ham",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "manchester-city",
+          "away": "tottenham",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "manchester-united",
+          "away": "southampton",
+          "homeGoals": 0,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "newcastle",
+          "away": "nottingham-forest",
+          "homeGoals": 3,
+          "awayGoals": 0,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 16,
+      "matches": [
+        {
+          "home": "arsenal",
+          "away": "brighton",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "chelsea",
+          "away": "brentford",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "crystal-palace",
+          "away": "bournemouth",
+          "homeGoals": 2,
+          "awayGoals": 4,
+          "played": true
+        },
+        {
+          "home": "everton",
+          "away": "aston-villa",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "fulham",
+          "away": "wolverhampton",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "ipswich",
+          "away": "west-ham",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "leicester",
+          "away": "tottenham",
+          "homeGoals": 3,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "liverpool",
+          "away": "southampton",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "manchester-city",
+          "away": "nottingham-forest",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "manchester-united",
+          "away": "newcastle",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 17,
+      "matches": [
+        {
+          "home": "arsenal",
+          "away": "brentford",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "brighton",
+          "away": "bournemouth",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "chelsea",
+          "away": "aston-villa",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "crystal-palace",
+          "away": "wolverhampton",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "everton",
+          "away": "west-ham",
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "fulham",
+          "away": "tottenham",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "ipswich",
+          "away": "southampton",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "leicester",
+          "away": "nottingham-forest",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "liverpool",
+          "away": "newcastle",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "manchester-city",
+          "away": "manchester-united",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 18,
+      "matches": [
+        {
+          "home": "arsenal",
+          "away": "bournemouth",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "brentford",
+          "away": "aston-villa",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "brighton",
+          "away": "wolverhampton",
+          "homeGoals": 3,
+          "awayGoals": 4,
+          "played": true
+        },
+        {
+          "home": "chelsea",
+          "away": "west-ham",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "crystal-palace",
+          "away": "tottenham",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "everton",
+          "away": "southampton",
+          "homeGoals": 0,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "fulham",
+          "away": "nottingham-forest",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "ipswich",
+          "away": "newcastle",
+          "homeGoals": 4,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "leicester",
+          "away": "manchester-united",
+          "homeGoals": 1,
+          "awayGoals": 4,
+          "played": true
+        },
+        {
+          "home": "liverpool",
+          "away": "manchester-city",
+          "homeGoals": 4,
+          "awayGoals": 3,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 19,
+      "matches": [
+        {
+          "home": "arsenal",
+          "away": "aston-villa",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "bournemouth",
+          "away": "wolverhampton",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "brentford",
+          "away": "west-ham",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "brighton",
+          "away": "tottenham",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "chelsea",
+          "away": "southampton",
+          "homeGoals": 4,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "crystal-palace",
+          "away": "nottingham-forest",
+          "homeGoals": 3,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "everton",
+          "away": "newcastle",
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "fulham",
+          "away": "manchester-united",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "ipswich",
+          "away": "manchester-city",
+          "homeGoals": 0,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "leicester",
+          "away": "liverpool",
+          "homeGoals": 3,
+          "awayGoals": 3,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 20,
+      "matches": [
+        {
+          "home": "wolverhampton",
+          "away": "arsenal",
+          "homeGoals": 4,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "west-ham",
+          "away": "aston-villa",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "tottenham",
+          "away": "bournemouth",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "southampton",
+          "away": "brentford",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "nottingham-forest",
+          "away": "brighton",
+          "homeGoals": 3,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "newcastle",
+          "away": "chelsea",
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "manchester-united",
+          "away": "crystal-palace",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "manchester-city",
+          "away": "everton",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "liverpool",
+          "away": "fulham",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "leicester",
+          "away": "ipswich",
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 21,
+      "matches": [
+        {
+          "home": "west-ham",
+          "away": "arsenal",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "tottenham",
+          "away": "wolverhampton",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "southampton",
+          "away": "aston-villa",
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "nottingham-forest",
+          "away": "bournemouth",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "newcastle",
+          "away": "brentford",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "manchester-united",
+          "away": "brighton",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "manchester-city",
+          "away": "chelsea",
+          "homeGoals": 2,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "liverpool",
+          "away": "crystal-palace",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "leicester",
+          "away": "everton",
+          "homeGoals": 3,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "ipswich",
+          "away": "fulham",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 22,
+      "matches": [
+        {
+          "home": "tottenham",
+          "away": "arsenal",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "southampton",
+          "away": "west-ham",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "nottingham-forest",
+          "away": "wolverhampton",
+          "homeGoals": 0,
+          "awayGoals": 5,
+          "played": true
+        },
+        {
+          "home": "newcastle",
+          "away": "aston-villa",
+          "homeGoals": 4,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "manchester-united",
+          "away": "bournemouth",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "manchester-city",
+          "away": "brentford",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "liverpool",
+          "away": "brighton",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "leicester",
+          "away": "chelsea",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "ipswich",
+          "away": "crystal-palace",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "fulham",
+          "away": "everton",
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 23,
+      "matches": [
+        {
+          "home": "southampton",
+          "away": "arsenal",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "nottingham-forest",
+          "away": "tottenham",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "newcastle",
+          "away": "west-ham",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "manchester-united",
+          "away": "wolverhampton",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "manchester-city",
+          "away": "aston-villa",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "liverpool",
+          "away": "bournemouth",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "leicester",
+          "away": "brentford",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "ipswich",
+          "away": "brighton",
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "fulham",
+          "away": "chelsea",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "everton",
+          "away": "crystal-palace",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 24,
+      "matches": [
+        {
+          "home": "nottingham-forest",
+          "away": "arsenal",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "newcastle",
+          "away": "southampton",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "manchester-united",
+          "away": "tottenham",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "manchester-city",
+          "away": "west-ham",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "liverpool",
+          "away": "wolverhampton",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "leicester",
+          "away": "aston-villa",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "ipswich",
+          "away": "bournemouth",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "fulham",
+          "away": "brentford",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "everton",
+          "away": "brighton",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "crystal-palace",
+          "away": "chelsea",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 25,
+      "matches": [
+        {
+          "home": "newcastle",
+          "away": "arsenal",
+          "homeGoals": 4,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "manchester-united",
+          "away": "nottingham-forest",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "manchester-city",
+          "away": "southampton",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "liverpool",
+          "away": "tottenham",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "leicester",
+          "away": "west-ham",
+          "homeGoals": 0,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "ipswich",
+          "away": "wolverhampton",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "fulham",
+          "away": "aston-villa",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "everton",
+          "away": "bournemouth",
+          "homeGoals": 2,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "crystal-palace",
+          "away": "brentford",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "chelsea",
+          "away": "brighton",
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 26,
+      "matches": [
+        {
+          "home": "manchester-united",
+          "away": "arsenal",
+          "homeGoals": 3,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "manchester-city",
+          "away": "newcastle",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "liverpool",
+          "away": "nottingham-forest",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "leicester",
+          "away": "southampton",
+          "homeGoals": 5,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "ipswich",
+          "away": "tottenham",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "fulham",
+          "away": "west-ham",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "everton",
+          "away": "wolverhampton",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "crystal-palace",
+          "away": "aston-villa",
+          "homeGoals": 0,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "chelsea",
+          "away": "bournemouth",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "brighton",
+          "away": "brentford",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 27,
+      "matches": [
+        {
+          "home": "manchester-city",
+          "away": "arsenal",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "liverpool",
+          "away": "manchester-united",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "leicester",
+          "away": "newcastle",
+          "homeGoals": 1,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "ipswich",
+          "away": "nottingham-forest",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "fulham",
+          "away": "southampton",
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "everton",
+          "away": "tottenham",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "crystal-palace",
+          "away": "west-ham",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "chelsea",
+          "away": "wolverhampton",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "brighton",
+          "away": "aston-villa",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "brentford",
+          "away": "bournemouth",
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 28,
+      "matches": [
+        {
+          "home": "liverpool",
+          "away": "arsenal",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "leicester",
+          "away": "manchester-city",
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "ipswich",
+          "away": "manchester-united",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "fulham",
+          "away": "newcastle",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "everton",
+          "away": "nottingham-forest",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "crystal-palace",
+          "away": "southampton",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "chelsea",
+          "away": "tottenham",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "brighton",
+          "away": "west-ham",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "brentford",
+          "away": "wolverhampton",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "bournemouth",
+          "away": "aston-villa",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 29,
+      "matches": [
+        {
+          "home": "leicester",
+          "away": "arsenal",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "ipswich",
+          "away": "liverpool",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "fulham",
+          "away": "manchester-city",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "everton",
+          "away": "manchester-united",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "crystal-palace",
+          "away": "newcastle",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "chelsea",
+          "away": "nottingham-forest",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "brighton",
+          "away": "southampton",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "brentford",
+          "away": "tottenham",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "bournemouth",
+          "away": "west-ham",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "aston-villa",
+          "away": "wolverhampton",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        }
+      ]
+    },
+    {
+      "gw": 30,
+      "matches": [
+        {
+          "home": "ipswich",
+          "away": "arsenal",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "fulham",
+          "away": "leicester",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "everton",
+          "away": "liverpool",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "crystal-palace",
+          "away": "manchester-city",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "chelsea",
+          "away": "manchester-united",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "brighton",
+          "away": "newcastle",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "brentford",
+          "away": "nottingham-forest",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "bournemouth",
+          "away": "southampton",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "aston-villa",
+          "away": "tottenham",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "wolverhampton",
+          "away": "west-ham",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        }
+      ]
+    },
+    {
+      "gw": 31,
+      "matches": [
+        {
+          "home": "fulham",
+          "away": "arsenal",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "everton",
+          "away": "ipswich",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "crystal-palace",
+          "away": "leicester",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "chelsea",
+          "away": "liverpool",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "brighton",
+          "away": "manchester-city",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "brentford",
+          "away": "manchester-united",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "bournemouth",
+          "away": "newcastle",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "aston-villa",
+          "away": "nottingham-forest",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "wolverhampton",
+          "away": "southampton",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "west-ham",
+          "away": "tottenham",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        }
+      ]
+    },
+    {
+      "gw": 32,
+      "matches": [
+        {
+          "home": "everton",
+          "away": "arsenal",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "crystal-palace",
+          "away": "fulham",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "chelsea",
+          "away": "ipswich",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "brighton",
+          "away": "leicester",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "brentford",
+          "away": "liverpool",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "bournemouth",
+          "away": "manchester-city",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "aston-villa",
+          "away": "manchester-united",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "wolverhampton",
+          "away": "newcastle",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "west-ham",
+          "away": "nottingham-forest",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "tottenham",
+          "away": "southampton",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        }
+      ]
+    },
+    {
+      "gw": 33,
+      "matches": [
+        {
+          "home": "crystal-palace",
+          "away": "arsenal",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "chelsea",
+          "away": "everton",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "brighton",
+          "away": "fulham",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "brentford",
+          "away": "ipswich",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "bournemouth",
+          "away": "leicester",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "aston-villa",
+          "away": "liverpool",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "wolverhampton",
+          "away": "manchester-city",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "west-ham",
+          "away": "manchester-united",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "tottenham",
+          "away": "newcastle",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "southampton",
+          "away": "nottingham-forest",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        }
+      ]
+    },
+    {
+      "gw": 34,
+      "matches": [
+        {
+          "home": "chelsea",
+          "away": "arsenal",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "brighton",
+          "away": "crystal-palace",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "brentford",
+          "away": "everton",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "bournemouth",
+          "away": "fulham",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "aston-villa",
+          "away": "ipswich",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "wolverhampton",
+          "away": "leicester",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "west-ham",
+          "away": "liverpool",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "tottenham",
+          "away": "manchester-city",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "southampton",
+          "away": "manchester-united",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "nottingham-forest",
+          "away": "newcastle",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        }
+      ]
+    },
+    {
+      "gw": 35,
+      "matches": [
+        {
+          "home": "brighton",
+          "away": "arsenal",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "brentford",
+          "away": "chelsea",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "bournemouth",
+          "away": "crystal-palace",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "aston-villa",
+          "away": "everton",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "wolverhampton",
+          "away": "fulham",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "west-ham",
+          "away": "ipswich",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "tottenham",
+          "away": "leicester",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "southampton",
+          "away": "liverpool",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "nottingham-forest",
+          "away": "manchester-city",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "newcastle",
+          "away": "manchester-united",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        }
+      ]
+    },
+    {
+      "gw": 36,
+      "matches": [
+        {
+          "home": "brentford",
+          "away": "arsenal",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "bournemouth",
+          "away": "brighton",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "aston-villa",
+          "away": "chelsea",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "wolverhampton",
+          "away": "crystal-palace",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "west-ham",
+          "away": "everton",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "tottenham",
+          "away": "fulham",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "southampton",
+          "away": "ipswich",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "nottingham-forest",
+          "away": "leicester",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "newcastle",
+          "away": "liverpool",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "manchester-united",
+          "away": "manchester-city",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        }
+      ]
+    },
+    {
+      "gw": 37,
+      "matches": [
+        {
+          "home": "bournemouth",
+          "away": "arsenal",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "aston-villa",
+          "away": "brentford",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "wolverhampton",
+          "away": "brighton",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "west-ham",
+          "away": "chelsea",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "tottenham",
+          "away": "crystal-palace",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "southampton",
+          "away": "everton",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "nottingham-forest",
+          "away": "fulham",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "newcastle",
+          "away": "ipswich",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "manchester-united",
+          "away": "leicester",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "manchester-city",
+          "away": "liverpool",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        }
+      ]
+    },
+    {
+      "gw": 38,
+      "matches": [
+        {
+          "home": "aston-villa",
+          "away": "arsenal",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "wolverhampton",
+          "away": "bournemouth",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "west-ham",
+          "away": "brentford",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "tottenham",
+          "away": "brighton",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "southampton",
+          "away": "chelsea",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "nottingham-forest",
+          "away": "crystal-palace",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "newcastle",
+          "away": "everton",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "manchester-united",
+          "away": "fulham",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "manchester-city",
+          "away": "ipswich",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "liverpool",
+          "away": "leicester",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        }
+      ]
+    }
+  ]
+}
