@@ -1,8 +1,10 @@
 import { useState, useEffect, useMemo } from 'react';
-import type { LeagueId, AppTab, Theme } from './types';
+import type { LeagueId, AppTab, Theme, SeasonYear } from './types';
+import { CURRENT_SEASON_YEAR } from './types';
 import { useLeagueData } from './hooks/useLeagueData';
 import { calculateLuckTable, calculateCumulativeLuck, calculateFormTable } from './utils/calculations';
 import { LeagueSelector } from './components/LeagueSelector/LeagueSelector';
+import { SeasonSelector } from './components/SeasonSelector/SeasonSelector';
 import { Phase1Controls, Phase2Controls } from './components/Controls/Controls';
 import { LuckTable } from './components/LuckTable/LuckTable';
 import { CumulativeLuckTable } from './components/CumulativeLuckTable/CumulativeLuckTable';
@@ -28,11 +30,12 @@ function App() {
     localStorage.setItem('theme', theme);
   }, [theme]);
 
-  // ── League & Tab ──
+  // ── League, Season & Tab ──
   const [leagueId, setLeagueId] = useState<LeagueId>('premier-league');
+  const [seasonYear, setSeasonYear] = useState<SeasonYear>(CURRENT_SEASON_YEAR);
   const [activeTab, setActiveTab] = useState<AppTab>('phase1');
 
-  const { data, loading, error } = useLeagueData(leagueId);
+  const { data, loading, error } = useLeagueData(leagueId, seasonYear);
 
   // ── Phase 1 controls ──
   const [p1FormWindow, setP1FormWindow] = useState(5);
@@ -44,15 +47,15 @@ function App() {
   const [p2GwA, setP2GwA] = useState<number | null>(null);
   const [p2GwB, setP2GwB] = useState<number | null>(null);
 
-  // Reset controls when league changes
+  // Reset GW controls when league or season changes
   useEffect(() => {
     setP1ScheduleStart(null);
     setP1ScheduleEnd(null);
     setP2GwA(null);
     setP2GwB(null);
-  }, [leagueId]);
+  }, [leagueId, seasonYear]);
 
-  // Initialise schedule defaults once data loads
+  // Initialise GW defaults once data loads
   useEffect(() => {
     if (!data) return;
     const cur = data.currentGameweek;
@@ -82,9 +85,6 @@ function App() {
     return calculateCumulativeLuck(data, p2FormWindow, p2A, p2B);
   }, [data, p2FormWindow, p2A, p2B, p2GwA, p2GwB]);
 
-  // Form table shown at the bottom:
-  // Phase 1 → form just before the schedule window starts (last X games up to p1Start-1)
-  // Phase 2 → form just before the evaluation period ends (last X games up to p2B)
   const p1FormTable = useMemo(() => {
     if (!data || p1ScheduleStart === null) return [];
     const end   = p1Start - 1;
@@ -113,9 +113,11 @@ function App() {
         <ThemeToggle theme={theme} onToggle={() => setTheme(theme === 'dark' ? 'light' : 'dark')} />
       </header>
 
-      {/* ── League selector ── */}
-      <div className={styles.leagueRow}>
+      {/* ── League + Season selectors ── */}
+      <div className={styles.selectorsRow}>
         <LeagueSelector selected={leagueId} onChange={setLeagueId} />
+        <div className={styles.selectorDivider} />
+        <SeasonSelector selected={seasonYear} onChange={setSeasonYear} />
       </div>
 
       {/* ── Tab bar ── */}
@@ -145,7 +147,13 @@ function App() {
           Loading league data…
         </div>
       )}
-      {error && <div className={styles.errorBox}>Error: {error}</div>}
+      {error && (
+        <div className={styles.errorBox}>
+          {error.includes('No data available')
+            ? `No data for this season yet. Run: python scripts/update_data.py --league ${leagueId} --season ${seasonYear}`
+            : `Error: ${error}`}
+        </div>
+      )}
 
       {/* ── Phase 1 ── */}
       {!loading && !error && data && activeTab === 'phase1' && (

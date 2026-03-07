@@ -1,5 +1,23 @@
 export type LeagueId = 'premier-league' | 'la-liga' | 'serie-a' | 'bundesliga';
 
+// Season start year (e.g. 2025 = 2025-26 season)
+export type SeasonYear = 2021 | 2022 | 2023 | 2024 | 2025;
+
+export interface Season {
+  year: SeasonYear;
+  label: string; // e.g. "2025-26"
+}
+
+export const SEASONS: Season[] = [
+  { year: 2025, label: '2025-26' },
+  { year: 2024, label: '2024-25' },
+  { year: 2023, label: '2023-24' },
+  { year: 2022, label: '2022-23' },
+  { year: 2021, label: '2021-22' },
+];
+
+export const CURRENT_SEASON_YEAR: SeasonYear = 2025;
+
 export interface Team {
   id: string;
   name: string;

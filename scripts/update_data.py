@@ -1,17 +1,17 @@
 #!/usr/bin/env python3
 """
-Football Luck Table — Data Update Script
-========================================
-Fetches live match data from football-data.org and writes it to
-public/data/*.json files consumed by the frontend.
+Football Luck Table -- Data Update Script
+==========================================
+Fetches live match data from football-data.org and writes to
+public/data/{league-id}-{season-year}.json files.
 
 Usage:
-    python scripts/update_data.py --all
-    python scripts/update_data.py --league premier-league
+    python scripts/update_data.py --all                    # current season
+    python scripts/update_data.py --all --season 2024      # specific season
+    python scripts/update_data.py --all --all-seasons      # all seasons
+    python scripts/update_data.py --league premier-league  # one league
 
 Requires API_KEY in .env (football-data.org token).
-Free tier covers Premier League only. Other leagues require a paid plan
-— the script falls back to existing stub data for restricted competitions.
 """
 
 from __future__ import annotations
@@ -27,7 +27,6 @@ import urllib.request
 from pathlib import Path
 from typing import Any
 
-# ── Load .env ─────────────────────────────────────────────────────────────────
 
 def load_env() -> None:
     env_path = Path(__file__).parent.parent / ".env"
@@ -40,76 +39,60 @@ def load_env() -> None:
         key, _, value = line.partition("=")
         os.environ.setdefault(key.strip(), value.strip())
 
+
 load_env()
 
-# Force UTF-8 output on Windows so emoji/box chars don't crash
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
 
-# ── Configuration ─────────────────────────────────────────────────────────────
+API_KEY    = os.environ.get("API_KEY", "")
+API_BASE   = "https://api.football-data.org/v4"
+OUTPUT_DIR = Path(__file__).parent.parent / "public" / "data"
 
-API_KEY      = os.environ.get("API_KEY", "")
-API_BASE     = "https://api.football-data.org/v4"
-SEASON_YEAR  = "2025"   # football-data.org uses the start year
-OUTPUT_DIR   = Path(__file__).parent.parent / "public" / "data"
+SUPPORTED_SEASONS = [2021, 2022, 2023, 2024, 2025]
+DEFAULT_SEASON    = 2025
 
 LEAGUE_CONFIG: dict[str, dict[str, Any]] = {
-    "premier-league": {
-        "name": "Premier League",
-        "season": "2025-26",
-        "totalGameweeks": 38,
-        "code": "PL",
-    },
-    "la-liga": {
-        "name": "La Liga",
-        "season": "2025-26",
-        "totalGameweeks": 38,
-        "code": "PD",
-    },
-    "serie-a": {
-        "name": "Serie A",
-        "season": "2025-26",
-        "totalGameweeks": 38,
-        "code": "SA",
-    },
-    "bundesliga": {
-        "name": "Bundesliga",
-        "season": "2025-26",
-        "totalGameweeks": 34,
-        "code": "BL1",
-    },
+    "premier-league": {"name": "Premier League", "code": "PL"},
+    "la-liga":        {"name": "La Liga",         "code": "PD"},
+    "serie-a":        {"name": "Serie A",         "code": "SA"},
+    "bundesliga":     {"name": "Bundesliga",      "code": "BL1"},
 }
 
-# ── Helpers ───────────────────────────────────────────────────────────────────
+
+def season_label(year: int) -> str:
+    return f"{year}-{str(year + 1)[-2:]}"
+
+
+def total_gws(league_id: str) -> int:
+    return 34 if league_id == "bundesliga" else 38
+
 
 def slugify(name: str) -> str:
     return re.sub(r"[^a-z0-9]+", "-", name.lower()).strip("-")
 
 
 def api_get(path: str) -> Any:
-    """Make an authenticated GET request to football-data.org."""
     url = f"{API_BASE}{path}"
     req = urllib.request.Request(url, headers={"X-Auth-Token": API_KEY})
     with urllib.request.urlopen(req, timeout=15) as resp:
         return json.loads(resp.read())
 
 
-# ── football-data.org fetch ───────────────────────────────────────────────────
+def fetch_league(league_id: str, season_year: int) -> dict:
+    config = LEAGUE_CONFIG[league_id]
+    code   = config["code"]
+    gws    = total_gws(league_id)
 
-def fetch_from_football_data_org(league_id: str, config: dict) -> dict:
-    code = config["code"]
-    total_gws = config["totalGameweeks"]
+    print(f"  Fetching teams ({code}, {season_year})...")
+    teams_raw = api_get(f"/competitions/{code}/teams?season={season_year}")["teams"]
+    time.sleep(7)
 
-    print(f"  Fetching teams for {config['name']} ({code})…")
-    teams_raw = api_get(f"/competitions/{code}/teams?season={SEASON_YEAR}")["teams"]
-    time.sleep(7)  # free tier: 10 req/min → ~6 s between calls, use 7 to be safe
+    print(f"  Fetching matches ({code}, {season_year})...")
+    matches_raw = api_get(f"/competitions/{code}/matches?season={season_year}")["matches"]
 
-    print(f"  Fetching matches for {config['name']} ({code})…")
-    matches_raw = api_get(f"/competitions/{code}/matches?season={SEASON_YEAR}")["matches"]
-
-    # ── Build teams list ──
     teams: list[dict] = []
-    team_id_map: dict[int, str] = {}   # api numeric id → our slug
+    team_id_map: dict[int, str] = {}
 
     for t in teams_raw:
         slug = slugify(t["name"])
@@ -121,39 +104,25 @@ def fetch_from_football_data_org(league_id: str, config: dict) -> dict:
             "logoUrl": t.get("crest", ""),
         })
 
-    # ── Build gameweeks ──
-    # Group matches by matchday
-    gw_map: dict[int, list[dict]] = {gw: [] for gw in range(1, total_gws + 1)}
-
-    finished_gws: set[int] = set()
+    gw_map: dict[int, list[dict]] = {gw: [] for gw in range(1, gws + 1)}
 
     for m in matches_raw:
         matchday = m.get("matchday")
-        if matchday is None or matchday < 1 or matchday > total_gws:
+        if not matchday or matchday < 1 or matchday > gws:
             continue
 
-        status = m.get("status", "")
-        played = status == "FINISHED"
-
-        home_api_id = m["homeTeam"]["id"]
-        away_api_id = m["awayTeam"]["id"]
-        home_slug = team_id_map.get(home_api_id, slugify(m["homeTeam"].get("name", "")))
-        away_slug = team_id_map.get(away_api_id, slugify(m["awayTeam"].get("name", "")))
+        played    = m.get("status", "") == "FINISHED"
+        home_slug = team_id_map.get(m["homeTeam"]["id"], slugify(m["homeTeam"].get("name", "")))
+        away_slug = team_id_map.get(m["awayTeam"]["id"], slugify(m["awayTeam"].get("name", "")))
 
         if played:
-            score = m.get("score", {}).get("fullTime", {})
-            home_goals = score.get("home")
-            away_goals = score.get("away")
-            # Guard: mark as unplayed if goals are missing despite FINISHED status
+            ft = m.get("score", {}).get("fullTime", {})
+            home_goals, away_goals = ft.get("home"), ft.get("away")
             if home_goals is None or away_goals is None:
                 played = False
-                home_goals = None
-                away_goals = None
-            else:
-                finished_gws.add(matchday)
+                home_goals = away_goals = None
         else:
-            home_goals = None
-            away_goals = None
+            home_goals = away_goals = None
 
         gw_map[matchday].append({
             "home": home_slug,
@@ -163,94 +132,91 @@ def fetch_from_football_data_org(league_id: str, config: dict) -> dict:
             "played": played,
         })
 
-    gameweeks = [{"gw": gw, "matches": gw_map[gw]} for gw in range(1, total_gws + 1)]
+    gameweeks = [{"gw": gw, "matches": gw_map[gw]} for gw in range(1, gws + 1)]
 
-    # currentGameweek = highest matchday where ALL matches are finished.
-    # Scan all GWs so a postponed match mid-season does not freeze the counter.
     current_gw = 0
-    for gw in range(1, total_gws + 1):
-        matches_in_gw = gw_map[gw]
-        if matches_in_gw and all(m["played"] for m in matches_in_gw):
+    for gw in range(1, gws + 1):
+        ms = gw_map[gw]
+        if ms and all(m["played"] for m in ms):
             current_gw = gw
+
+    played_count = sum(1 for gw in gameweeks for m in gw["matches"] if m["played"])
 
     return {
         "teams": teams,
         "gameweeks": gameweeks,
         "currentGameweek": current_gw,
+        "playedCount": played_count,
     }
 
 
-# ── Fallback: keep existing stub data ─────────────────────────────────────────
-
-def load_existing(league_id: str) -> dict | None:
-    path = OUTPUT_DIR / f"{league_id}.json"
-    if path.exists():
-        with open(path) as f:
-            data = json.load(f)
-        return {
-            "teams": data["teams"],
-            "gameweeks": data["gameweeks"],
-            "currentGameweek": data["currentGameweek"],
-        }
-    return None
-
-
-# ── Main update logic ──────────────────────────────────────────────────────────
-
-def update_league(league_id: str) -> None:
+def update(league_id: str, season_year: int) -> None:
     config = LEAGUE_CONFIG[league_id]
-    print(f"\n── {config['name']} ──")
+    print(f"\n-- {config['name']} {season_label(season_year)} --")
 
     if not API_KEY:
-        print("  ✗ API_KEY not set in .env — skipping.")
+        print("  No API_KEY set in .env -- skipping.")
         return
 
     try:
-        result = fetch_from_football_data_org(league_id, config)
+        result = fetch_league(league_id, season_year)
     except urllib.error.HTTPError as e:
         if e.code == 403:
-            print(f"  ⚠ 403 Forbidden — your plan doesn't cover {config['name']}.")
-            print("    Keeping existing data.")
-            return
-        raise
+            print(f"  403 Forbidden -- plan does not cover {config['name']} or this season.")
+        elif e.code == 404:
+            print(f"  404 Not found -- season {season_year} may not exist yet.")
+        else:
+            print(f"  HTTP {e.code}: {e}")
+        return
+    except Exception as e:
+        print(f"  Error: {e}")
+        return
 
     output = {
         "leagueId": league_id,
         "leagueName": config["name"],
-        "season": config["season"],
+        "season": season_label(season_year),
         "currentGameweek": result["currentGameweek"],
-        "totalGameweeks": config["totalGameweeks"],
+        "totalGameweeks": total_gws(league_id),
         "teams": result["teams"],
         "gameweeks": result["gameweeks"],
     }
 
-    out_path = OUTPUT_DIR / f"{league_id}.json"
+    out_path = OUTPUT_DIR / f"{league_id}-{season_year}.json"
     with open(out_path, "w", encoding="utf-8") as f:
         json.dump(output, f, indent=2, ensure_ascii=False)
 
-    total_played = sum(
-        1 for gw in result["gameweeks"] for m in gw["matches"] if m["played"]
-    )
-    print(f"  ✓ {len(result['teams'])} teams · {total_played} matches played · "
-          f"current GW: {result['currentGameweek']} → {out_path.name}")
+    print(f"  OK {len(result['teams'])} teams, {result['playedCount']} played, "
+          f"GW {result['currentGameweek']} -> {out_path.name}")
 
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Update football luck table data")
-    group = parser.add_mutually_exclusive_group(required=True)
-    group.add_argument("--league", choices=list(LEAGUE_CONFIG.keys()))
-    group.add_argument("--all", action="store_true")
-    args = parser.parse_args()
 
+    lg = parser.add_mutually_exclusive_group(required=True)
+    lg.add_argument("--league", choices=list(LEAGUE_CONFIG.keys()))
+    lg.add_argument("--all", action="store_true")
+
+    sg = parser.add_mutually_exclusive_group()
+    sg.add_argument("--season", type=int, choices=SUPPORTED_SEASONS, default=DEFAULT_SEASON)
+    sg.add_argument("--all-seasons", action="store_true")
+
+    args = parser.parse_args()
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
     leagues = list(LEAGUE_CONFIG.keys()) if args.all else [args.league]
-    for i, league_id in enumerate(leagues):
-        update_league(league_id)
-        # Rate-limit between leagues (not needed within a league — we already sleep there)
-        if args.all and i < len(leagues) - 1:
-            print("  (waiting 7 s for rate limit…)")
-            time.sleep(7)
+    seasons = SUPPORTED_SEASONS if args.all_seasons else [args.season]
+
+    total = len(leagues) * len(seasons)
+    done  = 0
+
+    for season_year in seasons:
+        for league_id in leagues:
+            update(league_id, season_year)
+            done += 1
+            if done < total:
+                print("  (pausing 7 s...)")
+                time.sleep(7)
 
     print("\nDone.")
 

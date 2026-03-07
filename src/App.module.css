@@ -134,9 +134,24 @@
   border-color: #7f1d1d;
 }
 
-/* ── League selector row ── */
-.leagueRow {
+/* ── Selectors row (league + season) ── */
+.selectorsRow {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
   margin-bottom: 1.5rem;
+}
+
+.selectorDivider {
+  width: 1px;
+  height: 2rem;
+  background: var(--border);
+  flex-shrink: 0;
+}
+
+@media (max-width: 640px) {
+  .selectorDivider { display: none; }
 }
 
 /* ── Info callout ── */
