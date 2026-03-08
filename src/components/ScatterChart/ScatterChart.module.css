@@ -1,0 +1,34 @@
+.chartWrapper {
+  background: var(--surface-1);
+  border: 1px solid var(--border);
+  border-radius: 0.75rem;
+  padding: 1rem;
+  overflow-x: auto;
+}
+
+.svg {
+  width: 100%;
+  max-width: 600px;
+  display: block;
+  margin: 0 auto;
+}
+
+.dot {
+  cursor: default;
+}
+
+.dot:hover circle:first-of-type {
+  opacity: 1;
+  r: 9;
+}
+
+.label {
+  pointer-events: none;
+  user-select: none;
+}
+
+.empty {
+  padding: 3rem;
+  text-align: center;
+  color: var(--text-tertiary);
+}

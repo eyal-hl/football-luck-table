@@ -1,3 +1,4 @@
+import { RangeSlider } from '../RangeSlider/RangeSlider';
 import styles from './Controls.module.css';
 
 interface Phase1ControlsProps {
@@ -36,39 +37,15 @@ export function Phase1Controls({
 
       <div className={styles.divider} />
 
-      <div className={styles.group}>
-        <label className={styles.label}>Schedule From (GW)</label>
-        <span className={styles.sublabel}>First gameweek to analyse</span>
-        <input
-          type="number"
-          className={styles.input}
-          min={1}
-          max={scheduleEnd}
-          value={scheduleStart}
-          onChange={(e) =>
-            onScheduleStartChange(
-              Math.min(scheduleEnd, Math.max(1, parseInt(e.target.value) || 1)),
-            )
-          }
-        />
-      </div>
-
-      <div className={styles.group}>
-        <label className={styles.label}>Schedule To (GW)</label>
-        <span className={styles.sublabel}>Last gameweek to analyse</span>
-        <input
-          type="number"
-          className={styles.input}
-          min={scheduleStart}
-          max={maxGw}
-          value={scheduleEnd}
-          onChange={(e) =>
-            onScheduleEndChange(
-              Math.min(maxGw, Math.max(scheduleStart, parseInt(e.target.value) || scheduleStart)),
-            )
-          }
-        />
-      </div>
+      <RangeSlider
+        min={1}
+        max={maxGw}
+        valueA={scheduleStart}
+        valueB={scheduleEnd}
+        label="Schedule Range"
+        onChangeA={(v) => onScheduleStartChange(Math.max(1, Math.min(scheduleEnd, v)))}
+        onChangeB={(v) => onScheduleEndChange(Math.max(scheduleStart, Math.min(maxGw, v)))}
+      />
     </div>
   );
 }
@@ -109,35 +86,15 @@ export function Phase2Controls({
 
       <div className={styles.divider} />
 
-      <div className={styles.group}>
-        <label className={styles.label}>Start GW (A)</label>
-        <span className={styles.sublabel}>First GW of the evaluation period</span>
-        <input
-          type="number"
-          className={styles.input}
-          min={1}
-          max={gwB}
-          value={gwA}
-          onChange={(e) =>
-            onGwAChange(Math.min(gwB, Math.max(1, parseInt(e.target.value) || 1)))
-          }
-        />
-      </div>
-
-      <div className={styles.group}>
-        <label className={styles.label}>End GW (B)</label>
-        <span className={styles.sublabel}>Last GW of the evaluation period</span>
-        <input
-          type="number"
-          className={styles.input}
-          min={gwA}
-          max={maxGw}
-          value={gwB}
-          onChange={(e) =>
-            onGwBChange(Math.min(maxGw, Math.max(gwA, parseInt(e.target.value) || gwA)))
-          }
-        />
-      </div>
+      <RangeSlider
+        min={1}
+        max={maxGw}
+        valueA={gwA}
+        valueB={gwB}
+        label="Evaluation Range"
+        onChangeA={(v) => onGwAChange(Math.min(gwB, Math.max(1, v)))}
+        onChangeB={(v) => onGwBChange(Math.min(maxGw, Math.max(gwA, v)))}
+      />
     </div>
   );
 }

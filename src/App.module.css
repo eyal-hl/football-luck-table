@@ -152,6 +152,23 @@
 
 @media (max-width: 640px) {
   .selectorDivider { display: none; }
+
+  .app {
+    padding: 0.75rem 0.5rem 3rem;
+  }
+
+  .title {
+    font-size: 1.2rem;
+  }
+
+  .tabs {
+    flex-wrap: wrap;
+  }
+
+  .tab {
+    padding: 0.5rem 0.75rem;
+    font-size: 0.82rem;
+  }
 }
 
 /* ── Info callout ── */
@@ -168,4 +185,20 @@
 
 .callout strong {
   color: var(--text-primary);
+}
+
+.inlineTabLink {
+  background: none;
+  border: none;
+  padding: 0;
+  color: var(--accent);
+  font-size: inherit;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.inlineTabLink:hover {
+  color: var(--accent-hover);
 }

@@ -122,3 +122,16 @@
   text-align: center;
   color: var(--text-tertiary);
 }
+
+/* ── Mobile ── */
+@media (max-width: 640px) {
+  .table th:nth-child(4),
+  .table td:nth-child(4) {
+    display: none;
+  }
+
+  .table td,
+  .table th {
+    padding: 0.6rem 0.6rem;
+  }
+}
