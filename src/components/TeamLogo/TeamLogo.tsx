@@ -10,7 +10,7 @@ interface Props {
 export function TeamLogo({ name, logoUrl, size = 24 }: Props) {
   const [failed, setFailed] = useState(false);
 
-  if (failed) {
+  if (failed || !logoUrl) {
     return (
       <span
         className={styles.fallback}

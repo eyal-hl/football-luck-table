@@ -12,6 +12,7 @@ const LEAGUES: LeagueOption[] = [
   { id: 'la-liga', name: 'La Liga', flag: '🇪🇸' },
   { id: 'serie-a', name: 'Serie A', flag: '🇮🇹' },
   { id: 'bundesliga', name: 'Bundesliga', flag: '🇩🇪' },
+  { id: 'ligat-haal', name: "Ligat Ha'al", flag: '🇮🇱' },
 ];
 
 interface Props {
