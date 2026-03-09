@@ -10,7 +10,7 @@ export const VALID_LEAGUES: readonly LeagueId[] = [
 
 export const VALID_SEASONS: readonly SeasonYear[] = [2021, 2022, 2023, 2024, 2025];
 
-export const VALID_TABS: readonly AppTab[] = ['phase1', 'phase2', 'scatter'];
+export const VALID_TABS: readonly AppTab[] = ['phase1', 'phase2', 'scatter', 'comparison'];
 
 export function getUrlParam(key: string): string | null {
   return new URLSearchParams(window.location.search).get(key);

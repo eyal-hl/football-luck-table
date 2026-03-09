@@ -5,6 +5,7 @@ import {
   calculateLuckTable,
   calculateCumulativeLuck,
   luckRankToColor,
+  getMatchResult,
 } from '../utils/calculations';
 import type { LeagueData } from '../types';
 
@@ -390,6 +391,57 @@ describe('calculateCumulativeLuck', () => {
     const gw2 = aEntry.gameweeks.find((g) => g.gw === 2)!;
     expect(gw2.opponentId).toBe('c');
     expect(gw2.isHome).toBe(true);
+  });
+});
+
+// ---------------------------------------------------------------------------
+// getMatchResult
+// ---------------------------------------------------------------------------
+
+describe('getMatchResult', () => {
+  function buildData() {
+    return makeData(['a', 'b', 'c', 'd'], [
+      {
+        gw: 1,
+        matches: [
+          makeMatch('a', 'b', 3, 1), // a wins
+          makeMatch('c', 'd', 0, 0), // draw
+        ],
+      },
+      {
+        gw: 2,
+        matches: [makeMatch('a', 'b', null, null, false)], // unplayed
+      },
+    ]);
+  }
+
+  it('returns correct result for a home win', () => {
+    const result = getMatchResult(buildData(), 'a', 1);
+    expect(result).toEqual({ teamGoals: 3, oppGoals: 1, outcome: 'W' });
+  });
+
+  it('returns correct result for the away team', () => {
+    const result = getMatchResult(buildData(), 'b', 1);
+    expect(result).toEqual({ teamGoals: 1, oppGoals: 3, outcome: 'L' });
+  });
+
+  it('returns correct result for a draw', () => {
+    const resultC = getMatchResult(buildData(), 'c', 1);
+    expect(resultC?.outcome).toBe('D');
+    const resultD = getMatchResult(buildData(), 'd', 1);
+    expect(resultD?.outcome).toBe('D');
+  });
+
+  it('returns null for an unplayed match', () => {
+    expect(getMatchResult(buildData(), 'a', 2)).toBeNull();
+  });
+
+  it('returns null when team has no match in the gameweek', () => {
+    expect(getMatchResult(buildData(), 'c', 2)).toBeNull();
+  });
+
+  it('returns null for a non-existent gameweek', () => {
+    expect(getMatchResult(buildData(), 'a', 99)).toBeNull();
   });
 });
 

@@ -1,3 +1,43 @@
+/* ── Filter row ── */
+.filterRow {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.6rem;
+}
+
+.filterInput {
+  flex: 1;
+  max-width: 20rem;
+  padding: 0.4rem 0.75rem;
+  font-size: 0.85rem;
+  border: 1px solid var(--border);
+  border-radius: 0.4rem;
+  background: var(--surface-1);
+  color: var(--text-primary);
+  outline: none;
+}
+
+.filterInput:focus {
+  border-color: var(--accent);
+}
+
+.filterClear {
+  background: none;
+  border: none;
+  font-size: 1.1rem;
+  line-height: 1;
+  color: var(--text-tertiary);
+  cursor: pointer;
+  padding: 0.2rem 0.3rem;
+  border-radius: 0.25rem;
+}
+
+.filterClear:hover {
+  color: var(--text-primary);
+  background: var(--surface-2);
+}
+
 .wrapper {
   overflow-x: auto;
   border-radius: 0.75rem;
@@ -276,6 +316,80 @@
   font-size: 0.8rem;
   color: var(--text-tertiary);
   font-style: italic;
+}
+
+/* ── Upcoming badge on fixture pills ── */
+.fixturePillUpcoming {
+  border-color: #f59e0b;
+}
+
+.upcomingBadge {
+  font-size: 0.6rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #b45309;
+  background: #fef3c7;
+  border-radius: 0.2rem;
+  padding: 0.05rem 0.25rem;
+}
+
+[data-theme='dark'] .upcomingBadge {
+  color: #fcd34d;
+  background: #422006;
+}
+
+.drillUpcoming {
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: #b45309;
+  background: #fef3c7;
+  border-radius: 0.25rem;
+  padding: 0.1rem 0.4rem;
+}
+
+[data-theme='dark'] .drillUpcoming {
+  color: #fcd34d;
+  background: #422006;
+}
+
+/* ── Overperformance badge ── */
+.overperfBadge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 0.82rem;
+  border-radius: 0.4rem;
+  padding: 0.25rem 0.55rem;
+  min-width: 3rem;
+  text-align: center;
+}
+
+.overperfPos {
+  background: #dcfce7;
+  color: #166534;
+}
+
+[data-theme='dark'] .overperfPos {
+  background: #14532d;
+  color: #86efac;
+}
+
+.overperfNeg {
+  background: #fee2e2;
+  color: #991b1b;
+}
+
+[data-theme='dark'] .overperfNeg {
+  background: #450a0a;
+  color: #fca5a5;
+}
+
+.overperfNeutral {
+  background: var(--surface-3);
+  color: var(--text-secondary);
 }
 
 /* ── Mobile ── */

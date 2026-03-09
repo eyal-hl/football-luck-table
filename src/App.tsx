@@ -16,9 +16,11 @@ import { SeasonSelector } from './components/SeasonSelector/SeasonSelector';
 import { Phase1Controls, Phase2Controls } from './components/Controls/Controls';
 import { LuckTable } from './components/LuckTable/LuckTable';
 import { CumulativeLuckTable } from './components/CumulativeLuckTable/CumulativeLuckTable';
+import { LuckTrendChart } from './components/LuckTrendChart/LuckTrendChart';
 import { FormTable } from './components/FormTable/FormTable';
 import { ScatterChart } from './components/ScatterChart/ScatterChart';
 import type { ScatterPoint } from './components/ScatterChart/ScatterChart';
+import { SeasonComparison } from './components/SeasonComparison/SeasonComparison';
 import { Accordion } from './components/Accordion/Accordion';
 import { ThemeToggle } from './components/ThemeToggle/ThemeToggle';
 import styles from './App.module.css';
@@ -57,6 +59,9 @@ function App() {
     const v = getUrlParam('tab');
     return VALID_TABS.includes(v as AppTab) ? (v as AppTab) : 'phase1';
   });
+
+  // ── Season comparison selected team ──
+  const [cmpTeamId, setCmpTeamId] = useState<string | null>(() => getUrlParam('cmp'));
 
   const { data, loading, error } = useLeagueData(leagueId, seasonYear);
 
@@ -112,6 +117,7 @@ function App() {
       p2fw: p2FormWindow,
       p2a: p2GwA,
       p2b: p2GwB,
+      cmp: cmpTeamId,
     });
   }, [
     leagueId,
@@ -123,6 +129,7 @@ function App() {
     p2FormWindow,
     p2GwA,
     p2GwB,
+    cmpTeamId,
   ]);
 
   // ── Derived values ──
@@ -136,6 +143,13 @@ function App() {
     if (!data || p1ScheduleStart === null || p1ScheduleEnd === null) return [];
     return calculateLuckTable(data, p1FormWindow, p1Start, p1End);
   }, [data, p1FormWindow, p1Start, p1End, p1ScheduleStart, p1ScheduleEnd]);
+
+  // Actual form table over the same Phase 1 range → for overperformance column
+  const actualRankMap = useMemo(() => {
+    if (!data || p1ScheduleStart === null || p1ScheduleEnd === null) return undefined;
+    const table = calculateFormTable(data, p1Start, p1End);
+    return Object.fromEntries(table.map((e) => [e.teamId, e.rank]));
+  }, [data, p1Start, p1End, p1ScheduleStart, p1ScheduleEnd]);
 
   const cumulativeEntries = useMemo(() => {
     if (!data || p2GwA === null || p2GwB === null) return [];
@@ -218,16 +232,24 @@ function App() {
         >
           Luck vs Points
         </button>
+        <button
+          role="tab"
+          aria-selected={activeTab === 'comparison'}
+          className={`${styles.tab} ${activeTab === 'comparison' ? styles.activeTab : ''}`}
+          onClick={() => setActiveTab('comparison')}
+        >
+          Season Comparison
+        </button>
       </div>
 
       {/* ── Loading / Error ── */}
-      {loading && (
+      {loading && activeTab !== 'comparison' && (
         <div className={styles.statusBox}>
           <div className={styles.spinner} />
           Loading league data…
         </div>
       )}
-      {error && (
+      {error && activeTab !== 'comparison' && (
         <div className={styles.errorBox}>
           {error.includes('No data available')
             ? `No data for this season yet. Run: python scripts/update_data.py --league ${leagueId} --season ${seasonYear}`
@@ -248,12 +270,28 @@ function App() {
             onScheduleEndChange={setP1ScheduleEnd}
           />
 
+          {/* Preset button for upcoming fixtures */}
+          <div className={styles.presetRow}>
+            <button
+              className={styles.presetBtn}
+              onClick={() => {
+                const cur = data.currentGameweek;
+                const total = data.totalGameweeks;
+                setP1ScheduleStart(Math.min(cur + 1, total));
+                setP1ScheduleEnd(Math.min(cur + 10, total));
+              }}
+            >
+              ↗ Upcoming 10 GWs
+            </button>
+          </div>
+
           <div className={styles.callout}>
             <strong>How to read this table:</strong> Each team's opponents in GW {p1Start}–{p1End}{' '}
             are ranked by their form in the {p1FormWindow} games before each fixture. A higher
             average rank means easier opponents (luckier schedule).{' '}
             <strong>Green = Lucky</strong>, <strong>Red = Unlucky</strong>. Click any row to see
-            fixture details.
+            fixture details. The <strong>vs Form</strong> column shows how the team is performing
+            relative to their schedule difficulty (+ = over-performing).
           </div>
 
           <Accordion
@@ -274,7 +312,7 @@ function App() {
                 Unluckiest
               </span>
             </div>
-            <LuckTable data={data} entries={luckEntries} />
+            <LuckTable data={data} entries={luckEntries} actualRankMap={actualRankMap} />
           </Accordion>
 
           <Accordion
@@ -305,6 +343,7 @@ function App() {
             rank is calculated from the {p2FormWindow} games before that GW (sliding window). All
             ranks are summed — a higher total means the team faced weaker opponents throughout the
             period. <strong>Green = Luckiest</strong>, <strong>Red = Unluckiest</strong>.
+            Hover GW pills to see match results.
           </div>
 
           <Accordion
@@ -312,6 +351,14 @@ function App() {
             meta={`form window: last ${p2FormWindow} games · higher total = luckier`}
           >
             <CumulativeLuckTable data={data} entries={cumulativeEntries} />
+          </Accordion>
+
+          <Accordion
+            title="Luck Trend"
+            meta={`GW ${p2A}–${p2B} · running total`}
+            defaultOpen={false}
+          >
+            <LuckTrendChart data={data} entries={cumulativeEntries} gwA={p2A} gwB={p2B} />
           </Accordion>
 
           <Accordion
@@ -334,6 +381,23 @@ function App() {
             struggling.
           </div>
           <ScatterChart data={data} points={scatterPoints} />
+        </div>
+      )}
+
+      {/* ── Season Comparison ── */}
+      {activeTab === 'comparison' && (
+        <div className={styles.section}>
+          <div className={styles.callout}>
+            <strong>Season Comparison:</strong> Select a team to see how their schedule luck has
+            varied across all available seasons in this league. Uses the full played season
+            (GW 1 to last completed GW) with a fixed 5-game form window.
+          </div>
+          <SeasonComparison
+            leagueId={leagueId}
+            currentSeasonYear={seasonYear}
+            selectedTeamId={cmpTeamId}
+            onSelectTeam={setCmpTeamId}
+          />
         </div>
       )}
     </div>

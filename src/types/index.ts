@@ -93,5 +93,5 @@ export interface CumulativeLuckEntry {
   gameweeks: CumulativeGameweekEntry[];
 }
 
-export type AppTab = 'phase1' | 'phase2' | 'scatter';
+export type AppTab = 'phase1' | 'phase2' | 'scatter' | 'comparison';
 export type Theme = 'light' | 'dark';
