@@ -1,4 +1,4 @@
-import { useState, useEffect, useMemo } from 'react';
+import { useState, useEffect, useRef, useMemo } from 'react';
 import type { LeagueId, AppTab, Theme, SeasonYear } from './types';
 import { CURRENT_SEASON_YEAR } from './types';
 import { useLeagueData } from './hooks/useLeagueData';
@@ -74,8 +74,13 @@ function App() {
   const [p2GwA, setP2GwA] = useState<number | null>(() => getUrlInt('p2a'));
   const [p2GwB, setP2GwB] = useState<number | null>(() => getUrlInt('p2b'));
 
-  // Reset GW controls when league or season changes
+  // Reset GW controls when league or season changes (skip initial mount so URL params are preserved)
+  const isFirstRender = useRef(true);
   useEffect(() => {
+    if (isFirstRender.current) {
+      isFirstRender.current = false;
+      return;
+    }
     setP1ScheduleStart(null);
     setP1ScheduleEnd(null);
     setP2GwA(null);
