@@ -9,4 +9,11 @@ const base = process.env.VITE_BASE_URL ?? '/';
 export default defineConfig({
   plugins: [react()],
   base,
+  test: {
+    environment: 'node',
+    coverage: {
+      provider: 'v8',
+      include: ['src/utils/**'],
+    },
+  },
 });
