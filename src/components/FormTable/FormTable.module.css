@@ -96,3 +96,20 @@
   color: var(--text-tertiary);
   font-size: 0.85rem;
 }
+
+/* ── Mobile: hide GF / GA / GD columns ── */
+@media (max-width: 640px) {
+  .table th:nth-child(7),
+  .table td:nth-child(7),
+  .table th:nth-child(8),
+  .table td:nth-child(8),
+  .table th:nth-child(9),
+  .table td:nth-child(9) {
+    display: none;
+  }
+
+  .table td,
+  .table th {
+    padding: 0.5rem 0.5rem;
+  }
+}

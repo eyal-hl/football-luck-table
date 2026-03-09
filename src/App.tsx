@@ -2,13 +2,23 @@ import { useState, useEffect, useMemo } from 'react';
 import type { LeagueId, AppTab, Theme, SeasonYear } from './types';
 import { CURRENT_SEASON_YEAR } from './types';
 import { useLeagueData } from './hooks/useLeagueData';
-import { calculateLuckTable, calculateCumulativeLuck, calculateFormTable } from './utils/calculations';
+import {
+  getUrlParam,
+  getUrlInt,
+  updateUrl,
+  VALID_LEAGUES,
+  VALID_SEASONS,
+  VALID_TABS,
+} from './hooks/useUrlState';
+import { calculateLuckTable, calculateCumulativeLuck, calculateFormTable, lastFullyPlayedGw } from './utils/calculations';
 import { LeagueSelector } from './components/LeagueSelector/LeagueSelector';
 import { SeasonSelector } from './components/SeasonSelector/SeasonSelector';
 import { Phase1Controls, Phase2Controls } from './components/Controls/Controls';
 import { LuckTable } from './components/LuckTable/LuckTable';
 import { CumulativeLuckTable } from './components/CumulativeLuckTable/CumulativeLuckTable';
 import { FormTable } from './components/FormTable/FormTable';
+import { ScatterChart } from './components/ScatterChart/ScatterChart';
+import type { ScatterPoint } from './components/ScatterChart/ScatterChart';
 import { Accordion } from './components/Accordion/Accordion';
 import { ThemeToggle } from './components/ThemeToggle/ThemeToggle';
 import styles from './App.module.css';
@@ -30,22 +40,39 @@ function App() {
     localStorage.setItem('theme', theme);
   }, [theme]);
 
-  // ── League, Season & Tab ──
-  const [leagueId, setLeagueId] = useState<LeagueId>('premier-league');
-  const [seasonYear, setSeasonYear] = useState<SeasonYear>(CURRENT_SEASON_YEAR);
-  const [activeTab, setActiveTab] = useState<AppTab>('phase1');
+  // ── League, Season & Tab (URL-initialised) ──
+  const [leagueId, setLeagueId] = useState<LeagueId>(() => {
+    const v = getUrlParam('league');
+    return VALID_LEAGUES.includes(v as LeagueId) ? (v as LeagueId) : 'premier-league';
+  });
+
+  const [seasonYear, setSeasonYear] = useState<SeasonYear>(() => {
+    const v = getUrlInt('season');
+    return (VALID_SEASONS as readonly number[]).includes(v ?? 0)
+      ? (v as SeasonYear)
+      : CURRENT_SEASON_YEAR;
+  });
+
+  const [activeTab, setActiveTab] = useState<AppTab>(() => {
+    const v = getUrlParam('tab');
+    return VALID_TABS.includes(v as AppTab) ? (v as AppTab) : 'phase1';
+  });
 
   const { data, loading, error } = useLeagueData(leagueId, seasonYear);
 
-  // ── Phase 1 controls ──
-  const [p1FormWindow, setP1FormWindow] = useState(5);
-  const [p1ScheduleStart, setP1ScheduleStart] = useState<number | null>(null);
-  const [p1ScheduleEnd, setP1ScheduleEnd] = useState<number | null>(null);
+  // ── Phase 1 controls (URL-initialised) ──
+  const [p1FormWindow, setP1FormWindow] = useState(() => getUrlInt('p1fw') ?? 5);
+  const [p1ScheduleStart, setP1ScheduleStart] = useState<number | null>(
+    () => getUrlInt('p1s'),
+  );
+  const [p1ScheduleEnd, setP1ScheduleEnd] = useState<number | null>(
+    () => getUrlInt('p1e'),
+  );
 
-  // ── Phase 2 controls ──
-  const [p2FormWindow, setP2FormWindow] = useState(5);
-  const [p2GwA, setP2GwA] = useState<number | null>(null);
-  const [p2GwB, setP2GwB] = useState<number | null>(null);
+  // ── Phase 2 controls (URL-initialised) ──
+  const [p2FormWindow, setP2FormWindow] = useState(() => getUrlInt('p2fw') ?? 5);
+  const [p2GwA, setP2GwA] = useState<number | null>(() => getUrlInt('p2a'));
+  const [p2GwB, setP2GwB] = useState<number | null>(() => getUrlInt('p2b'));
 
   // Reset GW controls when league or season changes
   useEffect(() => {
@@ -55,25 +82,50 @@ function App() {
     setP2GwB(null);
   }, [leagueId, seasonYear]);
 
-  // Initialise GW defaults once data loads
+  // Initialise GW defaults once data loads (only for null values)
   useEffect(() => {
     if (!data) return;
     const cur = data.currentGameweek;
     const total = data.totalGameweeks;
 
     if (p1ScheduleStart === null) setP1ScheduleStart(Math.min(cur + 1, total));
-    if (p1ScheduleEnd === null)   setP1ScheduleEnd(Math.min(cur + 5, total));
-    if (p2GwA === null)           setP2GwA(Math.max(1, cur - 4));
-    if (p2GwB === null)           setP2GwB(cur);
+    if (p1ScheduleEnd === null) setP1ScheduleEnd(Math.min(cur + 5, total));
+    if (p2GwA === null) setP2GwA(Math.max(1, cur - 4));
+    if (p2GwB === null) setP2GwB(cur);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [data]);
 
+  // ── URL sync: write all state to URL on every change ──
+  useEffect(() => {
+    updateUrl({
+      league: leagueId,
+      season: seasonYear,
+      tab: activeTab,
+      p1fw: p1FormWindow,
+      p1s: p1ScheduleStart,
+      p1e: p1ScheduleEnd,
+      p2fw: p2FormWindow,
+      p2a: p2GwA,
+      p2b: p2GwB,
+    });
+  }, [
+    leagueId,
+    seasonYear,
+    activeTab,
+    p1FormWindow,
+    p1ScheduleStart,
+    p1ScheduleEnd,
+    p2FormWindow,
+    p2GwA,
+    p2GwB,
+  ]);
+
   // ── Derived values ──
   const p1Start = p1ScheduleStart ?? 1;
-  const p1End   = p1ScheduleEnd ?? 1;
-  const p2A     = p2GwA ?? 1;
-  const p2B     = p2GwB ?? 1;
-  const maxGw   = data?.totalGameweeks ?? 38;
+  const p1End = p1ScheduleEnd ?? 1;
+  const p2A = p2GwA ?? 1;
+  const p2B = p2GwB ?? 1;
+  const maxGw = data?.totalGameweeks ?? 38;
 
   const luckEntries = useMemo(() => {
     if (!data || p1ScheduleStart === null || p1ScheduleEnd === null) return [];
@@ -87,7 +139,7 @@ function App() {
 
   const p1FormTable = useMemo(() => {
     if (!data || p1ScheduleStart === null) return [];
-    const end   = p1Start - 1;
+    const end = p1Start - 1;
     const start = Math.max(1, end - p1FormWindow + 1);
     if (end < 1) return [];
     return calculateFormTable(data, start, end);
@@ -95,10 +147,25 @@ function App() {
 
   const p2FormTable = useMemo(() => {
     if (!data || p2GwB === null) return [];
-    const end   = p2B;
+    const end = p2B;
     const start = Math.max(1, end - p2FormWindow + 1);
     return calculateFormTable(data, start, end);
   }, [data, p2FormWindow, p2B, p2GwB]);
+
+  const scatterGwEnd = useMemo(() => (data ? lastFullyPlayedGw(data) : 0), [data]);
+
+  const scatterPoints = useMemo((): ScatterPoint[] => {
+    if (!data || scatterGwEnd < 1) return [];
+    const scatterLuck = calculateLuckTable(data, p1FormWindow, 1, scatterGwEnd);
+    const actualPtsTable = calculateFormTable(data, 1, scatterGwEnd);
+    const ptsMap = Object.fromEntries(actualPtsTable.map((e) => [e.teamId, e.points]));
+    return scatterLuck.map((e) => ({
+      teamId: e.teamId,
+      luckScore: e.luckScore,
+      luckRank: e.luckRank,
+      actualPoints: ptsMap[e.teamId] ?? 0,
+    }));
+  }, [data, scatterGwEnd, p1FormWindow]);
 
   return (
     <div className={styles.app}>
@@ -138,6 +205,14 @@ function App() {
         >
           Cumulative Luck
         </button>
+        <button
+          role="tab"
+          aria-selected={activeTab === 'scatter'}
+          className={`${styles.tab} ${activeTab === 'scatter' ? styles.activeTab : ''}`}
+          onClick={() => setActiveTab('scatter')}
+        >
+          Luck vs Points
+        </button>
       </div>
 
       {/* ── Loading / Error ── */}
@@ -172,7 +247,8 @@ function App() {
             <strong>How to read this table:</strong> Each team's opponents in GW {p1Start}–{p1End}{' '}
             are ranked by their form in the {p1FormWindow} games before each fixture. A higher
             average rank means easier opponents (luckier schedule).{' '}
-            <strong>Green = Lucky</strong>, <strong>Red = Unlucky</strong>.
+            <strong>Green = Lucky</strong>, <strong>Red = Unlucky</strong>. Click any row to see
+            fixture details.
           </div>
 
           <Accordion
@@ -240,6 +316,19 @@ function App() {
           >
             <FormTable data={data} formTable={p2FormTable} />
           </Accordion>
+        </div>
+      )}
+
+      {/* ── Scatter: Luck vs Points ── */}
+      {!loading && !error && data && activeTab === 'scatter' && (
+        <div className={styles.section}>
+          <div className={styles.callout}>
+            <strong>Luck vs Points</strong> — GW 1–{scatterGwEnd}: compares each team's full-season
+            schedule luck (avg opponent form rank) against their actual points earned.
+            Top-right = lucky <em>and</em> performing well. Bottom-left = unlucky <em>and</em>{' '}
+            struggling.
+          </div>
+          <ScatterChart data={data} points={scatterPoints} />
         </div>
       )}
     </div>

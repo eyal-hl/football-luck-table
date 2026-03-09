@@ -38,7 +38,13 @@
   border-bottom: none;
 }
 
-.table tr:hover td {
+/* Clickable team rows */
+.clickableRow {
+  cursor: pointer;
+  transition: background 0.1s;
+}
+
+.clickableRow:hover td {
   background: var(--surface-2);
 }
 
@@ -47,7 +53,25 @@
   font-weight: 700;
   font-size: 0.85rem;
   color: var(--text-secondary);
-  width: 3rem;
+  width: 3.5rem;
+}
+
+.rankWithChevron {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.chevron {
+  font-size: 0.7rem;
+  color: var(--text-tertiary);
+  transition: transform 0.2s;
+  display: inline-block;
+  line-height: 1;
+}
+
+.chevronOpen {
+  transform: rotate(180deg);
 }
 
 .luckBadge {
@@ -126,4 +150,149 @@
   padding: 3rem;
   text-align: center;
   color: var(--text-tertiary);
+}
+
+/* ── Drill-down expanded row ── */
+.expandedRow td {
+  border-bottom: 1px solid var(--border);
+  padding: 0;
+}
+
+.expandedCell {
+  background: var(--surface-2);
+}
+
+.drillDown {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  padding: 0.25rem 0;
+}
+
+.drillRow {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.45rem 1.25rem;
+  font-size: 0.84rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.drillRow:last-child {
+  border-bottom: none;
+}
+
+.drillGw {
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--text-tertiary);
+  min-width: 3rem;
+}
+
+.drillHA {
+  font-size: 0.68rem;
+  font-weight: 700;
+  padding: 0.1rem 0.3rem;
+  border-radius: 0.2rem;
+  text-transform: uppercase;
+  min-width: 1.5rem;
+  text-align: center;
+}
+
+.drillHome {
+  background: #dbeafe;
+  color: #1e40af;
+}
+
+[data-theme='dark'] .drillHome {
+  background: #1e3a5f;
+  color: #93c5fd;
+}
+
+.drillAway {
+  background: var(--surface-3);
+  color: var(--text-secondary);
+}
+
+.drillOpp {
+  font-weight: 600;
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.drillFormBadge {
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 0.1rem 0.35rem;
+  border-radius: 0.25rem;
+  color: #fff;
+  white-space: nowrap;
+}
+
+.drillResult {
+  font-size: 0.8rem;
+  font-weight: 700;
+  padding: 0.15rem 0.5rem;
+  border-radius: 0.3rem;
+  white-space: nowrap;
+  min-width: 4.5rem;
+  text-align: center;
+}
+
+.resultW {
+  background: #dcfce7;
+  color: #166534;
+}
+
+[data-theme='dark'] .resultW {
+  background: #14532d;
+  color: #86efac;
+}
+
+.resultD {
+  background: #fef9c3;
+  color: #854d0e;
+}
+
+[data-theme='dark'] .resultD {
+  background: #422006;
+  color: #fde68a;
+}
+
+.resultL {
+  background: #fee2e2;
+  color: #991b1b;
+}
+
+[data-theme='dark'] .resultL {
+  background: #450a0a;
+  color: #fca5a5;
+}
+
+.drillNotPlayed {
+  font-size: 0.8rem;
+  color: var(--text-tertiary);
+  font-style: italic;
+}
+
+/* ── Mobile ── */
+@media (max-width: 640px) {
+  .fixturesHeader,
+  .fixturesCell_td {
+    display: none;
+  }
+
+  .table td,
+  .table th {
+    padding: 0.6rem 0.6rem;
+  }
+
+  .drillRow {
+    padding: 0.4rem 0.75rem;
+    gap: 0.4rem;
+    font-size: 0.8rem;
+  }
 }

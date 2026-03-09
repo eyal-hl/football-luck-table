@@ -1,0 +1,1499 @@
+{
+  "leagueId": "ligat-haal",
+  "leagueName": "Ligat Ha'al",
+  "season": "2025-26",
+  "currentGameweek": 24,
+  "totalGameweeks": 26,
+  "teams": [
+    {
+      "id": "maccabi-tel-aviv",
+      "name": "Maccabi Tel Aviv",
+      "shortName": "Maccabi Tel Aviv",
+      "logoUrl": "https://apiv2.allsportsapi.com/logo/105_maccabi-tel-aviv.jpg"
+    },
+    {
+      "id": "h-beer-sheva",
+      "name": "H. Beer Sheva",
+      "shortName": "H. Beer Sheva",
+      "logoUrl": "https://apiv2.allsportsapi.com/logo/144_hapoel-beer-sheva.jpg"
+    },
+    {
+      "id": "hapoel-jerusalem",
+      "name": "Hapoel Jerusalem",
+      "shortName": "Hapoel Jerusalem",
+      "logoUrl": "https://apiv2.allsportsapi.com/logo/4780_hapoel-jerusalem.jpg"
+    },
+    {
+      "id": "beitar-jerusalem",
+      "name": "Beitar Jerusalem",
+      "shortName": "Beitar Jerusalem",
+      "logoUrl": "https://apiv2.allsportsapi.com/logo/4800_beitar-jerusalem.jpg"
+    },
+    {
+      "id": "ironi-tiberias",
+      "name": "Ironi Tiberias",
+      "shortName": "Ironi Tiberias",
+      "logoUrl": "https://apiv2.allsportsapi.com/logo/8224_ironi-tiberias.jpg"
+    },
+    {
+      "id": "sc-ashdod",
+      "name": "SC Ashdod",
+      "shortName": "SC Ashdod",
+      "logoUrl": "https://apiv2.allsportsapi.com/logo/4796_ashdod.jpg"
+    },
+    {
+      "id": "hapoel-petah-tikva",
+      "name": "Hapoel Petah Tikva",
+      "shortName": "Hapoel Petah Tikva",
+      "logoUrl": "https://apiv2.allsportsapi.com/logo/4795_hapoel-petah-tikva.jpg"
+    },
+    {
+      "id": "hapoel-tel-aviv",
+      "name": "Hapoel Tel Aviv",
+      "shortName": "Hapoel Tel Aviv",
+      "logoUrl": "https://apiv2.allsportsapi.com/logo/4804_hapoel-tel-aviv.jpg"
+    },
+    {
+      "id": "maccabi-haifa",
+      "name": "Maccabi Haifa",
+      "shortName": "Maccabi Haifa",
+      "logoUrl": "https://apiv2.allsportsapi.com/logo/185_maccabi-haifa.jpg"
+    },
+    {
+      "id": "kiryat-shmona",
+      "name": "Kiryat Shmona",
+      "shortName": "Kiryat Shmona",
+      "logoUrl": "https://apiv2.allsportsapi.com/logo/4797_ironi-kiryat-shmona.jpg"
+    },
+    {
+      "id": "netanya",
+      "name": "Netanya",
+      "shortName": "Netanya",
+      "logoUrl": "https://apiv2.allsportsapi.com/logo/4799_maccabi-netanya.jpg"
+    },
+    {
+      "id": "hapoel-haifa",
+      "name": "Hapoel Haifa",
+      "shortName": "Hapoel Haifa",
+      "logoUrl": "https://apiv2.allsportsapi.com/logo/4802_hapoel-haifa.jpg"
+    },
+    {
+      "id": "sakhnin",
+      "name": "Sakhnin",
+      "shortName": "Sakhnin",
+      "logoUrl": "https://apiv2.allsportsapi.com/logo/4803_bnei-sakhnin.jpg"
+    },
+    {
+      "id": "maccabi-bnei-raina",
+      "name": "Maccabi Bnei Raina",
+      "shortName": "Maccabi Bnei Raina",
+      "logoUrl": "https://apiv2.allsportsapi.com/logo/8218_maccabi-bnei-raina.jpg"
+    }
+  ],
+  "gameweeks": [
+    {
+      "gw": 1,
+      "matches": [
+        {
+          "home": "hapoel-petah-tikva",
+          "away": "maccabi-tel-aviv",
+          "homeGoals": 0,
+          "awayGoals": 4,
+          "played": true
+        },
+        {
+          "home": "sakhnin",
+          "away": "beitar-jerusalem",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "netanya",
+          "away": "h-beer-sheva",
+          "homeGoals": 2,
+          "awayGoals": 4,
+          "played": true
+        },
+        {
+          "home": "ironi-tiberias",
+          "away": "hapoel-haifa",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "hapoel-jerusalem",
+          "away": "sc-ashdod",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "hapoel-tel-aviv",
+          "away": "kiryat-shmona",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "maccabi-haifa",
+          "away": "maccabi-bnei-raina",
+          "homeGoals": 4,
+          "awayGoals": 0,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 2,
+      "matches": [
+        {
+          "home": "beitar-jerusalem",
+          "away": "maccabi-haifa",
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "maccabi-tel-aviv",
+          "away": "netanya",
+          "homeGoals": 4,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "kiryat-shmona",
+          "away": "hapoel-petah-tikva",
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "sc-ashdod",
+          "away": "sakhnin",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "maccabi-bnei-raina",
+          "away": "hapoel-tel-aviv",
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "hapoel-haifa",
+          "away": "hapoel-jerusalem",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "h-beer-sheva",
+          "away": "ironi-tiberias",
+          "homeGoals": 7,
+          "awayGoals": 0,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 3,
+      "matches": [
+        {
+          "home": "hapoel-tel-aviv",
+          "away": "beitar-jerusalem",
+          "homeGoals": 3,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "maccabi-haifa",
+          "away": "sc-ashdod",
+          "homeGoals": 5,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "hapoel-jerusalem",
+          "away": "h-beer-sheva",
+          "homeGoals": 1,
+          "awayGoals": 5,
+          "played": true
+        },
+        {
+          "home": "sakhnin",
+          "away": "hapoel-haifa",
+          "homeGoals": 0,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "hapoel-petah-tikva",
+          "away": "netanya",
+          "homeGoals": 3,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "kiryat-shmona",
+          "away": "maccabi-bnei-raina",
+          "homeGoals": 3,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "ironi-tiberias",
+          "away": "maccabi-tel-aviv",
+          "homeGoals": 1,
+          "awayGoals": 4,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 4,
+      "matches": [
+        {
+          "home": "hapoel-haifa",
+          "away": "maccabi-haifa",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "h-beer-sheva",
+          "away": "sakhnin",
+          "homeGoals": 3,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "maccabi-bnei-raina",
+          "away": "hapoel-petah-tikva",
+          "homeGoals": 1,
+          "awayGoals": 6,
+          "played": true
+        },
+        {
+          "home": "sc-ashdod",
+          "away": "hapoel-tel-aviv",
+          "homeGoals": 2,
+          "awayGoals": 6,
+          "played": true
+        },
+        {
+          "home": "netanya",
+          "away": "ironi-tiberias",
+          "homeGoals": 5,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "maccabi-tel-aviv",
+          "away": "hapoel-jerusalem",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "beitar-jerusalem",
+          "away": "kiryat-shmona",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 5,
+      "matches": [
+        {
+          "home": "maccabi-haifa",
+          "away": "h-beer-sheva",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "sakhnin",
+          "away": "maccabi-tel-aviv",
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "hapoel-tel-aviv",
+          "away": "hapoel-haifa",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "hapoel-petah-tikva",
+          "away": "ironi-tiberias",
+          "homeGoals": 0,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "hapoel-jerusalem",
+          "away": "netanya",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "kiryat-shmona",
+          "away": "sc-ashdod",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "maccabi-bnei-raina",
+          "away": "beitar-jerusalem",
+          "homeGoals": 1,
+          "awayGoals": 3,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 6,
+      "matches": [
+        {
+          "home": "netanya",
+          "away": "sakhnin",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "maccabi-tel-aviv",
+          "away": "maccabi-haifa",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "beitar-jerusalem",
+          "away": "hapoel-petah-tikva",
+          "homeGoals": 5,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "sc-ashdod",
+          "away": "maccabi-bnei-raina",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "hapoel-haifa",
+          "away": "kiryat-shmona",
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "ironi-tiberias",
+          "away": "hapoel-jerusalem",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "h-beer-sheva",
+          "away": "hapoel-tel-aviv",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 7,
+      "matches": [
+        {
+          "home": "beitar-jerusalem",
+          "away": "sc-ashdod",
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "hapoel-tel-aviv",
+          "away": "maccabi-tel-aviv",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "sakhnin",
+          "away": "ironi-tiberias",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "maccabi-bnei-raina",
+          "away": "hapoel-haifa",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "hapoel-petah-tikva",
+          "away": "hapoel-jerusalem",
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "kiryat-shmona",
+          "away": "h-beer-sheva",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "maccabi-haifa",
+          "away": "netanya",
+          "homeGoals": 2,
+          "awayGoals": 3,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 8,
+      "matches": [
+        {
+          "home": "maccabi-tel-aviv",
+          "away": "kiryat-shmona",
+          "homeGoals": 3,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "h-beer-sheva",
+          "away": "maccabi-bnei-raina",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "hapoel-haifa",
+          "away": "beitar-jerusalem",
+          "homeGoals": 2,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "sc-ashdod",
+          "away": "hapoel-petah-tikva",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "hapoel-jerusalem",
+          "away": "sakhnin",
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "netanya",
+          "away": "hapoel-tel-aviv",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "ironi-tiberias",
+          "away": "maccabi-haifa",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 9,
+      "matches": [
+        {
+          "home": "beitar-jerusalem",
+          "away": "h-beer-sheva",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "kiryat-shmona",
+          "away": "netanya",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "hapoel-petah-tikva",
+          "away": "sakhnin",
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "sc-ashdod",
+          "away": "hapoel-haifa",
+          "homeGoals": 4,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "maccabi-bnei-raina",
+          "away": "maccabi-tel-aviv",
+          "homeGoals": 0,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "hapoel-tel-aviv",
+          "away": "ironi-tiberias",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "maccabi-haifa",
+          "away": "hapoel-jerusalem",
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 10,
+      "matches": [
+        {
+          "home": "hapoel-haifa",
+          "away": "hapoel-petah-tikva",
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "maccabi-tel-aviv",
+          "away": "beitar-jerusalem",
+          "homeGoals": 2,
+          "awayGoals": 6,
+          "played": true
+        },
+        {
+          "home": "ironi-tiberias",
+          "away": "kiryat-shmona",
+          "homeGoals": 2,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "h-beer-sheva",
+          "away": "sc-ashdod",
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "hapoel-jerusalem",
+          "away": "hapoel-tel-aviv",
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "netanya",
+          "away": "maccabi-bnei-raina",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "sakhnin",
+          "away": "maccabi-haifa",
+          "homeGoals": 3,
+          "awayGoals": 3,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 11,
+      "matches": [
+        {
+          "home": "beitar-jerusalem",
+          "away": "netanya",
+          "homeGoals": 4,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "sc-ashdod",
+          "away": "maccabi-tel-aviv",
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "hapoel-petah-tikva",
+          "away": "maccabi-haifa",
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "hapoel-tel-aviv",
+          "away": "sakhnin",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "maccabi-bnei-raina",
+          "away": "ironi-tiberias",
+          "homeGoals": 1,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "hapoel-haifa",
+          "away": "h-beer-sheva",
+          "homeGoals": 3,
+          "awayGoals": 4,
+          "played": true
+        },
+        {
+          "home": "kiryat-shmona",
+          "away": "hapoel-jerusalem",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 12,
+      "matches": [
+        {
+          "home": "maccabi-tel-aviv",
+          "away": "hapoel-haifa",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "netanya",
+          "away": "sc-ashdod",
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "ironi-tiberias",
+          "away": "beitar-jerusalem",
+          "homeGoals": 0,
+          "awayGoals": 5,
+          "played": true
+        },
+        {
+          "home": "maccabi-haifa",
+          "away": "hapoel-tel-aviv",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "hapoel-jerusalem",
+          "away": "maccabi-bnei-raina",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "hapoel-petah-tikva",
+          "away": "h-beer-sheva",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "sakhnin",
+          "away": "kiryat-shmona",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 13,
+      "matches": [
+        {
+          "home": "sc-ashdod",
+          "away": "ironi-tiberias",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "beitar-jerusalem",
+          "away": "hapoel-jerusalem",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "maccabi-bnei-raina",
+          "away": "sakhnin",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "h-beer-sheva",
+          "away": "maccabi-tel-aviv",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "hapoel-haifa",
+          "away": "netanya",
+          "homeGoals": 3,
+          "awayGoals": 4,
+          "played": true
+        },
+        {
+          "home": "hapoel-tel-aviv",
+          "away": "hapoel-petah-tikva",
+          "homeGoals": 4,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "kiryat-shmona",
+          "away": "maccabi-haifa",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 14,
+      "matches": [
+        {
+          "home": "maccabi-tel-aviv",
+          "away": "hapoel-petah-tikva",
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "beitar-jerusalem",
+          "away": "sakhnin",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "maccabi-bnei-raina",
+          "away": "maccabi-haifa",
+          "homeGoals": 0,
+          "awayGoals": 4,
+          "played": true
+        },
+        {
+          "home": "h-beer-sheva",
+          "away": "netanya",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "hapoel-haifa",
+          "away": "ironi-tiberias",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "kiryat-shmona",
+          "away": "hapoel-tel-aviv",
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "sc-ashdod",
+          "away": "hapoel-jerusalem",
+          "homeGoals": 0,
+          "awayGoals": 2,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 15,
+      "matches": [
+        {
+          "home": "maccabi-haifa",
+          "away": "beitar-jerusalem",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "netanya",
+          "away": "maccabi-tel-aviv",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "ironi-tiberias",
+          "away": "h-beer-sheva",
+          "homeGoals": 3,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "hapoel-jerusalem",
+          "away": "hapoel-haifa",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "hapoel-tel-aviv",
+          "away": "maccabi-bnei-raina",
+          "homeGoals": 3,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "sakhnin",
+          "away": "sc-ashdod",
+          "homeGoals": 3,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "hapoel-petah-tikva",
+          "away": "kiryat-shmona",
+          "homeGoals": 4,
+          "awayGoals": 1,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 16,
+      "matches": [
+        {
+          "home": "beitar-jerusalem",
+          "away": "hapoel-tel-aviv",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "sc-ashdod",
+          "away": "maccabi-haifa",
+          "homeGoals": 0,
+          "awayGoals": 4,
+          "played": true
+        },
+        {
+          "home": "netanya",
+          "away": "hapoel-petah-tikva",
+          "homeGoals": 0,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "h-beer-sheva",
+          "away": "hapoel-jerusalem",
+          "homeGoals": 4,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "maccabi-tel-aviv",
+          "away": "ironi-tiberias",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "hapoel-haifa",
+          "away": "sakhnin",
+          "homeGoals": 0,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "maccabi-bnei-raina",
+          "away": "kiryat-shmona",
+          "homeGoals": 3,
+          "awayGoals": 1,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 17,
+      "matches": [
+        {
+          "home": "maccabi-haifa",
+          "away": "hapoel-haifa",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "hapoel-tel-aviv",
+          "away": "sc-ashdod",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "kiryat-shmona",
+          "away": "beitar-jerusalem",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "hapoel-petah-tikva",
+          "away": "maccabi-bnei-raina",
+          "homeGoals": 4,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "ironi-tiberias",
+          "away": "netanya",
+          "homeGoals": 4,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "sakhnin",
+          "away": "h-beer-sheva",
+          "homeGoals": 0,
+          "awayGoals": 5,
+          "played": true
+        },
+        {
+          "home": "hapoel-jerusalem",
+          "away": "maccabi-tel-aviv",
+          "homeGoals": 1,
+          "awayGoals": 3,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 18,
+      "matches": [
+        {
+          "home": "sc-ashdod",
+          "away": "kiryat-shmona",
+          "homeGoals": 2,
+          "awayGoals": 5,
+          "played": true
+        },
+        {
+          "home": "h-beer-sheva",
+          "away": "maccabi-haifa",
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "beitar-jerusalem",
+          "away": "maccabi-bnei-raina",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "maccabi-tel-aviv",
+          "away": "sakhnin",
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "ironi-tiberias",
+          "away": "hapoel-petah-tikva",
+          "homeGoals": 1,
+          "awayGoals": 4,
+          "played": true
+        },
+        {
+          "home": "hapoel-haifa",
+          "away": "hapoel-tel-aviv",
+          "homeGoals": 3,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "netanya",
+          "away": "hapoel-jerusalem",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 19,
+      "matches": [
+        {
+          "home": "kiryat-shmona",
+          "away": "hapoel-haifa",
+          "homeGoals": 3,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "hapoel-tel-aviv",
+          "away": "h-beer-sheva",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "maccabi-haifa",
+          "away": "maccabi-tel-aviv",
+          "homeGoals": 4,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "maccabi-bnei-raina",
+          "away": "sc-ashdod",
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "sakhnin",
+          "away": "netanya",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "hapoel-petah-tikva",
+          "away": "beitar-jerusalem",
+          "homeGoals": 1,
+          "awayGoals": 3,
+          "played": true
+        },
+        {
+          "home": "hapoel-jerusalem",
+          "away": "ironi-tiberias",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 20,
+      "matches": [
+        {
+          "home": "maccabi-tel-aviv",
+          "away": "hapoel-tel-aviv",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "sc-ashdod",
+          "away": "beitar-jerusalem",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "h-beer-sheva",
+          "away": "kiryat-shmona",
+          "homeGoals": 3,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "ironi-tiberias",
+          "away": "sakhnin",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "netanya",
+          "away": "maccabi-haifa",
+          "homeGoals": 4,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "hapoel-haifa",
+          "away": "maccabi-bnei-raina",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "hapoel-jerusalem",
+          "away": "hapoel-petah-tikva",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 21,
+      "matches": [
+        {
+          "home": "kiryat-shmona",
+          "away": "maccabi-tel-aviv",
+          "homeGoals": 1,
+          "awayGoals": 4,
+          "played": true
+        },
+        {
+          "home": "hapoel-petah-tikva",
+          "away": "sc-ashdod",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "maccabi-bnei-raina",
+          "away": "h-beer-sheva",
+          "homeGoals": 0,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "maccabi-haifa",
+          "away": "ironi-tiberias",
+          "homeGoals": 3,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "hapoel-tel-aviv",
+          "away": "netanya",
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "sakhnin",
+          "away": "hapoel-jerusalem",
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "beitar-jerusalem",
+          "away": "hapoel-haifa",
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 22,
+      "matches": [
+        {
+          "home": "h-beer-sheva",
+          "away": "beitar-jerusalem",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "maccabi-tel-aviv",
+          "away": "maccabi-bnei-raina",
+          "homeGoals": 4,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "hapoel-haifa",
+          "away": "sc-ashdod",
+          "homeGoals": 0,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "ironi-tiberias",
+          "away": "hapoel-tel-aviv",
+          "homeGoals": 0,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "sakhnin",
+          "away": "hapoel-petah-tikva",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "hapoel-jerusalem",
+          "away": "maccabi-haifa",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "netanya",
+          "away": "kiryat-shmona",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 23,
+      "matches": [
+        {
+          "home": "beitar-jerusalem",
+          "away": "maccabi-tel-aviv",
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "maccabi-haifa",
+          "away": "sakhnin",
+          "homeGoals": 4,
+          "awayGoals": 0,
+          "played": true
+        },
+        {
+          "home": "hapoel-petah-tikva",
+          "away": "hapoel-haifa",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "kiryat-shmona",
+          "away": "ironi-tiberias",
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "maccabi-bnei-raina",
+          "away": "netanya",
+          "homeGoals": 0,
+          "awayGoals": 4,
+          "played": true
+        },
+        {
+          "home": "sc-ashdod",
+          "away": "h-beer-sheva",
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "hapoel-tel-aviv",
+          "away": "hapoel-jerusalem",
+          "homeGoals": 3,
+          "awayGoals": 1,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 24,
+      "matches": [
+        {
+          "home": "netanya",
+          "away": "beitar-jerusalem",
+          "homeGoals": 2,
+          "awayGoals": 8,
+          "played": true
+        },
+        {
+          "home": "h-beer-sheva",
+          "away": "hapoel-haifa",
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "ironi-tiberias",
+          "away": "maccabi-bnei-raina",
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "hapoel-jerusalem",
+          "away": "kiryat-shmona",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "maccabi-haifa",
+          "away": "hapoel-petah-tikva",
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "played": true
+        },
+        {
+          "home": "maccabi-tel-aviv",
+          "away": "sc-ashdod",
+          "homeGoals": 3,
+          "awayGoals": 2,
+          "played": true
+        },
+        {
+          "home": "sakhnin",
+          "away": "hapoel-tel-aviv",
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "played": true
+        }
+      ]
+    },
+    {
+      "gw": 25,
+      "matches": [
+        {
+          "home": "hapoel-tel-aviv",
+          "away": "maccabi-haifa",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "h-beer-sheva",
+          "away": "hapoel-petah-tikva",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "sc-ashdod",
+          "away": "netanya",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "maccabi-bnei-raina",
+          "away": "hapoel-jerusalem",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "beitar-jerusalem",
+          "away": "ironi-tiberias",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "hapoel-haifa",
+          "away": "maccabi-tel-aviv",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "kiryat-shmona",
+          "away": "sakhnin",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        }
+      ]
+    },
+    {
+      "gw": 26,
+      "matches": [
+        {
+          "home": "maccabi-tel-aviv",
+          "away": "h-beer-sheva",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "hapoel-jerusalem",
+          "away": "beitar-jerusalem",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "ironi-tiberias",
+          "away": "sc-ashdod",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "hapoel-petah-tikva",
+          "away": "hapoel-tel-aviv",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "maccabi-haifa",
+          "away": "kiryat-shmona",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "netanya",
+          "away": "hapoel-haifa",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        },
+        {
+          "home": "sakhnin",
+          "away": "maccabi-bnei-raina",
+          "homeGoals": null,
+          "awayGoals": null,
+          "played": false
+        }
+      ]
+    }
+  ]
+}

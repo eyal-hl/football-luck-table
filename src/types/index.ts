@@ -1,4 +1,4 @@
-export type LeagueId = 'premier-league' | 'la-liga' | 'serie-a' | 'bundesliga';
+export type LeagueId = 'premier-league' | 'la-liga' | 'serie-a' | 'bundesliga' | 'ligat-haal';
 
 // Season start year (e.g. 2025 = 2025-26 season)
 export type SeasonYear = 2021 | 2022 | 2023 | 2024 | 2025;
@@ -93,5 +93,5 @@ export interface CumulativeLuckEntry {
   gameweeks: CumulativeGameweekEntry[];
 }
 
-export type AppTab = 'phase1' | 'phase2';
+export type AppTab = 'phase1' | 'phase2' | 'scatter';
 export type Theme = 'light' | 'dark';
