@@ -242,6 +242,39 @@ export function calculateCumulativeLuck(
   return entries;
 }
 
+export interface MatchResult {
+  teamGoals: number;
+  oppGoals: number;
+  outcome: 'W' | 'D' | 'L';
+}
+
+/**
+ * Look up the result of a specific team's match in a given gameweek.
+ * Returns null if the match was not played or not found.
+ */
+export function getMatchResult(
+  data: LeagueData,
+  teamId: string,
+  gw: number,
+): MatchResult | null {
+  const gameweek = data.gameweeks.find((g) => g.gw === gw);
+  if (!gameweek) return null;
+  for (const match of gameweek.matches) {
+    if (!match.played || match.homeGoals === null || match.awayGoals === null) continue;
+    if (match.home === teamId) {
+      const teamGoals = match.homeGoals;
+      const oppGoals = match.awayGoals;
+      return { teamGoals, oppGoals, outcome: teamGoals > oppGoals ? 'W' : teamGoals === oppGoals ? 'D' : 'L' };
+    }
+    if (match.away === teamId) {
+      const teamGoals = match.awayGoals;
+      const oppGoals = match.homeGoals;
+      return { teamGoals, oppGoals, outcome: teamGoals > oppGoals ? 'W' : teamGoals === oppGoals ? 'D' : 'L' };
+    }
+  }
+  return null;
+}
+
 /**
  * Map a luck rank (1 = luckiest, N = unluckiest) to a CSS hsl color
  * from green (lucky) to red (unlucky).
