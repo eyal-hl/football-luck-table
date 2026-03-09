@@ -10,7 +10,7 @@ import {
   VALID_SEASONS,
   VALID_TABS,
 } from './hooks/useUrlState';
-import { calculateLuckTable, calculateCumulativeLuck, calculateFormTable } from './utils/calculations';
+import { calculateLuckTable, calculateCumulativeLuck, calculateFormTable, lastFullyPlayedGw } from './utils/calculations';
 import { LeagueSelector } from './components/LeagueSelector/LeagueSelector';
 import { SeasonSelector } from './components/SeasonSelector/SeasonSelector';
 import { Phase1Controls, Phase2Controls } from './components/Controls/Controls';
@@ -152,17 +152,20 @@ function App() {
     return calculateFormTable(data, start, end);
   }, [data, p2FormWindow, p2B, p2GwB]);
 
+  const scatterGwEnd = useMemo(() => (data ? lastFullyPlayedGw(data) : 0), [data]);
+
   const scatterPoints = useMemo((): ScatterPoint[] => {
-    if (!data || !luckEntries.length) return [];
-    const actualPtsTable = calculateFormTable(data, p1Start, p1End);
+    if (!data || scatterGwEnd < 1) return [];
+    const scatterLuck = calculateLuckTable(data, p1FormWindow, 1, scatterGwEnd);
+    const actualPtsTable = calculateFormTable(data, 1, scatterGwEnd);
     const ptsMap = Object.fromEntries(actualPtsTable.map((e) => [e.teamId, e.points]));
-    return luckEntries.map((e) => ({
+    return scatterLuck.map((e) => ({
       teamId: e.teamId,
       luckScore: e.luckScore,
       luckRank: e.luckRank,
       actualPoints: ptsMap[e.teamId] ?? 0,
     }));
-  }, [data, luckEntries, p1Start, p1End]);
+  }, [data, scatterGwEnd, p1FormWindow]);
 
   return (
     <div className={styles.app}>
@@ -320,17 +323,10 @@ function App() {
       {!loading && !error && data && activeTab === 'scatter' && (
         <div className={styles.section}>
           <div className={styles.callout}>
-            <strong>Luck vs Points</strong> — GW {p1Start}–{p1End}: compares each team's schedule
-            luck (avg opponent form rank) against their actual points earned in the same period.
+            <strong>Luck vs Points</strong> — GW 1–{scatterGwEnd}: compares each team's full-season
+            schedule luck (avg opponent form rank) against their actual points earned.
             Top-right = lucky <em>and</em> performing well. Bottom-left = unlucky <em>and</em>{' '}
-            struggling. Adjust the range in the{' '}
-            <button
-              className={styles.inlineTabLink}
-              onClick={() => setActiveTab('phase1')}
-            >
-              Schedule Difficulty
-            </button>{' '}
-            tab.
+            struggling.
           </div>
           <ScatterChart data={data} points={scatterPoints} />
         </div>
