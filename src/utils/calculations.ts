@@ -77,6 +77,23 @@ export function calculateFormTable(
 }
 
 /**
+ * Return the highest GW number where every match in that gameweek was played.
+ * "Fully played" means the gameweek has at least one match and all of them
+ * have played === true. Gaps are ignored — e.g. if GW28 has a postponed match
+ * but GW29 is fully played, this returns 29 (or higher if applicable).
+ * Returns 0 if no fully-played gameweek exists yet.
+ */
+export function lastFullyPlayedGw(data: LeagueData): number {
+  let last = 0;
+  for (const gw of data.gameweeks) {
+    if (gw.matches.length > 0 && gw.matches.every((m) => m.played)) {
+      last = gw.gw;
+    }
+  }
+  return last;
+}
+
+/**
  * Return the highest GW number strictly before `beforeGw` that has at least
  * one played match. This ensures the form window is always anchored to real
  * results and never shrinks when future (unplayed) gameweeks fall inside the
