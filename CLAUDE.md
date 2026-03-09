@@ -225,6 +225,14 @@ python scripts/generate_stub_data.py
 
 ---
 
+## Pull Request Workflow
+
+After committing and pushing changes on a feature branch, always check whether
+a PR targeting `main` is already open for that branch. If none exists, open one.
+Return the PR URL to the user so they can review it.
+
+---
+
 ## Development Workflow
 
 ### Prerequisites
